@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\RandomNumbers_sn\RandomNumbers\bin\Debug\RandomNumbers.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\RandomNumbers_sn\RandomNumbers\bin\Debug\RandomNumbers.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\RandomNumbers_sn\RandomNumbers\bin\Debug\RandomNumbers.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\RandomNumbers_sn\RandomNumbers\obj\Debug\RandomNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\RandomNumbers_sn\RandomNumbers\obj\Debug\RandomNumbers.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\RandomNumbers_sn\RandomNumbers\obj\Debug\RandomNumbers.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\RandomNumbers_sn\RandomNumbers\obj\Debug\RandomNumbers.csprojAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeLecture_sn\DateTimeLecture\bin\Debug\DateTimeLecture.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeLecture_sn\DateTimeLecture\bin\Debug\DateTimeLecture.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeLecture_sn\DateTimeLecture\bin\Debug\DateTimeLecture.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeLecture_sn\DateTimeLecture\obj\Debug\DateTimeLecture.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeLecture_sn\DateTimeLecture\obj\Debug\DateTimeLecture.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeLecture_sn\DateTimeLecture\obj\Debug\DateTimeLecture.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeLecture_sn\DateTimeLecture\obj\Debug\DateTimeLecture.csprojAssemblyReference.cache

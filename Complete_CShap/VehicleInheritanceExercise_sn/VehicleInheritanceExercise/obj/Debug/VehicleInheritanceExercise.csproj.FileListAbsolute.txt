@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\VehicleInheritanceExercise_sn\VehicleInheritanceExercise\bin\Debug\VehicleInheritanceExercise.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\VehicleInheritanceExercise_sn\VehicleInheritanceExercise\bin\Debug\VehicleInheritanceExercise.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\VehicleInheritanceExercise_sn\VehicleInheritanceExercise\bin\Debug\VehicleInheritanceExercise.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\VehicleInheritanceExercise_sn\VehicleInheritanceExercise\obj\Debug\VehicleInheritanceExercise.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\VehicleInheritanceExercise_sn\VehicleInheritanceExercise\obj\Debug\VehicleInheritanceExercise.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\VehicleInheritanceExercise_sn\VehicleInheritanceExercise\obj\Debug\VehicleInheritanceExercise.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\VehicleInheritanceExercise_sn\VehicleInheritanceExercise\obj\Debug\VehicleInheritanceExercise.pdb

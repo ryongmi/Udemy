@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Stacks_sn\Stacks\bin\Debug\Stacks.exe.config
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Stacks_sn\Stacks\bin\Debug\Stacks.exe
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Stacks_sn\Stacks\bin\Debug\Stacks.pdb
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Stacks_sn\Stacks\obj\Debug\Stacks.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Stacks_sn\Stacks\obj\Debug\Stacks.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Stacks_sn\Stacks\obj\Debug\Stacks.exe
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Stacks_sn\Stacks\obj\Debug\Stacks.pdb

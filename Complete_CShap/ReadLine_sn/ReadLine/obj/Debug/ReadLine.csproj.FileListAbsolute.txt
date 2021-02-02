@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\ReadLine_sn\ReadLine\bin\Debug\ReadLine.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\ReadLine_sn\ReadLine\bin\Debug\ReadLine.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\ReadLine_sn\ReadLine\bin\Debug\ReadLine.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\ReadLine_sn\ReadLine\obj\Debug\ReadLine.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\ReadLine_sn\ReadLine\obj\Debug\ReadLine.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\ReadLine_sn\ReadLine\obj\Debug\ReadLine.pdb

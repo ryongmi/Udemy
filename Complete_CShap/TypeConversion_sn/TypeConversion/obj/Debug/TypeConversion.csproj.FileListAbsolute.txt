@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\Desktop\vs\TypeConversion_sn\TypeConversion\bin\Debug\TypeConversion.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\TypeConversion_sn\TypeConversion\bin\Debug\TypeConversion.exe
+C:\Users\ryong\OneDrive\Desktop\vs\TypeConversion_sn\TypeConversion\bin\Debug\TypeConversion.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\TypeConversion_sn\TypeConversion\obj\Debug\TypeConversion.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\TypeConversion_sn\TypeConversion\obj\Debug\TypeConversion.exe
+C:\Users\ryong\OneDrive\Desktop\vs\TypeConversion_sn\TypeConversion\obj\Debug\TypeConversion.pdb

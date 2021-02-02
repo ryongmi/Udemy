@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\CountryExercise_sn\CountryExercise\bin\Debug\CountryExercise.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\CountryExercise_sn\CountryExercise\bin\Debug\CountryExercise.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\CountryExercise_sn\CountryExercise\bin\Debug\CountryExercise.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\CountryExercise_sn\CountryExercise\obj\Debug\CountryExercise.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\CountryExercise_sn\CountryExercise\obj\Debug\CountryExercise.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\CountryExercise_sn\CountryExercise\obj\Debug\CountryExercise.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\CountryExercise_sn\CountryExercise\obj\Debug\CountryExercise.pdb

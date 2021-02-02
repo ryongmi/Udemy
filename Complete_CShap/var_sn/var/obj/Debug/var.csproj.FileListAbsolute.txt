@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\var_sn\var\bin\Debug\var.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\var_sn\var\bin\Debug\var.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\var_sn\var\bin\Debug\var.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\var_sn\var\obj\Debug\var.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\var_sn\var\obj\Debug\var.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\var_sn\var\obj\Debug\var.pdb

@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\weekdays_and_colors_sn\weekdays_and_colors\bin\Debug\weekdays_and_colors.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\weekdays_and_colors_sn\weekdays_and_colors\bin\Debug\weekdays_and_colors.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\weekdays_and_colors_sn\weekdays_and_colors\bin\Debug\weekdays_and_colors.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\weekdays_and_colors_sn\weekdays_and_colors\obj\Debug\weekdays_and_colors.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\weekdays_and_colors_sn\weekdays_and_colors\obj\Debug\weekdays_and_colors.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\weekdays_and_colors_sn\weekdays_and_colors\obj\Debug\weekdays_and_colors.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\weekdays_and_colors_sn\weekdays_and_colors\obj\Debug\weekdays_and_colors.pdb

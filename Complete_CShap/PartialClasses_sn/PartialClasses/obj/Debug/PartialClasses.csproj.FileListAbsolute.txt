@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\PartialClasses_sn\PartialClasses\bin\Debug\PartialClasses.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\PartialClasses_sn\PartialClasses\bin\Debug\PartialClasses.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\PartialClasses_sn\PartialClasses\bin\Debug\PartialClasses.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\PartialClasses_sn\PartialClasses\obj\Debug\PartialClasses.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\PartialClasses_sn\PartialClasses\obj\Debug\PartialClasses.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\PartialClasses_sn\PartialClasses\obj\Debug\PartialClasses.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\PartialClasses_sn\PartialClasses\obj\Debug\PartialClasses.pdb

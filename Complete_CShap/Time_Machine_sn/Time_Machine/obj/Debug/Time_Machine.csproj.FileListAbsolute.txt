@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Time_Machine_sn\Time_Machine\bin\Debug\Time_Machine.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Time_Machine_sn\Time_Machine\bin\Debug\Time_Machine.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Time_Machine_sn\Time_Machine\bin\Debug\Time_Machine.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Time_Machine_sn\Time_Machine\obj\Debug\Time_Machine.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Time_Machine_sn\Time_Machine\obj\Debug\Time_Machine.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Time_Machine_sn\Time_Machine\obj\Debug\Time_Machine.pdb

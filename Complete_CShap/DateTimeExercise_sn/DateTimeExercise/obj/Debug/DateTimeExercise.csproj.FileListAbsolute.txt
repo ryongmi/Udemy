@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeExercise_sn\DateTimeExercise\bin\Debug\DateTimeExercise.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeExercise_sn\DateTimeExercise\bin\Debug\DateTimeExercise.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeExercise_sn\DateTimeExercise\bin\Debug\DateTimeExercise.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeExercise_sn\DateTimeExercise\obj\Debug\DateTimeExercise.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeExercise_sn\DateTimeExercise\obj\Debug\DateTimeExercise.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeExercise_sn\DateTimeExercise\obj\Debug\DateTimeExercise.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DateTimeExercise_sn\DateTimeExercise\obj\Debug\DateTimeExercise.pdb

@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Complete_CShap\HashtableApp_sn\HashtableApp\bin\Debug\HashtableApp.exe.config
+C:\Users\SGC\Documents\GitHub\Complete_CShap\HashtableApp_sn\HashtableApp\bin\Debug\HashtableApp.exe
+C:\Users\SGC\Documents\GitHub\Complete_CShap\HashtableApp_sn\HashtableApp\bin\Debug\HashtableApp.pdb
+C:\Users\SGC\Documents\GitHub\Complete_CShap\HashtableApp_sn\HashtableApp\obj\Debug\HashtableApp.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Complete_CShap\HashtableApp_sn\HashtableApp\obj\Debug\HashtableApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Complete_CShap\HashtableApp_sn\HashtableApp\obj\Debug\HashtableApp.exe
+C:\Users\SGC\Documents\GitHub\Complete_CShap\HashtableApp_sn\HashtableApp\obj\Debug\HashtableApp.pdb

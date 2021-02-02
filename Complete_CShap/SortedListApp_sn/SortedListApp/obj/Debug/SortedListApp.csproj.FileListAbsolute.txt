@@ -1,0 +1,6 @@
+C:\Users\SGC\Documents\GitHub\Complete_CShap\SortedListApp_sn\SortedListApp\bin\Debug\SortedListApp.exe.config
+C:\Users\SGC\Documents\GitHub\Complete_CShap\SortedListApp_sn\SortedListApp\bin\Debug\SortedListApp.exe
+C:\Users\SGC\Documents\GitHub\Complete_CShap\SortedListApp_sn\SortedListApp\bin\Debug\SortedListApp.pdb
+C:\Users\SGC\Documents\GitHub\Complete_CShap\SortedListApp_sn\SortedListApp\obj\Debug\SortedListApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Complete_CShap\SortedListApp_sn\SortedListApp\obj\Debug\SortedListApp.exe
+C:\Users\SGC\Documents\GitHub\Complete_CShap\SortedListApp_sn\SortedListApp\obj\Debug\SortedListApp.pdb

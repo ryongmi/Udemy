@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Methods_sn\Methods\bin\Debug\Methods.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Methods_sn\Methods\bin\Debug\Methods.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Methods_sn\Methods\bin\Debug\Methods.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Methods_sn\Methods\obj\Debug\Methods.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Methods_sn\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Methods_sn\Methods\obj\Debug\Methods.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Methods_sn\Methods\obj\Debug\Methods.pdb

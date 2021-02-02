@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Complete_CShap\BitArrayApp_sn\BitArrayApp\bin\Debug\BitArrayApp.exe.config
+C:\Users\SGC\Documents\GitHub\Complete_CShap\BitArrayApp_sn\BitArrayApp\bin\Debug\BitArrayApp.exe
+C:\Users\SGC\Documents\GitHub\Complete_CShap\BitArrayApp_sn\BitArrayApp\bin\Debug\BitArrayApp.pdb
+C:\Users\SGC\Documents\GitHub\Complete_CShap\BitArrayApp_sn\BitArrayApp\obj\Debug\BitArrayApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Complete_CShap\BitArrayApp_sn\BitArrayApp\obj\Debug\BitArrayApp.exe
+C:\Users\SGC\Documents\GitHub\Complete_CShap\BitArrayApp_sn\BitArrayApp\obj\Debug\BitArrayApp.pdb
+C:\Users\SGC\Documents\GitHub\Complete_CShap\BitArrayApp_sn\BitArrayApp\obj\Debug\BitArrayApp.csprojAssemblyReference.cache

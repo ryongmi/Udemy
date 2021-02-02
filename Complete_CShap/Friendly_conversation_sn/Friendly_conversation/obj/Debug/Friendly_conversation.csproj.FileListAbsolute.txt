@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Friendly_conversation_sn\Friendly_conversation\bin\Debug\Friendly_conversation.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Friendly_conversation_sn\Friendly_conversation\bin\Debug\Friendly_conversation.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Friendly_conversation_sn\Friendly_conversation\bin\Debug\Friendly_conversation.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Friendly_conversation_sn\Friendly_conversation\obj\Debug\Friendly_conversation.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Friendly_conversation_sn\Friendly_conversation\obj\Debug\Friendly_conversation.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Friendly_conversation_sn\Friendly_conversation\obj\Debug\Friendly_conversation.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Friendly_conversation_sn\Friendly_conversation\obj\Debug\Friendly_conversation.pdb

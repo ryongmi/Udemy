@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DataTypeInDepth_sn\DataTypeInDepth\bin\Debug\DataTypeInDepth.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DataTypeInDepth_sn\DataTypeInDepth\bin\Debug\DataTypeInDepth.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DataTypeInDepth_sn\DataTypeInDepth\bin\Debug\DataTypeInDepth.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DataTypeInDepth_sn\DataTypeInDepth\obj\Debug\DataTypeInDepth.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DataTypeInDepth_sn\DataTypeInDepth\obj\Debug\DataTypeInDepth.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DataTypeInDepth_sn\DataTypeInDepth\obj\Debug\DataTypeInDepth.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\DataTypeInDepth_sn\DataTypeInDepth\obj\Debug\DataTypeInDepth.pdb

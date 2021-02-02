@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\TryParse_sn\TryParse\bin\Debug\TryParse.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\TryParse_sn\TryParse\bin\Debug\TryParse.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\TryParse_sn\TryParse\bin\Debug\TryParse.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\TryParse_sn\TryParse\obj\Debug\TryParse.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\TryParse_sn\TryParse\obj\Debug\TryParse.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\TryParse_sn\TryParse\obj\Debug\TryParse.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\TryParse_sn\TryParse\obj\Debug\TryParse.pdb

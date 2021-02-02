@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Polymorphism_sn\Polymorphism\bin\Debug\Polymorphism.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Polymorphism_sn\Polymorphism\bin\Debug\Polymorphism.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Polymorphism_sn\Polymorphism\bin\Debug\Polymorphism.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Polymorphism_sn\Polymorphism\obj\Debug\Polymorphism.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Polymorphism_sn\Polymorphism\obj\Debug\Polymorphism.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Polymorphism_sn\Polymorphism\obj\Debug\Polymorphism.pdb

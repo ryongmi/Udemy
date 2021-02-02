@@ -1,0 +1,6 @@
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Queues_sn\Queues\bin\Debug\Queues.exe.config
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Queues_sn\Queues\bin\Debug\Queues.exe
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Queues_sn\Queues\bin\Debug\Queues.pdb
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Queues_sn\Queues\obj\Debug\Queues.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Queues_sn\Queues\obj\Debug\Queues.exe
+C:\Users\SGC\Documents\GitHub\Complete_CShap\Queues_sn\Queues\obj\Debug\Queues.pdb

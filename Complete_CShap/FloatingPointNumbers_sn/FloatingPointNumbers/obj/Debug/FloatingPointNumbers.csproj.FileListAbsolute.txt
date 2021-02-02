@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\FloatingPointNumbers_sn\FloatingPointNumbers\bin\Debug\FloatingPointNumbers.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\FloatingPointNumbers_sn\FloatingPointNumbers\bin\Debug\FloatingPointNumbers.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\FloatingPointNumbers_sn\FloatingPointNumbers\bin\Debug\FloatingPointNumbers.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\FloatingPointNumbers_sn\FloatingPointNumbers\obj\Debug\FloatingPointNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\FloatingPointNumbers_sn\FloatingPointNumbers\obj\Debug\FloatingPointNumbers.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\FloatingPointNumbers_sn\FloatingPointNumbers\obj\Debug\FloatingPointNumbers.pdb

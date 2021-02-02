@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Enumerations_sn\Enumerations\bin\Debug\Enumerations.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Enumerations_sn\Enumerations\bin\Debug\Enumerations.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Enumerations_sn\Enumerations\bin\Debug\Enumerations.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Enumerations_sn\Enumerations\obj\Debug\Enumerations.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Enumerations_sn\Enumerations\obj\Debug\Enumerations.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Enumerations_sn\Enumerations\obj\Debug\Enumerations.pdb

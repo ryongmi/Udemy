@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Math_sn\Math\bin\Debug\Math.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Math_sn\Math\bin\Debug\Math.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Math_sn\Math\bin\Debug\Math.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Math_sn\Math\obj\Debug\MathMethod.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Math_sn\Math\obj\Debug\MathMethod.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Math_sn\Math\obj\Debug\Math.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Math_sn\Math\obj\Debug\Math.pdb

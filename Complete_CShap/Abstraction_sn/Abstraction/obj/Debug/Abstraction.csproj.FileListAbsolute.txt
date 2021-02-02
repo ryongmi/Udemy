@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Abstraction_sn\Abstraction\bin\Debug\Abstraction.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Abstraction_sn\Abstraction\bin\Debug\Abstraction.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Abstraction_sn\Abstraction\bin\Debug\Abstraction.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Abstraction_sn\Abstraction\obj\Debug\Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Abstraction_sn\Abstraction\obj\Debug\Abstraction.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\Abstraction_sn\Abstraction\obj\Debug\Abstraction.pdb

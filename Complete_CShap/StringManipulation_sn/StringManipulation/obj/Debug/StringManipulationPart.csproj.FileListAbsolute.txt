@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\Desktop\vs\C#\StringManipulationPart1_sn\StringManipulationPart1\bin\Debug\StringManipulationPart1.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\C#\StringManipulationPart1_sn\StringManipulationPart1\bin\Debug\StringManipulationPart1.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\StringManipulationPart1_sn\StringManipulationPart1\bin\Debug\StringManipulationPart1.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\C#\StringManipulationPart1_sn\StringManipulationPart1\obj\Debug\StringManipulationPart.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\StringManipulationPart1_sn\StringManipulationPart1\obj\Debug\StringManipulationPart.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\C#\StringManipulationPart1_sn\StringManipulationPart1\obj\Debug\StringManipulationPart1.exe
+C:\Users\ryong\OneDrive\Desktop\vs\C#\StringManipulationPart1_sn\StringManipulationPart1\obj\Debug\StringManipulationPart1.pdb
