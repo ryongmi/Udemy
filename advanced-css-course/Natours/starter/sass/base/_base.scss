@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  /* 화면에 표시할 폰트 사이즈를 상대적으로 맞추기 위해 %를 사용함.
+    16px로 화면을 보는 사람에게 10px로 보이게 하고 싶기 때문에 10/16 -> 0.625 * 100 -> 62.5%의 값으로 설정함. 
+    기본이 10px이지만 16px로 보이게 하기 위해 사용 */
+
+  @include respond(tab-land){
+    font-size: 56.25%;  // 1rem = 9px, 9/16 = 56.25%
+  }
+
+  @include respond(tab-port){
+    font-size: 50%;  // 1rem = 8px, 8/16 = 50%
+  }
+
+  @include respond(phone){
+    font-size: 30%;  // 1rem = 4.8px, 4.8/16 = 30%
+  }
+
+  @include respond(big-desktop){
+    font-size: 75%;  // 1rem = 12px, 12/16 = 75%
+  }
+
+  // mixin은 마지막에 선언된 내용이 실행됨, 예) tab-port와 phone이 곂치는 500px로 사용자가 화면을 보면 마지막에 선언된 phone의 내용이 실행됨.
+}
+
+body {
+  box-sizing: border-box;
+  /* 박스 모양을 바꾸는 명령어 -> 이것으로 너비, 높이가 지정되는것을 막음. */
+  padding: 3rem;
+  
+  @include respond(tab-port){
+    padding: 0;  
+  }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+  // 텍스트를 드래그 했을때 배경색과 글자색을 정의함
+}

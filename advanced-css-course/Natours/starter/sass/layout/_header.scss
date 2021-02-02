@@ -1,0 +1,72 @@
+.header {
+  height: 85vh;
+  /* 높이를95%로 설정한다. 
+    vh로 높이를 설정하게 되면 창 크기가 변동되더라도 모양이 틀어지지않고 유지된다.*/
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8) /* 왼쪽상단에서 오른쪽하단으로 색깔을 지정한다.*/
+    ),
+    url(..//img/hero-small.jpg);
+
+  background-size: cover;
+  background-position: top;
+  /* 창 크기를 줄였을때(변경했을때) 유지시킬부분을 ㅅ설정한다.
+    top : 윗부분을 유지시키고, 중앙, 아래를 삭제한다.
+    center : 중앙 부분을 유지시키고, 위, 아래를 삭제한다.
+    bottom : 아래 부분을 유지시키고, 위, 중앙을 삭제한다. */
+  position: relative;
+  /* 자식의 위치를 상대적으로 설정하기 위해 사용
+    자식의 position이 absolute일때, 사용해야함. */
+
+  @supports(clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)){
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    height: 95vh;
+  }
+
+  @media only screen and (min-resolution : 192dpi) and (min-width : 37.5em),
+         only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width : 37.5em),
+         only screen and (min-width : 125em) {
+    // 반응형 이미지를 CSS로 만들기 위해 min-resolution이라는 속성을 사용함. 192dpi는 APPIL에서 사용하는 기본 해상도, 해상도 단위임. 여기에서는 픽셀이 변화할때 이미지와 색상이 바뀜
+    // , = or 과 같은 의미
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8) /* 왼쪽상단에서 오른쪽하단으로 색깔을 지정한다.*/
+    ),
+    url(..//img/hero.jpg);
+  }
+
+  @include respond(phone) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+
+  &__logo-box {
+    position: absolute;
+    /* 부모의 위치 기준으로 logo-box의 위치를 상대적으로 설정
+        여기에서는 header가 부모 */
+    top: 4rem;
+    left: 4rem;
+    /* header를 기준으로 상대적인 위치에서 위, 왼쪽 40px만큼 띄움. */
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  /* .logo:hover {
+      animation: moveInRight 1s ease-out;
+    } */
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 화면 크기를 변경해도 텍스트 박스가 중앙에 위치할 수 있게 조정함. */
+    text-align: center;
+    /* 텍스트 (상자) 위치를 가운데로 정렬함 */
+  }
+}

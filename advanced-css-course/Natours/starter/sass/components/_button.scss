@@ -1,0 +1,111 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    /* 버튼을 의사클래스로 설정함. link, visited라는 의사클래스 */
+    text-transform: uppercase;
+    text-decoration: none;
+    /* 텍스트의 밑줄을 없애줌 */
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    /* 곂치치 않게 해줌. (줄을 맞춰준다고 생각하면됨.) */
+    border-radius: 10rem;
+    transform: all 0.2s;
+    /* 애니메이션 설정하는 또 하나의 방법. */
+    position: relative;
+    /* .btn::after에서 위치를 지정하기 위해 씀.*/
+    font-size: $default-font-size;
+
+    // 버튼 모양 변경
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    /* 버튼에 마우스를 올렸을때 -3px만큼(위로) 이동시킴. */
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    /* 박스에 그림자를 줌. */
+
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      /* 크기 조정, 이경우에는 2배의 크기. */
+      opacity: 0;
+    }
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    /* 버튼을 클릭했을때 -1px만큼 이동시킴. 
+      이 경우 hover에서 이미 -3px만큼 위로 이동시켰기 때문에 눈에 보이는건 2px만큼 아래로 내려오는 것으로 보임.*/
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+
+  &--white {
+    background-color: $color-white;
+    color: $color-grey-dark;
+
+    &::after {
+      // &는 btn--white를 나타내게됨.
+      background-color: $color-white;
+    }
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
+  &::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    /* 기준이 되는 위치는 btn::link,visited임. */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* z-index -> z축을 기준으로 움직인다(-1로 설정하면 뒤로 간다.) -> 어떤것을 앞에 놓을지 결정하는것. */
+    transition: all 0.4s;
+  }
+
+  &--animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
+    /* 순서대로 애니메이션 이름, 작동시간, 효과, 지연시간. */
+    animation-fill-mode: backwards;
+    /* 애니메이션이 실행되기 전, 초기상태에서 이미 0%의 애니메이션을 적용해줌. */
+  }
+}
+
+.btn-text{
+  &:link,
+  &:visited{
+    font-size: $default-font-size;
+    color: $color-primary;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $color-primary;
+    padding: 3px;
+    transition: all .2s;
+  }
+
+  &:hover{
+    background-color: $color-primary;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color-black, .15);
+    transform: translateY(-2px);
+  }
+
+  &:active{
+    box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+    transform: translateY(0);
+  }
+}

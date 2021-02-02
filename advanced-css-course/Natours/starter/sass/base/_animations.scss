@@ -1,0 +1,55 @@
+@keyframes moveInLeft {
+  /* 애니메이션 이름을 설정한다.
+      이경우 moveInLeft라는 애니메이션이 설정됨. */
+  0% {
+    opacity: 0;
+    /* 불투명도 조절 -> 여기서는 0으로 설정하여 보이지 않게함. */
+    transform: translateX(-10rem);
+    /* 오른쪽에서 왼쪽으로 오는것을 표현하기 위해 X좌표를 이동시키는 명령어. 
+      이 경우 -100px(translateX에 음수이기때문에 왼쪽으로)만큼 이동된 위치에서 애니메이션이 실행된다.*/
+  }
+  80% {
+    transform: translateX(1rem);
+    /* 애니메이션이 80% 진행되었을때 10px만큼(오른쪽으로) 이동시킴. */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  /* 애니메이션 이름을 설정한다.
+        이경우 moveInRight라는 애니메이션이 설정됨. */
+  0% {
+    opacity: 0;
+    /* 불투명도 조절 -> 여기서는 0으로 설정하여 보이지 않게함. */
+    transform: translateX(10rem);
+    /* 왼쪽에서 오른쪽으로 오는것을 표현하기 위해 X좌표를 이동시키는 명령어. 
+        이 경우 100px(translateX에 양수이기때문에 오른쪽으로)만큼 이동된 위치에서 애니메이션이 실행된다.*/
+  }
+  80% {
+    transform: translateX(-1rem);
+    /* 애니메이션이 80% 진행되었을때 10px만큼(왼쪽으로) 이동시킴. */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+/* 애니메이션을 키프레임(초기상태(0)~완료상태(100))으로 만들어 적용하는 방식. */
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+    /* Y축은 위에서 아래로 가기때문에 아래로 이동하려면 양수값을 넣어야함. */
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+/* 버튼에 확대되며 사라지는 효과를 넣기위해 사용.
+  이때 박스를 두개 사용한다고 생각하면 편함. 물론 밑에 있는 의사클래스 after과 같이 사용. */

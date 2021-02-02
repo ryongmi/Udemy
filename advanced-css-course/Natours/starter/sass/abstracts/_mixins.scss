@@ -1,0 +1,55 @@
+@mixin clearfix {
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//  MEDIA QUERY MANAGER
+/*
+0 - 600px : 핸드폰
+600 - 900px : 테블릿
+900 - 1200px : 테블릿 가로모드
+[1200 - 1800] : 기본 모드
+1800px ~ : 데스크탑
+*/
+
+/*
+    $breakpoint(중단점) 고를수 있는 것:
+    -phone
+    -tab-port
+    -tab-land
+    -big-desktop
+
+    1em = 16px
+*/
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 37.5em) {@content}  // 16/600 = 37.5em, 600px
+        // @media only scrren and (max-width: 37.5em) {@content}
+        // media only scrren = 화면만 해당하게 하는것, 만약 사이트를 인쇄하면 위의 media는 적용되지 않음
+    }
+    // @content mixin의 내용을 mixin을 쓸때마다 정의하여 사용할 수 있음.
+
+    @if $breakpoint == tab-port {
+        @media only screen and (max-width: 56.25em) {@content}  // 900px
+    }
+
+    @if $breakpoint == tab-land {
+        @media only screen and (max-width: 75em) {@content}  // 1200px
+    }
+
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 112.5em) {@content}  //1800px
+        // 데스크탑에서는 1800px 이상에서 변화하는것을 원하기 때문에 min-width을 씀
+    }
+}

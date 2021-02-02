@@ -1,0 +1,105 @@
+body {
+  font-family: "Lato";
+  font-weight: 400;
+  /* 폰트 굵기(가중치)를 400으로 설정한다. */
+  /* font-size: 16px;  rem을 이용해 상대적으로 표시하려고 html태그를 붙여서 font-size를 새로 세김.*/
+  line-height: 1.7;
+  /* 줄 높이를 1.7로 설정한다. */
+  color: $color-grey-dark;
+}
+
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  /* 텍스트를 대문자로 변환하여 화면에 출력한다. */
+
+  backface-visibility: hidden;
+  /* 애니메이션을 설정하면 마지막에 흔들리는? 경우가 있는데 그것을 방지하는 명령어. */
+
+  margin-bottom: 6rem;
+
+  &--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    /* 글자 간격을 35px만큼 줌. */
+
+    animation-name: moveInLeft;
+    /* 선언된 애니메이션을 적용시킨다. 애니메이션 SCSS에 선언되어 있음*/
+    animation-duration: 1s;
+    /* 애니메이션의 시연시간을 1s로 설정한다. */
+    animation-timing-function: ease-out;
+    /* 애니메이션을 처음에는 빠르게 실행하고 시간이 흐를수록 느리게 실행한다.
+      ease-out말고도 여러가지 명령어가 있음. */
+
+    /*animation-iteration-count: 3;
+       애니메이션을 3번 반복한다. */
+
+    /* animation-delay: 3s;
+      애니메이션 실행을 3s만큼 지연시킨다.
+      3s만큼의 시간뒤에 애니메이션이 실행됨.*/
+
+    @include respond(phone){
+      letter-spacing: 1rem;
+      font-family: 5rem;
+    }
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+
+    animation: moveInRight 1s ease-out;
+    /* main의 애니메이션과 동일 -> 그냥 하나로 묶은거 */
+
+    @include respond(phone){
+      letter-spacing: .5rem;
+    }
+  }
+}
+
+.heading-secondary{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  // 한줄 전체를 잡는 것이 아닌 텍스트(내용)가 있는 곳만 블럭을 잡아줌.
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  -webkit-background-clip: text;
+  // 배경색이 안보이게 해줌.
+  color: transparent;
+  // 텍스트 색깔을 투명하게 만듬.
+  // 위에 있는 백그라운드-클립과 같이 사용하면 글자색을 백그라운드 색으로 만들수 있다.
+  letter-spacing: .2rem;
+  // 글자 띄워줌
+  transition: all .2s;
+
+  @include respond(tab-port){
+    font-size: 3rem;
+  }
+
+  @include respond(phone){
+    font-size: 2.5rem;
+  }
+
+  &:hover{
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  }
+}
+
+.heading-tertiary{
+  font-size: $default-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph{
+  font-size: $default-font-size;
+  &:not(:last-child){
+    margin-bottom: 3rem;
+  }
+}
