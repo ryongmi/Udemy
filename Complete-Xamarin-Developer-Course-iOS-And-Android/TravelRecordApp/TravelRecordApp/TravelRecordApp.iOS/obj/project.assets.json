@@ -2092,29 +2092,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SGC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {},
+    "C:\\Users\\ryong\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SGC\\Desktop\\test_kim\\TravelRecordApp3_sn\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\ryong\\OneDrive\\문서\\GitHub\\Udemy\\Complete-Xamarin-Developer-Course-iOS-And-Android\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
       "projectName": "TravelRecordApp.iOS",
-      "projectPath": "C:\\Users\\SGC\\Desktop\\test_kim\\TravelRecordApp3_sn\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\SGC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SGC\\Desktop\\test_kim\\TravelRecordApp3_sn\\TravelRecordApp\\TravelRecordApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\ryong\\OneDrive\\문서\\GitHub\\Udemy\\Complete-Xamarin-Developer-Course-iOS-And-Android\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\ryong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ryong\\OneDrive\\문서\\GitHub\\Udemy\\Complete-Xamarin-Developer-Course-iOS-And-Android\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\SGC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+        "C:\\Users\\ryong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2122,17 +2117,14 @@
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\SGC\\Desktop\\test_kim\\TravelRecordApp3_sn\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj": {
-              "projectPath": "C:\\Users\\SGC\\Desktop\\test_kim\\TravelRecordApp3_sn\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj"
+            "C:\\Users\\ryong\\OneDrive\\문서\\GitHub\\Udemy\\Complete-Xamarin-Developer-Course-iOS-And-Android\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj": {
+              "projectPath": "C:\\Users\\ryong\\OneDrive\\문서\\GitHub\\Udemy\\Complete-Xamarin-Developer-Course-iOS-And-Android\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj"
             }
           }
         }

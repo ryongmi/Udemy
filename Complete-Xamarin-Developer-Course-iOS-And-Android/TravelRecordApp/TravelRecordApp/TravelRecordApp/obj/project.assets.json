@@ -1316,28 +1316,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SGC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {},
+    "C:\\Users\\ryong\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SGC\\Desktop\\test_kim\\TravelRecordApp3_sn\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj",
+      "projectUniqueName": "C:\\Users\\ryong\\OneDrive\\문서\\GitHub\\Udemy\\Complete-Xamarin-Developer-Course-iOS-And-Android\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj",
       "projectName": "TravelRecordApp",
-      "projectPath": "C:\\Users\\SGC\\Desktop\\test_kim\\TravelRecordApp3_sn\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj",
-      "packagesPath": "C:\\Users\\SGC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SGC\\Desktop\\test_kim\\TravelRecordApp3_sn\\TravelRecordApp\\TravelRecordApp\\obj\\",
+      "projectPath": "C:\\Users\\ryong\\OneDrive\\문서\\GitHub\\Udemy\\Complete-Xamarin-Developer-Course-iOS-And-Android\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj",
+      "packagesPath": "C:\\Users\\ryong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ryong\\OneDrive\\문서\\GitHub\\Udemy\\Complete-Xamarin-Developer-Course-iOS-And-Android\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\SGC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+        "C:\\Users\\ryong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1345,9 +1340,6 @@
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
