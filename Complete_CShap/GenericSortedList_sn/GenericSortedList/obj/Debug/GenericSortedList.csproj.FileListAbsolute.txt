@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericSortedList_sn\GenericSortedList\bin\Debug\GenericSortedList.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericSortedList_sn\GenericSortedList\bin\Debug\GenericSortedList.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericSortedList_sn\GenericSortedList\bin\Debug\GenericSortedList.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericSortedList_sn\GenericSortedList\obj\Debug\GenericSortedList.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericSortedList_sn\GenericSortedList\obj\Debug\GenericSortedList.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericSortedList_sn\GenericSortedList\obj\Debug\GenericSortedList.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericSortedList_sn\GenericSortedList\obj\Debug\GenericSortedList.pdb
