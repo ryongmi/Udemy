@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\NameValueCollectionApp_sn\NameValueCollectionApp\bin\Debug\NameValueCollectionApp.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\NameValueCollectionApp_sn\NameValueCollectionApp\bin\Debug\NameValueCollectionApp.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\NameValueCollectionApp_sn\NameValueCollectionApp\bin\Debug\NameValueCollectionApp.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\NameValueCollectionApp_sn\NameValueCollectionApp\obj\Debug\NameValueCollectionApp.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\NameValueCollectionApp_sn\NameValueCollectionApp\obj\Debug\NameValueCollectionApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\NameValueCollectionApp_sn\NameValueCollectionApp\obj\Debug\NameValueCollectionApp.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\NameValueCollectionApp_sn\NameValueCollectionApp\obj\Debug\NameValueCollectionApp.pdb
