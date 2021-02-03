@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesApp_sn\TuplesApp\bin\Debug\TuplesApp.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesApp_sn\TuplesApp\bin\Debug\TuplesApp.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesApp_sn\TuplesApp\bin\Debug\TuplesApp.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesApp_sn\TuplesApp\obj\Debug\TuplesApp.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesApp_sn\TuplesApp\obj\Debug\TuplesApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesApp_sn\TuplesApp\obj\Debug\TuplesApp.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesApp_sn\TuplesApp\obj\Debug\TuplesApp.pdb
