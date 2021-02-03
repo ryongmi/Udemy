@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\SortedDictionary_sn\SortedDictionary\bin\Debug\SortedDictionary.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\SortedDictionary_sn\SortedDictionary\bin\Debug\SortedDictionary.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\SortedDictionary_sn\SortedDictionary\bin\Debug\SortedDictionary.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\SortedDictionary_sn\SortedDictionary\obj\Debug\SortedDictionary.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\SortedDictionary_sn\SortedDictionary\obj\Debug\SortedDictionary.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\SortedDictionary_sn\SortedDictionary\obj\Debug\SortedDictionary.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\SortedDictionary_sn\SortedDictionary\obj\Debug\SortedDictionary.pdb
