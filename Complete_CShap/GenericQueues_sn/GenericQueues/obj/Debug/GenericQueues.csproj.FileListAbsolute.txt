@@ -1,0 +1,6 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericQueues_sn\GenericQueues\bin\Debug\GenericQueues.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericQueues_sn\GenericQueues\bin\Debug\GenericQueues.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericQueues_sn\GenericQueues\bin\Debug\GenericQueues.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericQueues_sn\GenericQueues\obj\Debug\GenericQueues.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericQueues_sn\GenericQueues\obj\Debug\GenericQueues.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericQueues_sn\GenericQueues\obj\Debug\GenericQueues.pdb
