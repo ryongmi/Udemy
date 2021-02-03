@@ -1,0 +1,6 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofAnimalsExercise_sn\ListofAnimalsExercise\bin\Debug\ListofAnimalsExercise.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofAnimalsExercise_sn\ListofAnimalsExercise\bin\Debug\ListofAnimalsExercise.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofAnimalsExercise_sn\ListofAnimalsExercise\bin\Debug\ListofAnimalsExercise.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofAnimalsExercise_sn\ListofAnimalsExercise\obj\Debug\ListofAnimalsExercise.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofAnimalsExercise_sn\ListofAnimalsExercise\obj\Debug\ListofAnimalsExercise.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofAnimalsExercise_sn\ListofAnimalsExercise\obj\Debug\ListofAnimalsExercise.pdb
