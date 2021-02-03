@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericStacks_sn\GenericStacks\bin\Debug\GenericStacks.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericStacks_sn\GenericStacks\bin\Debug\GenericStacks.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericStacks_sn\GenericStacks\bin\Debug\GenericStacks.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericStacks_sn\GenericStacks\obj\Debug\GenericStacks.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericStacks_sn\GenericStacks\obj\Debug\GenericStacks.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericStacks_sn\GenericStacks\obj\Debug\GenericStacks.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericStacks_sn\GenericStacks\obj\Debug\GenericStacks.pdb
