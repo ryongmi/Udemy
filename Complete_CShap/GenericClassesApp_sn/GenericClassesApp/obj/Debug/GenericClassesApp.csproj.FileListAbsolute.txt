@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericClassesApp_sn\GenericClassesApp\bin\Debug\GenericClassesApp.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericClassesApp_sn\GenericClassesApp\bin\Debug\GenericClassesApp.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericClassesApp_sn\GenericClassesApp\bin\Debug\GenericClassesApp.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericClassesApp_sn\GenericClassesApp\obj\Debug\GenericClassesApp.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericClassesApp_sn\GenericClassesApp\obj\Debug\GenericClassesApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericClassesApp_sn\GenericClassesApp\obj\Debug\GenericClassesApp.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\GenericClassesApp_sn\GenericClassesApp\obj\Debug\GenericClassesApp.pdb
