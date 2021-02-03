@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListApp_sn\ListApp\bin\Debug\ListApp.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListApp_sn\ListApp\bin\Debug\ListApp.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListApp_sn\ListApp\bin\Debug\ListApp.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListApp_sn\ListApp\obj\Debug\ListApp.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListApp_sn\ListApp\obj\Debug\ListApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListApp_sn\ListApp\obj\Debug\ListApp.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListApp_sn\ListApp\obj\Debug\ListApp.pdb
