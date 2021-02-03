@@ -1,0 +1,6 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\KeyValuePairApp_sn\KeyValuePairApp\bin\Debug\KeyValuePairApp.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\KeyValuePairApp_sn\KeyValuePairApp\bin\Debug\KeyValuePairApp.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\KeyValuePairApp_sn\KeyValuePairApp\bin\Debug\KeyValuePairApp.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\KeyValuePairApp_sn\KeyValuePairApp\obj\Debug\KeyValuePairApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\KeyValuePairApp_sn\KeyValuePairApp\obj\Debug\KeyValuePairApp.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\KeyValuePairApp_sn\KeyValuePairApp\obj\Debug\KeyValuePairApp.pdb
