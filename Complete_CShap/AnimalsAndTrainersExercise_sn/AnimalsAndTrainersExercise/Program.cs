@@ -27,10 +27,19 @@ namespace AnimalsAndTrainersExercise
             list.Add(dog);
             list.Add(cat);
             list.Add(elephant);
+            list.Add(john);
 
             foreach (var item in list)
             {
-                ((Animals)item).SayHi();
+                if (typeof(Animals) == item.GetType())
+                {
+                    ((Animals)item).SayHi();
+                    ((Animals)item).Feed();
+                }
+                else if (typeof(Trainers) == item.GetType())
+                    ((Trainers)item).SayHi();
+                // typeof(x) : x의 타입을 반환함
+                // item.GetType : item의 타입을 반환함
             }
         }
     }
