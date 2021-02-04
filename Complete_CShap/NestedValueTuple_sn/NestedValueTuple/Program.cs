@@ -16,6 +16,7 @@ namespace NestedValueTuple
 
             Console.WriteLine(ronaldo.playerNo);
             Console.WriteLine(ronaldo.playerName);
+            Console.WriteLine(ronaldo.playerGoals.Year2014);
             Console.WriteLine(ronaldo.playerGoals.Year2015);
             Console.WriteLine(ronaldo.playerGoals.Year2016);
             Console.WriteLine(ronaldo.playerGoals.Year2017);
