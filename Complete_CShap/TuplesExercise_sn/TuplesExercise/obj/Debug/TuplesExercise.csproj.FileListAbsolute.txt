@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesExercise_sn\TuplesExercise\bin\Debug\TuplesExercise.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesExercise_sn\TuplesExercise\bin\Debug\TuplesExercise.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesExercise_sn\TuplesExercise\bin\Debug\TuplesExercise.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesExercise_sn\TuplesExercise\obj\Debug\TuplesExercise.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesExercise_sn\TuplesExercise\obj\Debug\TuplesExercise.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesExercise_sn\TuplesExercise\obj\Debug\TuplesExercise.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesExercise_sn\TuplesExercise\obj\Debug\TuplesExercise.pdb
