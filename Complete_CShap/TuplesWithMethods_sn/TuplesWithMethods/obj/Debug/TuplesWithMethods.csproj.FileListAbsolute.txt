@@ -1,0 +1,7 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesWithMethods_sn\TuplesWithMethods\bin\Debug\TuplesWithMethods.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesWithMethods_sn\TuplesWithMethods\bin\Debug\TuplesWithMethods.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesWithMethods_sn\TuplesWithMethods\bin\Debug\TuplesWithMethods.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesWithMethods_sn\TuplesWithMethods\obj\Debug\TuplesWithMethods.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesWithMethods_sn\TuplesWithMethods\obj\Debug\TuplesWithMethods.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesWithMethods_sn\TuplesWithMethods\obj\Debug\TuplesWithMethods.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\TuplesWithMethods_sn\TuplesWithMethods\obj\Debug\TuplesWithMethods.pdb
