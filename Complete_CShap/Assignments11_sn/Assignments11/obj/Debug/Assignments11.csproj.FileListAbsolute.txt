@@ -1,0 +1,10 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments11_sn\Assignments11\bin\Debug\Assignments11.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments11_sn\Assignments11\bin\Debug\Assignments11.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments11_sn\Assignments11\bin\Debug\Assignments11.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments11_sn\Assignments11\bin\Debug\System.ValueTuple.dll
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments11_sn\Assignments11\bin\Debug\System.ValueTuple.xml
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments11_sn\Assignments11\obj\Debug\Assignments11.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments11_sn\Assignments11\obj\Debug\Assignments11.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments11_sn\Assignments11\obj\Debug\Assignments11.csproj.CopyComplete
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments11_sn\Assignments11\obj\Debug\Assignments11.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments11_sn\Assignments11\obj\Debug\Assignments11.pdb
