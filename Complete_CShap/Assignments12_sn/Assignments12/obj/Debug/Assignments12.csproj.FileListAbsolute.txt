@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments12_sn\Assignments12\obj\Debug\Assignments12.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments12_sn\Assignments12\bin\Debug\Assignments12.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments12_sn\Assignments12\bin\Debug\Assignments12.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments12_sn\Assignments12\bin\Debug\Assignments12.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments12_sn\Assignments12\obj\Debug\Assignments12.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Assignments12_sn\Assignments12\obj\Debug\Assignments12.pdb
