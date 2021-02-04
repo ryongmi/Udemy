@@ -1,0 +1,10 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofValueTuples_sn\ListofValueTuples\bin\Debug\ListofValueTuples.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofValueTuples_sn\ListofValueTuples\bin\Debug\ListofValueTuples.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofValueTuples_sn\ListofValueTuples\bin\Debug\ListofValueTuples.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofValueTuples_sn\ListofValueTuples\bin\Debug\System.ValueTuple.dll
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofValueTuples_sn\ListofValueTuples\bin\Debug\System.ValueTuple.xml
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofValueTuples_sn\ListofValueTuples\obj\Debug\ListofValueTuples.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofValueTuples_sn\ListofValueTuples\obj\Debug\ListofValueTuples.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofValueTuples_sn\ListofValueTuples\obj\Debug\ListofValueTuples.csproj.CopyComplete
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofValueTuples_sn\ListofValueTuples\obj\Debug\ListofValueTuples.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ListofValueTuples_sn\ListofValueTuples\obj\Debug\ListofValueTuples.pdb
