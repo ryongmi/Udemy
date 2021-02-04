@@ -1,0 +1,10 @@
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ValueTuplesWithMethods_sn\ValueTuplesWithMethods\bin\Debug\ValueTuplesWithMethods.exe.config
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ValueTuplesWithMethods_sn\ValueTuplesWithMethods\bin\Debug\ValueTuplesWithMethods.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ValueTuplesWithMethods_sn\ValueTuplesWithMethods\bin\Debug\ValueTuplesWithMethods.pdb
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ValueTuplesWithMethods_sn\ValueTuplesWithMethods\bin\Debug\System.ValueTuple.dll
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ValueTuplesWithMethods_sn\ValueTuplesWithMethods\bin\Debug\System.ValueTuple.xml
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ValueTuplesWithMethods_sn\ValueTuplesWithMethods\obj\Debug\ValueTuplesWithMethods.csprojAssemblyReference.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ValueTuplesWithMethods_sn\ValueTuplesWithMethods\obj\Debug\ValueTuplesWithMethods.csproj.CoreCompileInputs.cache
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ValueTuplesWithMethods_sn\ValueTuplesWithMethods\obj\Debug\ValueTuplesWithMethods.csproj.CopyComplete
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ValueTuplesWithMethods_sn\ValueTuplesWithMethods\obj\Debug\ValueTuplesWithMethods.exe
+C:\Users\SGC\Documents\GitHub\Udemy\Complete_CShap\ValueTuplesWithMethods_sn\ValueTuplesWithMethods\obj\Debug\ValueTuplesWithMethods.pdb
