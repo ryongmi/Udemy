@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericArguments_sn\GenericArguments\bin\Debug\GenericArguments.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericArguments_sn\GenericArguments\bin\Debug\GenericArguments.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericArguments_sn\GenericArguments\bin\Debug\GenericArguments.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericArguments_sn\GenericArguments\obj\Debug\GenericArguments.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericArguments_sn\GenericArguments\obj\Debug\GenericArguments.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericArguments_sn\GenericArguments\obj\Debug\GenericArguments.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericArguments_sn\GenericArguments\obj\Debug\GenericArguments.pdb
