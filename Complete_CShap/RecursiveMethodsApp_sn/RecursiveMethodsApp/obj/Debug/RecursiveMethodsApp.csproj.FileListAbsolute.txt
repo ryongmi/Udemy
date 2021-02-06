@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\RecursiveMethodsApp_sn\RecursiveMethodsApp\bin\Debug\RecursiveMethodsApp.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\RecursiveMethodsApp_sn\RecursiveMethodsApp\bin\Debug\RecursiveMethodsApp.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\RecursiveMethodsApp_sn\RecursiveMethodsApp\bin\Debug\RecursiveMethodsApp.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\RecursiveMethodsApp_sn\RecursiveMethodsApp\obj\Debug\RecursiveMethodsApp.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\RecursiveMethodsApp_sn\RecursiveMethodsApp\obj\Debug\RecursiveMethodsApp.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\RecursiveMethodsApp_sn\RecursiveMethodsApp\obj\Debug\RecursiveMethodsApp.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\RecursiveMethodsApp_sn\RecursiveMethodsApp\obj\Debug\RecursiveMethodsApp.pdb
