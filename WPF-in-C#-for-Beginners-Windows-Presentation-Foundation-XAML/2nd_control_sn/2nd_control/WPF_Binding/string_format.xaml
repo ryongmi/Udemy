@@ -1,0 +1,15 @@
+﻿<Window x:Class="_2nd_control.WPF_Binding.string_format"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2nd_control.WPF_Binding"
+        mc:Ignorable="d"
+        Title="string_format" Height="189.426" Width="604.348">
+    <Grid>
+        <TextBox x:Name="my_tb" HorizontalAlignment="Left" Height="23" Margin="359,41,0,0" TextWrapping="Wrap" Text="{Binding Path=Value, ElementName=my_slider, Mode=OneWay, StringFormat=\{0:F0\}}" VerticalAlignment="Top" Width="218" RenderTransformOrigin="0.974,0.132"/>
+        <Slider x:Name="my_slider" HorizontalAlignment="Left" Margin="53,41,0,0" VerticalAlignment="Top" Width="301" TickFrequency="500" TickPlacement="TopLeft" Maximum="20000"/>
+        <Label x:Name="my_lbl" Content="{Binding Value, ElementName=my_slider, Mode=OneWay}" HorizontalAlignment="Left" Margin="359,85,0,0" VerticalAlignment="Top" Width="218" ContentStringFormat="N0"/>
+
+    </Grid>
+</Window>

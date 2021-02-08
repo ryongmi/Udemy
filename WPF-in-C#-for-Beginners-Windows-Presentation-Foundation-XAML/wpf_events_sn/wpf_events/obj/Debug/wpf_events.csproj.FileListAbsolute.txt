@@ -1,0 +1,15 @@
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\bin\Debug\wpf_events.exe.config
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\bin\Debug\wpf_events.exe
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\bin\Debug\wpf_events.pdb
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\wpf_events.csprojAssemblyReference.cache
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\MainWindow.g.cs
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\App.g.cs
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\wpf_events_MarkupCompile.cache
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\wpf_events_MarkupCompile.lref
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\MainWindow.baml
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\wpf_events.g.resources
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\wpf_events.Properties.Resources.resources
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\wpf_events.csproj.GenerateResource.cache
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\wpf_events.csproj.CoreCompileInputs.cache
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\wpf_events.exe
+C:\Users\ryong\source\repos\wpf_events_sn\wpf_events\obj\Debug\wpf_events.pdb

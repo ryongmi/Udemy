@@ -1,0 +1,12 @@
+﻿<Window x:Name="window_stack_panel" x:Class="_2nd_control.Panels.stack_panel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2nd_control.Panels"
+        mc:Ignorable="d"
+        Title="stack_panel" Height="418.874" Width="477.174" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+    </Grid>
+</Window>

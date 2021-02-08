@@ -1,0 +1,15 @@
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\bin\Debug\img_control.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\bin\Debug\img_control.exe
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\bin\Debug\img_control.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\img_control.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\MainWindow.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\App.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\img_control_MarkupCompile.cache
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\img_control_MarkupCompile.lref
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\MainWindow.baml
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\img_control.g.resources
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\img_control.Properties.Resources.resources
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\img_control.csproj.GenerateResource.cache
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\img_control.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\img_control.exe
+C:\Users\ryong\OneDrive\Desktop\vs\img_control\img_control\obj\Debug\img_control.pdb

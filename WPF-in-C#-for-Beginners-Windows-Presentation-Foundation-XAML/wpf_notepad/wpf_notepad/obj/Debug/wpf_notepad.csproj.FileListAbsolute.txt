@@ -1,0 +1,15 @@
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\bin\Debug\wpf_notepad.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\bin\Debug\wpf_notepad.exe
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\bin\Debug\wpf_notepad.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\App.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\wpf_notepad_MarkupCompile.cache
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\wpf_notepad_MarkupCompile.lref
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\wpf_notepad.g.resources
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\wpf_notepad.Properties.Resources.resources
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\wpf_notepad.csproj.GenerateResource.cache
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\wpf_notepad.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\wpf_notepad.exe
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\wpf_notepad.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\Notepad_main.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\Notepad_main.baml
+C:\Users\ryong\OneDrive\Desktop\vs\wpf_notepad\wpf_notepad\obj\Debug\wpf_notepad.csprojAssemblyReference.cache

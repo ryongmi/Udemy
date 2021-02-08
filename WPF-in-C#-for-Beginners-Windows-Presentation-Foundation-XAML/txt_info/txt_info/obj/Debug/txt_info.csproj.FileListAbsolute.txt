@@ -1,0 +1,16 @@
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\txt_info.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\MainWindow.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\App.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\txt_info_MarkupCompile.cache
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\txt_info_MarkupCompile.lref
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\MainWindow.baml
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\txt_info.g.resources
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\txt_info.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\bin\Debug\test\image.jpg
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\bin\Debug\txt_info.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\bin\Debug\txt_info.exe
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\bin\Debug\txt_info.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\txt_info.Properties.Resources.resources
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\txt_info.csproj.GenerateResource.cache
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\txt_info.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\txt_info\txt_info\obj\Debug\txt_info.exe

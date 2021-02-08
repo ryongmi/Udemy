@@ -1,0 +1,15 @@
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\bin\Debug\partical.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\bin\Debug\partical.exe
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\bin\Debug\partical.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\partical.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\MainWindow.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\App.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\partical_MarkupCompile.cache
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\partical_MarkupCompile.lref
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\MainWindow.baml
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\partical.g.resources
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\partical.Properties.Resources.resources
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\partical.csproj.GenerateResource.cache
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\partical.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\partical.exe
+C:\Users\ryong\OneDrive\Desktop\vs\partical\partical\obj\Debug\partical.pdb

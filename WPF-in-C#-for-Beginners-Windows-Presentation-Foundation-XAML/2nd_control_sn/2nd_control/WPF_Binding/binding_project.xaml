@@ -1,0 +1,15 @@
+﻿<Window x:Class="_2nd_control.WPF_Binding.binding_project"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2nd_control.WPF_Binding"
+        mc:Ignorable="d"
+        Title="binding_project" Height="371.739" Width="510.079">
+    <Grid>
+        <Slider x:Name="width_slider" Margin="26,18,25,0" VerticalAlignment="Top" Minimum="50" Maximum="400" TickPlacement="TopLeft" TickFrequency="20"/>
+        <Slider x:Name="height_slider" HorizontalAlignment="Left" Margin="26,58,0,46" Width="24" Orientation="Vertical" Minimum="50" Maximum="300" TickPlacement="BottomRight" TickFrequency="20"/>
+        <Image x:Name="my_image" HorizontalAlignment="Left" Height="{Binding Value, ElementName=height_slider, Mode=OneWay}" Margin="55,58,0,0" VerticalAlignment="Top" Width="{Binding Value, ElementName=width_slider, Mode=OneWay}" Source="pack://siteoforigin:,,,/2nd_ctls/images/Ori.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Window>

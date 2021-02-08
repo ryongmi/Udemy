@@ -1,0 +1,15 @@
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\bin\Debug\text_control.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\bin\Debug\text_control.exe
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\bin\Debug\text_control.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\text_control.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\MainWindow.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\App.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\text_control_MarkupCompile.cache
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\text_control_MarkupCompile.lref
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\MainWindow.baml
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\text_control.g.resources
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\text_control.Properties.Resources.resources
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\text_control.csproj.GenerateResource.cache
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\text_control.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\text_control.exe
+C:\Users\ryong\OneDrive\Desktop\vs\text_control\text_control\obj\Debug\text_control.pdb

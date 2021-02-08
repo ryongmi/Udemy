@@ -1,0 +1,15 @@
+﻿<Window x:Name="mainwindow"
+        x:Class="_2nd_control._2nd_ctls.checkbox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2nd_control._2nd_ctls"
+        mc:Ignorable="d"
+        Title="checkbox" Height="420.652" Width="573.221" Loaded="mainwindow_Loaded">
+    <Grid>
+        <CheckBox x:Name="chekbox_normal" Content="CheckBox" HorizontalAlignment="Left" Margin="177,167,0,0" VerticalAlignment="Top" Checked="chekbox_normal_Checked" Unchecked="chekbox_normal_Unchecked"/>
+        <Button x:Name="btn_show" Content="Show Alert" HorizontalAlignment="Left" Margin="148,72,0,0" VerticalAlignment="Top" Width="206" Height="45"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:local_window_resource"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="local_window_resource.second_win"
+        mc:Ignorable="d"
+        Title="second_win" Height="329.941" Width="391.799">
+    
+    <Grid>
+        <Button Content="{DynamicResource btn_exit_text}" HorizontalAlignment="Left" Margin="314,10,0,0" VerticalAlignment="Top" Width="{DynamicResource btn_exit_width}" Height="{DynamicResource btn_exit_height}" Background="{DynamicResource btn_exit_background}"/>
+
+    </Grid>
+</Window>

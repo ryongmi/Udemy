@@ -1,0 +1,19 @@
+﻿<Window x:Name="io_file_folder_wind"
+        x:Class="_2nd_control.File_Folder.io_file_folder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2nd_control.File_Folder"
+        mc:Ignorable="d"
+        Title="io_file_folder" Height="328.162" Width="669.268" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="file_exists" Content="check file exists" HorizontalAlignment="Left" Margin="94,79,0,0" VerticalAlignment="Top" Width="99" Click="file_exists_Click"/>
+        <Label Content="File Name:" HorizontalAlignment="Left" Margin="21,34,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="file_tbox" HorizontalAlignment="Left" Height="23" Margin="94,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="477"/>
+        <Button x:Name="folder_tbox" Content="App Folder" HorizontalAlignment="Left" Margin="576,40,0,0" VerticalAlignment="Top" Width="75" Click="folder_tbox_Click"/>
+        <Button x:Name="file_delete_btn" Content="Delete file" HorizontalAlignment="Left" Margin="212,79,0,0" VerticalAlignment="Top" Width="75" Click="file_delete_btn_Click"/>
+        <Button x:Name="brower_btn" Content="Brower" HorizontalAlignment="Left" Margin="94,9,0,0" VerticalAlignment="Top" Width="75" Click="brower_btn_Click"/>
+
+    </Grid>
+</Window>

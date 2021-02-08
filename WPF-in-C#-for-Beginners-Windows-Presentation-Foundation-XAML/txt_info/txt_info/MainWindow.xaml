@@ -1,0 +1,26 @@
+﻿<Window x:Class="txt_info.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:txt_info"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="420.71" Width="398.817">
+    <Grid>
+        <Label x:Name="lbl_search_id" Content="Search by ID : " HorizontalAlignment="Left" Margin="43,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_id" Content="ID" HorizontalAlignment="Left" Margin="42,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_first_name" Content="First Name : " HorizontalAlignment="Left" Margin="42,144,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_last_name" Content="Last Name : " HorizontalAlignment="Left" Margin="42,188,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="tb_search_id" HorizontalAlignment="Left" Height="23" Margin="136,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="tb_id" HorizontalAlignment="Left" Height="23" Margin="136,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <TextBox x:Name="tb_first_name" HorizontalAlignment="Left" Height="23" Margin="136,147,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <TextBox x:Name="tb_last_name" HorizontalAlignment="Left" Height="23" Margin="136,191,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+
+        <Button x:Name="btn_search" Content="Search Data" HorizontalAlignment="Left" Margin="251,37,0,0" VerticalAlignment="Top" Width="75" Height="26" Click="btn_search_Click"/>
+        <Button x:Name="btn_save" Content="Save Changes" HorizontalAlignment="Left" Margin="136,238,0,0" VerticalAlignment="Top" Width="85" Height="23" Click="btn_save_Click"/>
+        <Button x:Name="btn_new" Content="ADD NEW" HorizontalAlignment="Left" Margin="251,238,0,0" VerticalAlignment="Top" Width="75" Click="btn_new_Click"/>
+
+
+    </Grid>
+</Window>

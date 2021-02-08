@@ -1,0 +1,15 @@
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\bin\Debug\menu_contorol.exe.config
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\bin\Debug\menu_contorol.exe
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\bin\Debug\menu_contorol.pdb
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\menu_contorol.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\MainWindow.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\App.g.cs
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\menu_contorol_MarkupCompile.cache
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\menu_contorol_MarkupCompile.lref
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\MainWindow.baml
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\menu_contorol.g.resources
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\menu_contorol.Properties.Resources.resources
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\menu_contorol.csproj.GenerateResource.cache
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\menu_contorol.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\menu_contorol.exe
+C:\Users\ryong\OneDrive\Desktop\vs\menu_contorol\menu_contorol\obj\Debug\menu_contorol.pdb
