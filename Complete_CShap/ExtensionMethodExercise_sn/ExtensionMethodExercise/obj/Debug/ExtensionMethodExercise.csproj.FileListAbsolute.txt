@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ExtensionMethodExercise_sn\ExtensionMethodExercise\bin\Debug\ExtensionMethodExercise.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ExtensionMethodExercise_sn\ExtensionMethodExercise\bin\Debug\ExtensionMethodExercise.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ExtensionMethodExercise_sn\ExtensionMethodExercise\bin\Debug\ExtensionMethodExercise.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ExtensionMethodExercise_sn\ExtensionMethodExercise\obj\Debug\ExtensionMethodExercise.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ExtensionMethodExercise_sn\ExtensionMethodExercise\obj\Debug\ExtensionMethodExercise.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ExtensionMethodExercise_sn\ExtensionMethodExercise\obj\Debug\ExtensionMethodExercise.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ExtensionMethodExercise_sn\ExtensionMethodExercise\obj\Debug\ExtensionMethodExercise.pdb
