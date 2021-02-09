@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/pics/2.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/pics/3.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/other_img/calander.png")]
 
 

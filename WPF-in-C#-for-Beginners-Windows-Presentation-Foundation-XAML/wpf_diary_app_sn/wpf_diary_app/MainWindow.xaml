@@ -15,6 +15,20 @@
                 <Canvas.Background>
                     <SolidColorBrush Color="#FF4E5E5F" Opacity="0.4"/>
                 </Canvas.Background>
+                <Border BorderBrush="#FFFFA21B" Background="Black" BorderThickness="4" Height="100" Width="100" CornerRadius="50" Canvas.Left="28" Canvas.Top="23">
+                    <Canvas>
+                        <Label x:Name="time_lbl" Content="" Canvas.Top="21" Height="50" Width="92" FontSize="20" Foreground="#FFFFA21B" Background="Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+                    </Canvas>
+                </Border>
+                <Canvas x:Name="cal_panel" Width="120" Height="130" Canvas.Top="150" Canvas.Left="17">
+                    <Canvas.Background>
+                        <ImageBrush ImageSource="Data/Other_Img/calander.png"/>
+                    </Canvas.Background>
+                    <Label x:Name="year_lbl" Canvas.Top="27" Canvas.Left="8" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="13" Foreground="White"/>
+                    <Label x:Name="month_lbl" Canvas.Top="27" Canvas.Right="8" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="13" Foreground="White"/>
+                    <Label x:Name="day_in_month_lbl" Canvas.Top="55" Canvas.Left="43" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="23" />
+                    <Label x:Name="day_in_week_lbl" Canvas.Bottom="10" Canvas.Left="35" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="15"/>
+                </Canvas>
             </Canvas>
             <Canvas x:Name="top_panel" Height="67" DockPanel.Dock="Top" >
                 <Canvas.Background>
