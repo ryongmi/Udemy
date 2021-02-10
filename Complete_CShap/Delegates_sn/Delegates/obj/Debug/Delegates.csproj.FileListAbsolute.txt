@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Delegates_sn\Delegates\bin\Debug\Delegates.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Delegates_sn\Delegates\bin\Debug\Delegates.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Delegates_sn\Delegates\bin\Debug\Delegates.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Delegates_sn\Delegates\obj\Debug\Delegates.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Delegates_sn\Delegates\obj\Debug\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Delegates_sn\Delegates\obj\Debug\Delegates.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Delegates_sn\Delegates\obj\Debug\Delegates.pdb
