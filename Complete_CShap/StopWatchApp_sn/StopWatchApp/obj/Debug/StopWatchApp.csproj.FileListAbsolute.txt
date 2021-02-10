@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\StopWatchApp_sn\StopWatchApp\bin\Debug\StopWatchApp.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\StopWatchApp_sn\StopWatchApp\bin\Debug\StopWatchApp.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\StopWatchApp_sn\StopWatchApp\bin\Debug\StopWatchApp.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\StopWatchApp_sn\StopWatchApp\obj\Debug\StopWatchApp.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\StopWatchApp_sn\StopWatchApp\obj\Debug\StopWatchApp.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\StopWatchApp_sn\StopWatchApp\obj\Debug\StopWatchApp.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\StopWatchApp_sn\StopWatchApp\obj\Debug\StopWatchApp.pdb
