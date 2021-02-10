@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericDelegates_sn\GenericDelegates\bin\Debug\GenericDelegates.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericDelegates_sn\GenericDelegates\bin\Debug\GenericDelegates.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericDelegates_sn\GenericDelegates\bin\Debug\GenericDelegates.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericDelegates_sn\GenericDelegates\obj\Debug\GenericDelegates.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericDelegates_sn\GenericDelegates\obj\Debug\GenericDelegates.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\GenericDelegates_sn\GenericDelegates\obj\Debug\GenericDelegates.pdb
