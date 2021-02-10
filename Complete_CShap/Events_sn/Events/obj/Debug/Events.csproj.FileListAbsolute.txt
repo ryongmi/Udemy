@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Events_sn\Events\bin\Debug\Events.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Events_sn\Events\bin\Debug\Events.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Events_sn\Events\bin\Debug\Events.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Events_sn\Events\obj\Debug\Events.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Events_sn\Events\obj\Debug\Events.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\Events_sn\Events\obj\Debug\Events.pdb
