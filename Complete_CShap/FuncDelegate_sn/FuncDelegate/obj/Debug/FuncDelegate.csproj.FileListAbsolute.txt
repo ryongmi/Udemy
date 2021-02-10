@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\FuncDelegate_sn\FuncDelegate\bin\Debug\FuncDelegate.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\FuncDelegate_sn\FuncDelegate\bin\Debug\FuncDelegate.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\FuncDelegate_sn\FuncDelegate\bin\Debug\FuncDelegate.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\FuncDelegate_sn\FuncDelegate\obj\Debug\FuncDelegate.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\FuncDelegate_sn\FuncDelegate\obj\Debug\FuncDelegate.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\FuncDelegate_sn\FuncDelegate\obj\Debug\FuncDelegate.pdb
