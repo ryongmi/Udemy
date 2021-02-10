@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LambdaWithGenericList_sn\LambdaWithGenericList\bin\Debug\LambdaWithGenericList.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LambdaWithGenericList_sn\LambdaWithGenericList\bin\Debug\LambdaWithGenericList.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LambdaWithGenericList_sn\LambdaWithGenericList\bin\Debug\LambdaWithGenericList.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LambdaWithGenericList_sn\LambdaWithGenericList\obj\Debug\LambdaWithGenericList.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LambdaWithGenericList_sn\LambdaWithGenericList\obj\Debug\LambdaWithGenericList.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LambdaWithGenericList_sn\LambdaWithGenericList\obj\Debug\LambdaWithGenericList.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LambdaWithGenericList_sn\LambdaWithGenericList\obj\Debug\LambdaWithGenericList.pdb
