@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\PredicateDelegate_sn\PredicateDelegate\bin\Debug\PredicateDelegate.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\PredicateDelegate_sn\PredicateDelegate\bin\Debug\PredicateDelegate.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\PredicateDelegate_sn\PredicateDelegate\bin\Debug\PredicateDelegate.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\PredicateDelegate_sn\PredicateDelegate\obj\Debug\PredicateDelegate.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\PredicateDelegate_sn\PredicateDelegate\obj\Debug\PredicateDelegate.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\PredicateDelegate_sn\PredicateDelegate\obj\Debug\PredicateDelegate.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\PredicateDelegate_sn\PredicateDelegate\obj\Debug\PredicateDelegate.pdb
