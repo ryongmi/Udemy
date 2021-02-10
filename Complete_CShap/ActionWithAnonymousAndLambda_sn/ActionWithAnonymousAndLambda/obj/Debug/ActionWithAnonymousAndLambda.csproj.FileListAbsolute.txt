@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ActionWithAnonymousAndLambda_sn\ActionWithAnonymousAndLambda\bin\Debug\ActionWithAnonymousAndLambda.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ActionWithAnonymousAndLambda_sn\ActionWithAnonymousAndLambda\bin\Debug\ActionWithAnonymousAndLambda.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ActionWithAnonymousAndLambda_sn\ActionWithAnonymousAndLambda\bin\Debug\ActionWithAnonymousAndLambda.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ActionWithAnonymousAndLambda_sn\ActionWithAnonymousAndLambda\obj\Debug\ActionWithAnonymousAndLambda.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ActionWithAnonymousAndLambda_sn\ActionWithAnonymousAndLambda\obj\Debug\ActionWithAnonymousAndLambda.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ActionWithAnonymousAndLambda_sn\ActionWithAnonymousAndLambda\obj\Debug\ActionWithAnonymousAndLambda.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\ActionWithAnonymousAndLambda_sn\ActionWithAnonymousAndLambda\obj\Debug\ActionWithAnonymousAndLambda.pdb
