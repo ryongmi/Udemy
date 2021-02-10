@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\AnonymousMethods_sn\AnonymousMethods\bin\Debug\AnonymousMethods.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\AnonymousMethods_sn\AnonymousMethods\bin\Debug\AnonymousMethods.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\AnonymousMethods_sn\AnonymousMethods\bin\Debug\AnonymousMethods.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\AnonymousMethods_sn\AnonymousMethods\obj\Debug\AnonymousMethods.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\AnonymousMethods_sn\AnonymousMethods\obj\Debug\AnonymousMethods.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\AnonymousMethods_sn\AnonymousMethods\obj\Debug\AnonymousMethods.pdb
