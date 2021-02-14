@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\TimerApp_sn\TimerApp\bin\Debug\TimerApp.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\TimerApp_sn\TimerApp\bin\Debug\TimerApp.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\TimerApp_sn\TimerApp\bin\Debug\TimerApp.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\TimerApp_sn\TimerApp\obj\Debug\TimerApp.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\TimerApp_sn\TimerApp\obj\Debug\TimerApp.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\TimerApp_sn\TimerApp\obj\Debug\TimerApp.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\TimerApp_sn\TimerApp\obj\Debug\TimerApp.pdb
