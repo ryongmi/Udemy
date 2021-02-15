@@ -1,0 +1,7 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConditionalOperator_sn\ConditionalOperator\obj\Debug\ConditionalOperator.csprojAssemblyReference.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConditionalOperator_sn\ConditionalOperator\obj\Debug\ConditionalOperator.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConditionalOperator_sn\ConditionalOperator\bin\Debug\ConditionalOperator.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConditionalOperator_sn\ConditionalOperator\bin\Debug\ConditionalOperator.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConditionalOperator_sn\ConditionalOperator\bin\Debug\ConditionalOperator.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConditionalOperator_sn\ConditionalOperator\obj\Debug\ConditionalOperator.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConditionalOperator_sn\ConditionalOperator\obj\Debug\ConditionalOperator.pdb
