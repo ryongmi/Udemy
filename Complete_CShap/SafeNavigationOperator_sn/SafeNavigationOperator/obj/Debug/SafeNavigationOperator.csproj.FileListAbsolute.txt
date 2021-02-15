@@ -1,0 +1,7 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SafeNavigationOperator_sn\SafeNavigationOperator\bin\Debug\SafeNavigationOperator.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SafeNavigationOperator_sn\SafeNavigationOperator\bin\Debug\SafeNavigationOperator.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SafeNavigationOperator_sn\SafeNavigationOperator\bin\Debug\SafeNavigationOperator.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SafeNavigationOperator_sn\SafeNavigationOperator\obj\Debug\SafeNavigationOperator.csprojAssemblyReference.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SafeNavigationOperator_sn\SafeNavigationOperator\obj\Debug\SafeNavigationOperator.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SafeNavigationOperator_sn\SafeNavigationOperator\obj\Debug\SafeNavigationOperator.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SafeNavigationOperator_sn\SafeNavigationOperator\obj\Debug\SafeNavigationOperator.pdb
