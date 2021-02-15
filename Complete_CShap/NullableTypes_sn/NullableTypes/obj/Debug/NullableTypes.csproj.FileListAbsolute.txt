@@ -1,0 +1,7 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\NullableTypes_sn\NullableTypes\bin\Debug\NullableTypes.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\NullableTypes_sn\NullableTypes\bin\Debug\NullableTypes.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\NullableTypes_sn\NullableTypes\bin\Debug\NullableTypes.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\NullableTypes_sn\NullableTypes\obj\Debug\NullableTypes.csprojAssemblyReference.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\NullableTypes_sn\NullableTypes\obj\Debug\NullableTypes.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\NullableTypes_sn\NullableTypes\obj\Debug\NullableTypes.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\NullableTypes_sn\NullableTypes\obj\Debug\NullableTypes.pdb
