@@ -1,0 +1,7 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQMethodSyntax_sn\LINQMethodSyntax\bin\Debug\LINQMethodSyntax.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQMethodSyntax_sn\LINQMethodSyntax\bin\Debug\LINQMethodSyntax.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQMethodSyntax_sn\LINQMethodSyntax\bin\Debug\LINQMethodSyntax.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQMethodSyntax_sn\LINQMethodSyntax\obj\Debug\LINQMethodSyntax.csprojAssemblyReference.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQMethodSyntax_sn\LINQMethodSyntax\obj\Debug\LINQMethodSyntax.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQMethodSyntax_sn\LINQMethodSyntax\obj\Debug\LINQMethodSyntax.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQMethodSyntax_sn\LINQMethodSyntax\obj\Debug\LINQMethodSyntax.pdb
