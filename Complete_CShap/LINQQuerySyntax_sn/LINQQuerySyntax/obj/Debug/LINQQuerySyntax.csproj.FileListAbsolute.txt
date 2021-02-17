@@ -1,0 +1,6 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQQuerySyntax_sn\LINQQuerySyntax\bin\Debug\LINQQuerySyntax.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQQuerySyntax_sn\LINQQuerySyntax\bin\Debug\LINQQuerySyntax.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQQuerySyntax_sn\LINQQuerySyntax\bin\Debug\LINQQuerySyntax.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQQuerySyntax_sn\LINQQuerySyntax\obj\Debug\LINQQuerySyntax.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQQuerySyntax_sn\LINQQuerySyntax\obj\Debug\LINQQuerySyntax.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\LINQQuerySyntax_sn\LINQQuerySyntax\obj\Debug\LINQQuerySyntax.pdb
