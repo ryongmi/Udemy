@@ -1,0 +1,7 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\SortingDataUsingLINQ_sn\SortingDataUsingLINQ\bin\Debug\SortingDataUsingLINQ.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\SortingDataUsingLINQ_sn\SortingDataUsingLINQ\bin\Debug\SortingDataUsingLINQ.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\SortingDataUsingLINQ_sn\SortingDataUsingLINQ\bin\Debug\SortingDataUsingLINQ.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\SortingDataUsingLINQ_sn\SortingDataUsingLINQ\obj\Debug\SortingDataUsingLINQ.csprojAssemblyReference.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\SortingDataUsingLINQ_sn\SortingDataUsingLINQ\obj\Debug\SortingDataUsingLINQ.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\SortingDataUsingLINQ_sn\SortingDataUsingLINQ\obj\Debug\SortingDataUsingLINQ.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\SortingDataUsingLINQ_sn\SortingDataUsingLINQ\obj\Debug\SortingDataUsingLINQ.pdb
