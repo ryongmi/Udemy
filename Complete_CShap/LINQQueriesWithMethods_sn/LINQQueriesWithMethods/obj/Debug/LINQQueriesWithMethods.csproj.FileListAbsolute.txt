@@ -1,0 +1,6 @@
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LINQQueriesWithMethods_sn\LINQQueriesWithMethods\bin\Debug\LINQQueriesWithMethods.exe.config
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LINQQueriesWithMethods_sn\LINQQueriesWithMethods\bin\Debug\LINQQueriesWithMethods.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LINQQueriesWithMethods_sn\LINQQueriesWithMethods\bin\Debug\LINQQueriesWithMethods.pdb
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LINQQueriesWithMethods_sn\LINQQueriesWithMethods\obj\Debug\LINQQueriesWithMethods.csproj.CoreCompileInputs.cache
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LINQQueriesWithMethods_sn\LINQQueriesWithMethods\obj\Debug\LINQQueriesWithMethods.exe
+C:\Users\ryong\OneDrive\문서\GitHub\Udemy\Complete_CShap\LINQQueriesWithMethods_sn\LINQQueriesWithMethods\obj\Debug\LINQQueriesWithMethods.pdb
