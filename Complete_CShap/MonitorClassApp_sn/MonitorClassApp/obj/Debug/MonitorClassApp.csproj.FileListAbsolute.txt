@@ -1,0 +1,6 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\MonitorClassApp_sn\MonitorClassApp\bin\Debug\MonitorClassApp.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\MonitorClassApp_sn\MonitorClassApp\bin\Debug\MonitorClassApp.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\MonitorClassApp_sn\MonitorClassApp\bin\Debug\MonitorClassApp.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\MonitorClassApp_sn\MonitorClassApp\obj\Debug\MonitorClassApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\MonitorClassApp_sn\MonitorClassApp\obj\Debug\MonitorClassApp.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\MonitorClassApp_sn\MonitorClassApp\obj\Debug\MonitorClassApp.pdb

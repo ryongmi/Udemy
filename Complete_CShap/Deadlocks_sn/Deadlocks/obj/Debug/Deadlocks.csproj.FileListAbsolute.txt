@@ -1,0 +1,6 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\Deadlocks_sn\Deadlocks\bin\Debug\Deadlocks.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\Deadlocks_sn\Deadlocks\bin\Debug\Deadlocks.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\Deadlocks_sn\Deadlocks\bin\Debug\Deadlocks.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\Deadlocks_sn\Deadlocks\obj\Debug\Deadlocks.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\Deadlocks_sn\Deadlocks\obj\Debug\Deadlocks.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\Deadlocks_sn\Deadlocks\obj\Debug\Deadlocks.pdb
