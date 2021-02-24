@@ -1,0 +1,7 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TimeSpanApp_sn\TimeSpanApp\bin\Debug\TimeSpanApp.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TimeSpanApp_sn\TimeSpanApp\bin\Debug\TimeSpanApp.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TimeSpanApp_sn\TimeSpanApp\bin\Debug\TimeSpanApp.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TimeSpanApp_sn\TimeSpanApp\obj\Debug\TimeSpanApp.csprojAssemblyReference.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TimeSpanApp_sn\TimeSpanApp\obj\Debug\TimeSpanApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TimeSpanApp_sn\TimeSpanApp\obj\Debug\TimeSpanApp.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TimeSpanApp_sn\TimeSpanApp\obj\Debug\TimeSpanApp.pdb
