@@ -1,0 +1,7 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CreatingThreads_sn\CreatingThreads\bin\Debug\CreatingThreads.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CreatingThreads_sn\CreatingThreads\bin\Debug\CreatingThreads.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CreatingThreads_sn\CreatingThreads\bin\Debug\CreatingThreads.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CreatingThreads_sn\CreatingThreads\obj\Debug\CreatingThreads.csprojAssemblyReference.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CreatingThreads_sn\CreatingThreads\obj\Debug\CreatingThreads.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CreatingThreads_sn\CreatingThreads\obj\Debug\CreatingThreads.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CreatingThreads_sn\CreatingThreads\obj\Debug\CreatingThreads.pdb
