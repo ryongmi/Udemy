@@ -1,0 +1,7 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TaskRunApp_sn\TaskRunApp\bin\Debug\TaskRunApp.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TaskRunApp_sn\TaskRunApp\bin\Debug\TaskRunApp.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TaskRunApp_sn\TaskRunApp\bin\Debug\TaskRunApp.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TaskRunApp_sn\TaskRunApp\obj\Debug\TaskRunApp.csprojAssemblyReference.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TaskRunApp_sn\TaskRunApp\obj\Debug\TaskRunApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TaskRunApp_sn\TaskRunApp\obj\Debug\TaskRunApp.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TaskRunApp_sn\TaskRunApp\obj\Debug\TaskRunApp.pdb
