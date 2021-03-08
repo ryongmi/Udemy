@@ -1,0 +1,6 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CancellingTasks_sn\CancellingTasks\bin\Debug\CancellingTasks.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CancellingTasks_sn\CancellingTasks\bin\Debug\CancellingTasks.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CancellingTasks_sn\CancellingTasks\bin\Debug\CancellingTasks.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CancellingTasks_sn\CancellingTasks\obj\Debug\CancellingTasks.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CancellingTasks_sn\CancellingTasks\obj\Debug\CancellingTasks.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CancellingTasks_sn\CancellingTasks\obj\Debug\CancellingTasks.pdb
