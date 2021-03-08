@@ -1,0 +1,7 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SemaphoreApp_sn\SemaphoreApp\bin\Debug\SemaphoreApp.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SemaphoreApp_sn\SemaphoreApp\bin\Debug\SemaphoreApp.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SemaphoreApp_sn\SemaphoreApp\bin\Debug\SemaphoreApp.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SemaphoreApp_sn\SemaphoreApp\obj\Debug\SemaphoreApp.csprojAssemblyReference.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SemaphoreApp_sn\SemaphoreApp\obj\Debug\SemaphoreApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SemaphoreApp_sn\SemaphoreApp\obj\Debug\SemaphoreApp.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\SemaphoreApp_sn\SemaphoreApp\obj\Debug\SemaphoreApp.pdb
