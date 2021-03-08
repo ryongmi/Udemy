@@ -1,0 +1,6 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TasksWithReturnValue_sn\TasksWithReturnValue\bin\Debug\TasksWithReturnValue.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TasksWithReturnValue_sn\TasksWithReturnValue\bin\Debug\TasksWithReturnValue.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TasksWithReturnValue_sn\TasksWithReturnValue\bin\Debug\TasksWithReturnValue.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TasksWithReturnValue_sn\TasksWithReturnValue\obj\Debug\TasksWithReturnValue.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TasksWithReturnValue_sn\TasksWithReturnValue\obj\Debug\TasksWithReturnValue.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\TasksWithReturnValue_sn\TasksWithReturnValue\obj\Debug\TasksWithReturnValue.pdb
