@@ -1,0 +1,6 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CheckingTasksStatus_sn\CheckingTasksStatus\obj\Debug\CheckingTasksStatus.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CheckingTasksStatus_sn\CheckingTasksStatus\bin\Debug\CheckingTasksStatus.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CheckingTasksStatus_sn\CheckingTasksStatus\bin\Debug\CheckingTasksStatus.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CheckingTasksStatus_sn\CheckingTasksStatus\bin\Debug\CheckingTasksStatus.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CheckingTasksStatus_sn\CheckingTasksStatus\obj\Debug\CheckingTasksStatus.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\CheckingTasksStatus_sn\CheckingTasksStatus\obj\Debug\CheckingTasksStatus.pdb
