@@ -1,0 +1,7 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConcurrentBagApp_sn\ConcurrentBagApp\bin\Debug\ConcurrentBagApp.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConcurrentBagApp_sn\ConcurrentBagApp\bin\Debug\ConcurrentBagApp.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConcurrentBagApp_sn\ConcurrentBagApp\bin\Debug\ConcurrentBagApp.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConcurrentBagApp_sn\ConcurrentBagApp\obj\Debug\ConcurrentBagApp.csprojAssemblyReference.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConcurrentBagApp_sn\ConcurrentBagApp\obj\Debug\ConcurrentBagApp.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConcurrentBagApp_sn\ConcurrentBagApp\obj\Debug\ConcurrentBagApp.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\ConcurrentBagApp_sn\ConcurrentBagApp\obj\Debug\ConcurrentBagApp.pdb
