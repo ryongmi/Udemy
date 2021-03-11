@@ -1,0 +1,7 @@
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\StartingAndStoppingProcess_sn\StartingAndStoppingProcess\bin\Debug\StartingAndStoppingProcess.exe.config
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\StartingAndStoppingProcess_sn\StartingAndStoppingProcess\bin\Debug\StartingAndStoppingProcess.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\StartingAndStoppingProcess_sn\StartingAndStoppingProcess\bin\Debug\StartingAndStoppingProcess.pdb
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\StartingAndStoppingProcess_sn\StartingAndStoppingProcess\obj\Debug\StartingAndStoppingProcess.csprojAssemblyReference.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\StartingAndStoppingProcess_sn\StartingAndStoppingProcess\obj\Debug\StartingAndStoppingProcess.csproj.CoreCompileInputs.cache
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\StartingAndStoppingProcess_sn\StartingAndStoppingProcess\obj\Debug\StartingAndStoppingProcess.exe
+C:\Users\SGC_KTW\Documents\GitHub\Udemy\Complete_CShap\StartingAndStoppingProcess_sn\StartingAndStoppingProcess\obj\Debug\StartingAndStoppingProcess.pdb
