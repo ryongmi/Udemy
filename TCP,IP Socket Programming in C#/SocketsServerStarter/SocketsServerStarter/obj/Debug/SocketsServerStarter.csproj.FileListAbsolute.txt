@@ -1,0 +1,7 @@
+C:\Users\admin\Documents\GitHub\Udemy\TCP,IP Socket Programming in C#\SocketsServerStarter\SocketsServerStarter\bin\Debug\SocketsServerStarter.exe.config
+C:\Users\admin\Documents\GitHub\Udemy\TCP,IP Socket Programming in C#\SocketsServerStarter\SocketsServerStarter\bin\Debug\SocketsServerStarter.exe
+C:\Users\admin\Documents\GitHub\Udemy\TCP,IP Socket Programming in C#\SocketsServerStarter\SocketsServerStarter\bin\Debug\SocketsServerStarter.pdb
+C:\Users\admin\Documents\GitHub\Udemy\TCP,IP Socket Programming in C#\SocketsServerStarter\SocketsServerStarter\obj\Debug\SocketsServerStarter.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\GitHub\Udemy\TCP,IP Socket Programming in C#\SocketsServerStarter\SocketsServerStarter\obj\Debug\SocketsServerStarter.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\Udemy\TCP,IP Socket Programming in C#\SocketsServerStarter\SocketsServerStarter\obj\Debug\SocketsServerStarter.exe
+C:\Users\admin\Documents\GitHub\Udemy\TCP,IP Socket Programming in C#\SocketsServerStarter\SocketsServerStarter\obj\Debug\SocketsServerStarter.pdb
