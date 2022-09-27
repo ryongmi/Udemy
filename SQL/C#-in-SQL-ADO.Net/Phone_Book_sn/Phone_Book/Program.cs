@@ -16,7 +16,7 @@ namespace Phone_Book
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Phone_Book.ads_bs());
+            Application.Run(new Phone_Book.custom_bnv());
         }
     }
 }

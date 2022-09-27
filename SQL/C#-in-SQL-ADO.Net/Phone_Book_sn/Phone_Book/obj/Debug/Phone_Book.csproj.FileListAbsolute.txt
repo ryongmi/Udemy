@@ -19,3 +19,4 @@ C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\Phone_Book_sn\Phone_Bo
 C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\Phone_Book_sn\Phone_Book\obj\Debug\Phone_Book.csproj.CoreCompileInputs.cache
 C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\Phone_Book_sn\Phone_Book\obj\Debug\Phone_Book.exe
 C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\Phone_Book_sn\Phone_Book\obj\Debug\Phone_Book.pdb
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\Phone_Book_sn\Phone_Book\obj\Debug\Phone_Book.custom_bnv.resources

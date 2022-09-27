@@ -54,6 +54,12 @@
     <Compile Include="ads_bs.Designer.cs">
       <DependentUpon>ads_bs.cs</DependentUpon>
     </Compile>
+    <Compile Include="custom_bnv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="custom_bnv.Designer.cs">
+      <DependentUpon>custom_bnv.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataSet\pb_dataset.cs">
       <DependentUpon>pb_dataset.xsd</DependentUpon>
     </Compile>
@@ -73,6 +79,9 @@
     <EmbeddedResource Include="ads_bs.resx">
       <DependentUpon>ads_bs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="custom_bnv.resx">
+      <DependentUpon>custom_bnv.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +93,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="DataSet\pb_dataset.xsc">
       <DependentUpon>pb_dataset.xsd</DependentUpon>
@@ -109,6 +119,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\first.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prev.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
