@@ -231,7 +231,7 @@ SELECT id, first_name, last_name, customer_id, income, debt, birth_date, gender,
               <DbSource ConnectionRef="phone_bookConnectionString (Settings)" DbObjectName="phone_book.dbo.phone_book_table" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy_income_info" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy_income_info" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy_income_info">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT id, first_name, last_name, customer_id, income
+                    <CommandText>SELECT phone_book_table.*
 FROM phone_book_table</CommandText>
                     <Parameters />
                   </DbCommand>
@@ -247,7 +247,7 @@ FROM phone_book_table</CommandText>
   <xs:element name="pb_dataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="pb_dataset" msprop:Generator_UserDSName="pb_dataset">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="phone_book_table" msprop:Generator_TableClassName="phone_book_tableDataTable" msprop:Generator_TableVarName="tablephone_book_table" msprop:Generator_RowChangedName="phone_book_tableRowChanged" msprop:Generator_TablePropName="phone_book_table" msprop:Generator_RowDeletingName="phone_book_tableRowDeleting" msprop:Generator_RowChangingName="phone_book_tableRowChanging" msprop:Generator_RowEvHandlerName="phone_book_tableRowChangeEventHandler" msprop:Generator_RowDeletedName="phone_book_tableRowDeleted" msprop:Generator_RowClassName="phone_book_tableRow" msprop:Generator_UserTableName="phone_book_table" msprop:Generator_RowEvArgName="phone_book_tableRowChangeEvent">
+        <xs:element name="phone_book_table" msprop:Generator_TableClassName="phone_book_tableDataTable" msprop:Generator_TableVarName="tablephone_book_table" msprop:Generator_TablePropName="phone_book_table" msprop:Generator_RowDeletingName="phone_book_tableRowDeleting" msprop:Generator_RowChangingName="phone_book_tableRowChanging" msprop:Generator_RowEvHandlerName="phone_book_tableRowChangeEventHandler" msprop:Generator_RowDeletedName="phone_book_tableRowDeleted" msprop:Generator_UserTableName="phone_book_table" msprop:Generator_RowChangedName="phone_book_tableRowChanged" msprop:Generator_RowEvArgName="phone_book_tableRowChangeEvent" msprop:Generator_RowClassName="phone_book_tableRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:long" />

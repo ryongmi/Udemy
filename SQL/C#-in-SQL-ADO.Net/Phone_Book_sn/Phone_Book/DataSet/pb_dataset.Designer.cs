@@ -2143,7 +2143,7 @@ FROM phone_book_table";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "SELECT id, first_name, last_name, customer_id, income\r\nFROM phone_book_table";
+            this._commandCollection[1].CommandText = "SELECT phone_book_table.*\r\nFROM phone_book_table";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
         }
         

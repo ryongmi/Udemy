@@ -27,17 +27,24 @@ namespace Phone_Book
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: 이 코드는 데이터를 'pb_dataset.phone_book_table' 테이블에 로드합니다. 필요 시 이 코드를 이동하거나 제거할 수 있습니다.
-            this.phone_book_tableTableAdapter.Fill_all(this.pb_dataset.phone_book_table);
+            try
+            {
+                // TODO: 이 코드는 데이터를 'pb_dataset.phone_book_table' 테이블에 로드합니다. 필요 시 이 코드를 이동하거나 제거할 수 있습니다.
+                this.phone_book_tableTableAdapter.Fill_all(this.pb_dataset.phone_book_table);
 
-            // disable save_cancel btn ------------
-            this.btnSave.Enabled = false;
-            this.btnCencel.Enabled = false;
+                // disable save_cancel btn ------------
+                this.btnSave.Enabled = false;
+                this.btnCencel.Enabled = false;
 
-            // disable groupBox_Grid ------------
+                // disable groupBox_Grid ------------
 
-            this.groupBox1.Enabled = false;
-            this.phone_book_tableDataGridView.Enabled = true;
+                this.groupBox1.Enabled = false;
+                this.phone_book_tableDataGridView.Enabled = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }            
         }
 
         private void BtnEnableChange(bool bol)
@@ -60,6 +67,7 @@ namespace Phone_Book
             // -------- add new record --------
             this.phone_book_tableBindingSource.AddNew();
             // --------------------------------
+            this.pictureBox1.Image = Phone_Book.Properties.Resources.no_image;
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
@@ -94,16 +102,23 @@ namespace Phone_Book
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            BtnEnableChange(true);
+            try
+            {
+                BtnEnableChange(true);
 
-            this.phone_book_tableBindingSource.EndEdit();
+                this.phone_book_tableBindingSource.EndEdit();
 
-            int nResult = this.phone_book_tableTableAdapter.Update(this.pb_dataset.phone_book_table);
+                int nResult = this.phone_book_tableTableAdapter.Update(this.pb_dataset.phone_book_table);
 
-            if(nResult > 0)
-                MessageBox.Show("Saved!");
-            else
-                MessageBox.Show("Not Saved!");
+                if(nResult > 0)
+                    MessageBox.Show("Saved!");
+                else
+                    MessageBox.Show("Not Saved!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnCencel_Click(object sender, EventArgs e)
@@ -116,7 +131,24 @@ namespace Phone_Book
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            this.phone_book_tableTableAdapter.FillBy_income_info(this.pb_dataset.phone_book_table);
+            try
+            {
+                this.phone_book_tableTableAdapter.FillBy_income_info(this.pb_dataset.phone_book_table);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnBrowse_Click(object sender, EventArgs e)
+        {
+            this.openFileDialog1.ShowDialog();
+            string strFileName = this.openFileDialog1.FileName;
+            if (strFileName == "")
+                return;
+
+            this.pictureBox1.Image = Image.FromFile(strFileName);
         }
     }
 }
