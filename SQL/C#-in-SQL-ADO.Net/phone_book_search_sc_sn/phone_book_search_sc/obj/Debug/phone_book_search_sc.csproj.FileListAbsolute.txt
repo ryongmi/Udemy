@@ -1,0 +1,20 @@
+C:\Users\KTW\Documents\GitHub\Udemy\C# in SQL ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\bin\Debug\phone_book_search_sc.exe.config
+C:\Users\KTW\Documents\GitHub\Udemy\C# in SQL ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\bin\Debug\phone_book_search_sc.exe
+C:\Users\KTW\Documents\GitHub\Udemy\C# in SQL ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\bin\Debug\phone_book_search_sc.pdb
+C:\Users\KTW\Documents\GitHub\Udemy\C# in SQL ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.csproj.AssemblyReference.cache
+C:\Users\KTW\Documents\GitHub\Udemy\C# in SQL ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.Form1.resources
+C:\Users\KTW\Documents\GitHub\Udemy\C# in SQL ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.Properties.Resources.resources
+C:\Users\KTW\Documents\GitHub\Udemy\C# in SQL ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.csproj.GenerateResource.cache
+C:\Users\KTW\Documents\GitHub\Udemy\C# in SQL ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.csproj.CoreCompileInputs.cache
+C:\Users\KTW\Documents\GitHub\Udemy\C# in SQL ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.exe
+C:\Users\KTW\Documents\GitHub\Udemy\C# in SQL ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.pdb
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\bin\Debug\phone_book_search_sc.exe.config
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\bin\Debug\phone_book_search_sc.exe
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\bin\Debug\phone_book_search_sc.pdb
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.csproj.AssemblyReference.cache
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.Form1.resources
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.Properties.Resources.resources
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.csproj.GenerateResource.cache
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.csproj.CoreCompileInputs.cache
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.exe
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\phone_book_search_sc_sn\phone_book_search_sc\obj\Debug\phone_book_search_sc.pdb
