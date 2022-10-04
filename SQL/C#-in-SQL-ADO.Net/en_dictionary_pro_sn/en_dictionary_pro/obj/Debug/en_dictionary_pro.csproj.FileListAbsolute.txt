@@ -1,0 +1,9 @@
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\bin\Debug\en_dictionary_pro.exe.config
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\bin\Debug\en_dictionary_pro.exe
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\bin\Debug\en_dictionary_pro.pdb
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\obj\Debug\en_dictionary_pro.Form1.resources
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\obj\Debug\en_dictionary_pro.Properties.Resources.resources
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\obj\Debug\en_dictionary_pro.csproj.GenerateResource.cache
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\obj\Debug\en_dictionary_pro.csproj.CoreCompileInputs.cache
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\obj\Debug\en_dictionary_pro.exe
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\obj\Debug\en_dictionary_pro.pdb
