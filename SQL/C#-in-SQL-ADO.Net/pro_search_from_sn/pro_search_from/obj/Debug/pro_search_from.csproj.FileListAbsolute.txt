@@ -1,0 +1,10 @@
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\pro_search_from_sn\pro_search_from\bin\Debug\pro_search_from.exe.config
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\pro_search_from_sn\pro_search_from\bin\Debug\pro_search_from.exe
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\pro_search_from_sn\pro_search_from\bin\Debug\pro_search_from.pdb
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\pro_search_from_sn\pro_search_from\obj\Debug\pro_search_from.csproj.AssemblyReference.cache
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\pro_search_from_sn\pro_search_from\obj\Debug\pro_search_from.Properties.Resources.resources
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\pro_search_from_sn\pro_search_from\obj\Debug\pro_search_from.pro_search.resources
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\pro_search_from_sn\pro_search_from\obj\Debug\pro_search_from.csproj.GenerateResource.cache
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\pro_search_from_sn\pro_search_from\obj\Debug\pro_search_from.csproj.CoreCompileInputs.cache
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\pro_search_from_sn\pro_search_from\obj\Debug\pro_search_from.exe
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\pro_search_from_sn\pro_search_from\obj\Debug\pro_search_from.pdb

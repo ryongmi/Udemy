@@ -16,7 +16,7 @@ namespace pro_search_from
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new pro_search());
         }
     }
 }
