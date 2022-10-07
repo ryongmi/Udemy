@@ -7,3 +7,4 @@ C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\e
 C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\obj\Debug\en_dictionary_pro.csproj.CoreCompileInputs.cache
 C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\obj\Debug\en_dictionary_pro.exe
 C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\obj\Debug\en_dictionary_pro.pdb
+C:\Users\KTW\Documents\GitHub\Udemy\SQL\C#-in-SQL-ADO.Net\en_dictionary_pro_sn\en_dictionary_pro\obj\Debug\en_dictionary_pro.csproj.AssemblyReference.cache
