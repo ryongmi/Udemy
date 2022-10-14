@@ -46,7 +46,8 @@ const jonas = {
 jonas.greet();
 jonas.calcAge();
 
-// 함수의 매개변수(매개변수가 0개여도 가능)보다 더 많은 인수를 넘겨줄때, arguments에 배열형식으로 저장되어 사용할 수 있음. (화살표 함수는 불가능함, arguments를 사용하면 undefined 발생)
+// 함수의 매개변수(매개변수가 0개여도 가능)보다 더 많은 인수를 넘겨줄때,
+// arguments에 배열형식으로 저장되어 사용할 수 있음. (화살표 함수는 불가능함, arguments를 사용하면 undefined 발생)
 const addExpr = function (a, b) {
   console.log(arguments);
   return a + b;
@@ -59,4 +60,23 @@ const addArrow = (a, b) => {
   console.log(arguments);
   return a + b;
 };
-addArrow(2, 5, 8);
+// addArrow(2, 5, 8);
+
+const jessica = {
+  firstName: 'Jessica',
+  lastName: 'WillIams',
+  age: 27,
+  family: ['Alice', 'Bob'],
+};
+
+// Object.assign
+// 독립된 객체로 복사하는 메서드
+// 하지만 객체안에 객체가 있다면 그 객체는 같은 주소를 가리키는 복사본이됨. jessica - family가 그와 같은 경우
+const jessicaCopy = Object.assign({}, jessica);
+jessicaCopy.lastName = 'Davis';
+
+jessicaCopy.family.push('Mary');
+jessicaCopy.family.push('John');
+
+console.log('Before marriage:', jessica);
+console.log('After marriage:', jessicaCopy);
