@@ -45,3 +45,18 @@ const jonas = {
 };
 jonas.greet();
 jonas.calcAge();
+
+// 함수의 매개변수(매개변수가 0개여도 가능)보다 더 많은 인수를 넘겨줄때, arguments에 배열형식으로 저장되어 사용할 수 있음. (화살표 함수는 불가능함, arguments를 사용하면 undefined 발생)
+const addExpr = function (a, b) {
+  console.log(arguments);
+  return a + b;
+};
+
+addExpr(2, 5);
+addExpr(2, 5, 8, 12);
+
+const addArrow = (a, b) => {
+  console.log(arguments);
+  return a + b;
+};
+addArrow(2, 5, 8);
