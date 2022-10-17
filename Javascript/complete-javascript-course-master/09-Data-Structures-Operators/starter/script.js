@@ -409,3 +409,74 @@ for (const order of orderSet) console.log(order);
 const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
 const staffUnique = [...new Set(staff)];
 console.log(staffUnique);
+
+// Map : 키, 값 쌍을 이루는 데이터 타입
+const rest = new Map();
+rest.set('name', 'Classico Italiano');
+rest.set(1, 'Firenze, Italy');
+console.log(rest.set(2, 'Lisbon, Portugal'));
+
+// 한번에 여러개의 값을 저장할수 있음
+rest
+  .set('categories', ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'])
+  .set('open', 11)
+  .set('close', 23)
+  .set(true, 'We are open :D')
+  .set(false, 'We are closed :(');
+
+console.log(rest);
+
+// get(x) : x라는 키를 검색하여 값을 반환함 - 키의 타입도 맞아야함
+//          x라는 키가 없다면 undefined 반한
+console.log(rest.get('name'));
+console.log(rest.get(true));
+console.log(rest.get(321));
+
+// x.has('y') : map개체에 y라는 키값이 있는지 검색
+// 있으면 true, 없으면 false
+console.log(rest.has('categories'));
+
+// delete() : 값 삭제 메서드,
+rest.delete(2);
+
+// 배열은 객체이기 때문에 힙에 저장됨.
+// 따라서 변수에 먼저 배열을 할당하고, Map에 set하지 않고,
+// 배열 자체로 찾으려고 하면 주소가 달라, undefined가 발생함
+const mapArr = [1, 2];
+rest.set(mapArr, 'Test');
+console.log(rest.get([1, 2]));
+console.log(rest.get(mapArr));
+
+// HTML 컨트롤도 저장할 수 있음
+rest.set(document.querySelector('h1'), 'Heading');
+console.log(rest);
+
+const question = new Map([
+  ['question', 'What is the best programming language in the world?'],
+  [1, 'C'],
+  [2, 'Java'],
+  [3, 'JavaScript'],
+  ['correct', 3],
+  [true, 'Correct 🎉'],
+  [false, 'Try again!'],
+]);
+
+console.log(Object.entries(openingHours));
+
+// 객체를 Map으로 변환
+const hoursMap = new Map(Object.entries(openingHours));
+console.log(hoursMap);
+
+console.log(question.get('question'));
+for (const [key, value] of question) {
+  if (typeof key === 'number') console.log(`Answer ${key}: ${value}`);
+}
+//const answer = Number(prompt('Your answer'));
+const answer = 3;
+console.log(question.get(question.get('correct') === answer));
+
+// Convert map to array
+// Map은 키, 값 쌍이기 때문에, 배열의 배열 형태로 나옴
+console.log([...question]);
+console.log([...question.keys()]);
+console.log([...question.values()]);
