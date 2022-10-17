@@ -297,3 +297,115 @@ for (const item of menu3) console.log(item);
 for (const [i, el] of menu3.entries()) {
   console.log(`${i + 1}: ${el} `);
 }
+
+// Property Names
+// 객체의 속성명을 배열로 가져옴
+const properties = Object.keys(openingHours);
+console.log(properties);
+
+let openStr = `We are open on ${properties.length} days: `;
+for (const day of properties) {
+  openStr += `${day}, `;
+}
+console.log(openStr);
+
+// Property Values
+// 객체의 속성을 배열로 가져옴
+const values = Object.values(openingHours);
+console.log(values);
+
+// [키, 값]
+// open, close는 객체 안에 있기때문에 {}를 써서 가져옴
+const entries = Object.entries(openingHours);
+for (const [key, { open, close }] of entries) {
+  console.log(`On ${key} we open at ${open} and close at ${close}`);
+}
+
+///////////////////////////////////////
+// Coding Challenge #2
+
+/* 
+Let's continue with our football betting app!
+
+1. Loop over the game.scored array and print each player name to the console, along with the goal number (Example: "Goal 1: Lewandowski")
+2. Use a loop to calculate the average odd and log it to the console (We already studied how to calculate averages, you can go check if you don't remember)
+3. Print the 3 odds to the console, but in a nice formatted way, exaclty like this:
+      Odd of victory Bayern Munich: 1.33
+      Odd of draw: 3.25
+      Odd of victory Borrussia Dortmund: 6.5
+Get the team names directly from the game object, don't hardcode them (except for "draw"). HINT: Note how the odds and the game objects have the same property names 😉
+
+BONUS: Create an object called 'scorers' which contains the names of the players who scored as properties, and the number of goals as the value. In this game, it will look like this:
+      {
+        Gnarby: 1,
+        Hummels: 1,
+        Lewandowski: 2
+      }
+
+GOOD LUCK 😀
+*/
+
+// 1.
+for (const [index, name] of game.scored.entries()) {
+  console.log(`Goal ${index + 1}: ${name}`);
+}
+
+// 2.
+let average = 0;
+for (const value of Object.values(game.odds)) average += value;
+average /= Object.values(game.odds).length;
+console.log(average);
+
+// 3.
+for (const [teamName, value] of Object.entries(game.odds)) {
+  let teamStr = teamName === 'x' ? 'draw' : `victory ${game[teamName]}`;
+  console.log(`Odd of ${teamStr}: ${value}`);
+}
+
+// BONUS
+// So the solution is to loop over the array, and add the array elements as object properties, and then increase the count as we encounter a new occurence of a certain element
+// 객체기 때문에 속성명을 이용하여 계산이 가능.
+const scorers = {};
+for (const player of game.scored) {
+  scorers[player] ? scorers[player]++ : (scorers[player] = 1);
+}
+
+for (const [name, value] of Object.entries(scorers)) {
+  console.log(name, value);
+}
+
+// Set은 중복된 값은 제외함
+const orderSet = new Set([
+  'Pasta',
+  'Pizza',
+  'Pizza',
+  'Risotto',
+  'Pasta',
+  'Pizza',
+]);
+console.log(orderSet);
+
+console.log(new Set('Jonas'));
+
+console.log(orderSet.size);
+
+// x.has('y') : x라는 Set개체 안에 y라는 값이 있는지 검사하는 메서드
+// 있으면 true, 없으면 false
+console.log(orderSet.has('Pizza'));
+console.log(orderSet.has('Bread'));
+
+// add() : 값 추가 메서드, 중복된 값은 추가안됨
+orderSet.add('Garlic Bread');
+orderSet.add('Garlic Bread');
+
+// delete() : 값 삭제 메서드,
+orderSet.delete('Risotto');
+console.log(orderSet);
+
+for (const order of orderSet) console.log(order);
+
+// 기본적으로 배열을 Set으로 가져오면 객체로 정의되지만,
+// [...] 을 이용해 풀어서 가져오면 배열로 정의됨
+const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
+const staffUnique = [...new Set(staff)];
+console.log(staffUnique);
