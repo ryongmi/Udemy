@@ -150,10 +150,9 @@ const poll = {
     )}\n(Write option number)`;
 
     const option = Number(prompt(str));
-    if (typeof option !== 'number') return;
-    if (0 > option || option > 3) return;
-
-    this.answers[option]++;
+    typeof option === 'number' &&
+      option < this.answers.length &&
+      this.answers[option]++;
 
     this.displayResults();
     this.displayResults('string');
