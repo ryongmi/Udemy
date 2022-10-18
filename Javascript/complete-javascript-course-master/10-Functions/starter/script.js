@@ -171,3 +171,11 @@ document
 poll.displayResults.call({ answers: [5, 2, 3] }, 'string');
 poll.displayResults.call({ answers: [1, 5, 3, 9, 6, 1] }, 'string');
 poll.displayResults.call({ answers: [1, 5, 3, 9, 6, 1] });
+
+// IIFE : 즉시 호출형 함수
+// 사용하는 이유 : 데이터 보안을 위해, 범위 밖에서는 데이터에 접근할 수 없게 막는 역활
+(function () {
+  console.log('This will never run again');
+})();
+
+(() => console.log('This will Also never run again'))();
