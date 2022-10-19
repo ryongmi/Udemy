@@ -61,6 +61,32 @@ const inputLoanAmount = document.querySelector('.form__input--loan-amount');
 const inputCloseUsername = document.querySelector('.form__input--user');
 const inputClosePin = document.querySelector('.form__input--pin');
 
+function displayMovements(movements) {
+  // innerHTML : 개체의 모든 HTML 내용을 가져옴
+  // 지금은 빈문자를 할당함
+  containerMovements.innerHTML = '';
+
+  movements.forEach(function (mov, i) {
+    // 금액에 따라 css 및 문자를 다르게 적용하기 위해 사용
+    const type = mov > 0 ? 'deposit' : 'withdrawal';
+
+    const html = `
+        <div class="movements__row">
+          <div class="movements__type movements__type--${type}">${
+      i + 1
+    } ${type}</div>
+          <div class="movements__value">${mov}</div>
+        </div>
+    `;
+
+    // insertAdjacentHTML(x, y) : html에 문자를 삽입할 수 있는 메서드
+    // x: 위치, y: 삽입할 내용
+    containerMovements.insertAdjacentHTML('afterbegin', html);
+  });
+}
+
+displayMovements(account1.movements);
+
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
