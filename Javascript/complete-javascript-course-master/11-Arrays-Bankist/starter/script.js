@@ -334,3 +334,11 @@ const calcAverageHumanAgeArow = ages => {
 
 calcAverageHumanAgeArow([5, 2, 4, 1, 15, 8, 3]);
 calcAverageHumanAgeArow([16, 6, 10, 5, 6, 1, 4]);
+
+// find() : 배열에서 처음으로 일치하는 값을 찾아 반환함
+const firstWithdrawal = movements.find(mov => mov < 0);
+console.log(firstWithdrawal);
+
+// 객체 배열에서 반환된 값은 객체다
+const account = accounts.find(acc => acc.owner === 'Jessica Davis');
+console.log(account);
