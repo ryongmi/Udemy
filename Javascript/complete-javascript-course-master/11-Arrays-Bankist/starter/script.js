@@ -61,6 +61,10 @@ const inputLoanAmount = document.querySelector('.form__input--loan-amount');
 const inputCloseUsername = document.querySelector('.form__input--user');
 const inputClosePin = document.querySelector('.form__input--pin');
 
+// 메서드에 설명 다는법
+/**
+ * 날짜 및 내용표시
+ */
 function displayMovements(movements) {
   // innerHTML : 개체의 모든 HTML 내용을 가져옴
   // 지금은 빈문자를 할당함
@@ -85,35 +89,36 @@ function displayMovements(movements) {
   });
 }
 
-displayMovements(account1.movements);
-
+/**
+ * 현재 금액 표시
+ */
 function calcDisplayBalance(movements) {
   const balance = movements.reduce((acc, mov) => acc + mov, 0);
   labelBalance.textContent = `${balance} €`;
 }
-calcDisplayBalance(account1.movements);
 
-function calcDisplaySummary(movements) {
-  const incomes = movements
+/**
+ * 입출금 및 이자 표시
+ */
+function calcDisplaySummary(acc) {
+  const incomes = acc.movements
     .filter(mov => mov > 0)
     .reduce((acc, mov) => acc + mov, 0);
   labelSumIn.textContent = `${incomes} €`;
 
-  const outcomes = movements
+  const outcomes = acc.movements
     .filter(mov => mov < 0)
     .reduce((acc, mov) => acc + mov, 0);
   labelSumOut.textContent = `${Math.abs(outcomes)} €`;
 
-  const interest = movements
+  const interest = acc.movements
     .filter(mov => mov > 0)
-    .map(deposit => (deposit * 1.2) / 100)
+    .map(deposit => (deposit * acc.interestRate) / 100)
     .filter((int, i, arr) => int >= 1)
     .reduce((acc, int) => acc + int, 0);
 
   labelSumInterest.textContent = `${interest} €`;
 }
-
-calcDisplaySummary(account1.movements);
 
 function createUsernames(accs) {
   accs.forEach(function (acc) {
@@ -127,6 +132,35 @@ function createUsernames(accs) {
 }
 
 createUsernames(accounts);
+
+// Event handler
+let currentAccount;
+
+btnLogin.addEventListener('click', function (e) {
+  // preventDefault() : 창의 새로고침을 막아줌
+  // a, sumit 태그를 누르면 창이 새로고침되기 때문에, 그것을 막아주려고 사용함
+  e.preventDefault();
+  currentAccount = accounts.find(
+    acc => acc.userName === inputLoginUsername.value
+  );
+
+  if (currentAccount?.pin === Number(inputLoginPin.value)) {
+    labelWelcome.textContent = `Welcome back, ${
+      currentAccount.owner.split(' ')[0]
+    }`;
+
+    containerApp.style.opacity = 100;
+
+    inputLoginUsername.value = inputLoginPin.value = '';
+
+    // blur() : 현재 윈도우의 포커스를 없앰
+    inputLoginPin.blur();
+
+    displayMovements(currentAccount.movements);
+    calcDisplayBalance(currentAccount.movements);
+    calcDisplaySummary(currentAccount);
+  }
+});
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
