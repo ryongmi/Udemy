@@ -92,9 +92,9 @@ function displayMovements(movements) {
 /**
  * 현재 금액 표시
  */
-function calcDisplayBalance(movements) {
-  const balance = movements.reduce((acc, mov) => acc + mov, 0);
-  labelBalance.textContent = `${balance} €`;
+function calcDisplayBalance(acc) {
+  acc.balance = acc.movements.reduce((acc, mov) => acc + mov, 0);
+  labelBalance.textContent = `${acc.balance} €`;
 }
 
 /**
@@ -136,6 +136,12 @@ createUsernames(accounts);
 // Event handler
 let currentAccount;
 
+function updateUI(acc) {
+  displayMovements(acc.movements);
+  calcDisplayBalance(acc);
+  calcDisplaySummary(acc);
+}
+
 btnLogin.addEventListener('click', function (e) {
   // preventDefault() : 창의 새로고침을 막아줌
   // a, sumit 태그를 누르면 창이 새로고침되기 때문에, 그것을 막아주려고 사용함
@@ -156,9 +162,48 @@ btnLogin.addEventListener('click', function (e) {
     // blur() : 현재 윈도우의 포커스를 없앰
     inputLoginPin.blur();
 
-    displayMovements(currentAccount.movements);
-    calcDisplayBalance(currentAccount.movements);
-    calcDisplaySummary(currentAccount);
+    updateUI(currentAccount);
+  }
+});
+
+btnTransfer.addEventListener('click', function (e) {
+  e.preventDefault();
+
+  const amount = Number(inputTransferAmount.value);
+  const receiverAcc = accounts.find(
+    acc => acc.userName === inputTransferTo.value
+  );
+
+  inputTransferAmount.value = inputTransferTo.value = '';
+
+  if (
+    amount > 0 &&
+    receiverAcc && // undefined는 정의되지 않은것이라 receiverAcc?.userName !== currentAccount.userName 이 부분이 참으로 떨어짐
+    currentAccount.balance >= amount &&
+    receiverAcc?.userName !== currentAccount.userName
+  ) {
+    receiverAcc.movements.push(amount);
+    currentAccount.movements.push(-amount);
+    updateUI(currentAccount);
+  }
+});
+
+btnClose.addEventListener('click', function (e) {
+  e.preventDefault();
+
+  inputCloseUsername.value = inputClosePin.value = '';
+
+  if (
+    currentAccount.userName === inputCloseUsername.value &&
+    currentAccount.pin === Number(inputClosePin.value)
+  ) {
+    const index = accounts.findIndex(
+      acc => acc.userName === inputCloseUsername.value
+    );
+
+    accounts.splice(index, 1);
+
+    containerApp.style.opacity = 0;
   }
 });
 
