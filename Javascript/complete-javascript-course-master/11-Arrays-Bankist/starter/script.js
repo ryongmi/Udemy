@@ -188,10 +188,25 @@ btnTransfer.addEventListener('click', function (e) {
   }
 });
 
-btnClose.addEventListener('click', function (e) {
+btnLoan.addEventListener('click', function (e) {
   e.preventDefault();
 
-  inputCloseUsername.value = inputClosePin.value = '';
+  const amount = Number(inputLoanAmount.value);
+
+  if (
+    amount > 0 &&
+    currentAccount.movements.some(mov => mnov >= amount * 0.1)
+  ) {
+    currentAccount.movements.push(amount);
+
+    updateUI(currentAccount);
+  }
+
+  inputLoanAmount.value = '';
+});
+
+btnClose.addEventListener('click', function (e) {
+  e.preventDefault();
 
   if (
     currentAccount.userName === inputCloseUsername.value &&
@@ -205,6 +220,8 @@ btnClose.addEventListener('click', function (e) {
 
     containerApp.style.opacity = 0;
   }
+
+  inputCloseUsername.value = inputClosePin.value = '';
 });
 
 /////////////////////////////////////////////////
@@ -421,3 +438,23 @@ console.log(firstWithdrawal);
 // 객체 배열에서 반환된 값은 객체다
 const account = accounts.find(acc => acc.owner === 'Jessica Davis');
 console.log(account);
+
+// flat(x) : 다중 배열을 단일 배열로 변환하는 메서드
+//           x - 기본값 : 1, x만큼 다중배열을 변환함
+const arrFlat = [[1, 2, 3], [4, 5, 6], 7, 8];
+console.log(arrFlat.flat());
+
+const arrFlatDeep = [[[1, 2], 3], [4, [5, 6]], 7, 8];
+console.log(arrFlatDeep.flat(2));
+
+const overalBalance = accounts
+  .map(acc => acc.movements)
+  .flat()
+  .reduce((acc, mov) => acc + mov, 0);
+console.log(overalBalance);
+
+// flatMap() : flat() + Map()을 쓴 결과랑 같음
+const overalBalance2 = accounts
+  .flatMap(acc => acc.movements)
+  .reduce((acc, mov) => acc + mov, 0);
+console.log(overalBalance2);
