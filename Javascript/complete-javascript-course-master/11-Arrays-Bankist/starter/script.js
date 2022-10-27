@@ -64,13 +64,16 @@ const inputClosePin = document.querySelector('.form__input--pin');
 // 메서드에 설명 다는법
 /**
  * 날짜 및 내용표시
+ * sort 매겨변수 : 정렬기능 추가
  */
-function displayMovements(movements) {
+function displayMovements(movements, sort = false) {
   // innerHTML : 개체의 모든 HTML 내용을 가져옴
   // 지금은 빈문자를 할당함
   containerMovements.innerHTML = '';
 
-  movements.forEach(function (mov, i) {
+  const movs = sort ? movements.slice().sort((a, b) => a - b) : movements;
+
+  movs.forEach(function (mov, i) {
     // 금액에 따라 css 및 문자를 다르게 적용하기 위해 사용
     const type = mov > 0 ? 'deposit' : 'withdrawal';
 
@@ -222,6 +225,14 @@ btnClose.addEventListener('click', function (e) {
   }
 
   inputCloseUsername.value = inputClosePin.value = '';
+});
+
+// 정렬 버튼
+let sorted = false;
+btnSort.addEventListener('click', function (e) {
+  e.preventDefault();
+  displayMovements(currentAccount.movements, !sorted);
+  sorted = !sorted;
 });
 
 /////////////////////////////////////////////////
@@ -458,3 +469,17 @@ const overalBalance2 = accounts
   .flatMap(acc => acc.movements)
   .reduce((acc, mov) => acc + mov, 0);
 console.log(overalBalance2);
+
+// 내림차순
+movements.sort((a, b) => {
+  if (a > b) return 1;
+  if (a < b) return -1;
+});
+console.log(movements);
+
+// 오름차순
+movements.sort((a, b) => {
+  if (a > b) return -1;
+  if (a < b) return 1;
+});
+console.log(movements);
