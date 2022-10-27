@@ -483,3 +483,29 @@ movements.sort((a, b) => {
   if (a < b) return 1;
 });
 console.log(movements);
+
+// fill(x) : 배열에 값을 넣는 메서드
+// x값을 모든 배열 또는 범위를 지정하여 할당함
+const x = new Array(7);
+console.log(x);
+
+x.fill(1, 3);
+console.log(x);
+
+// Array.from() : 값을 미리 지정하여 배열을 생성
+const y = Array.from({ length: 7 }, () => 1);
+console.log(y);
+
+const z = Array.from({ length: 7 }, (_, i) => i + 1);
+console.log(z);
+
+labelBalance.addEventListener('click', function () {
+  const movementsUI = Array.from(
+    document.querySelectorAll('.movements__value'),
+    el => Number(el.textContent.replace('€', ''))
+  );
+
+  console.log(movementsUI);
+
+  const movementsUI2 = [...document.querySelectorAll('.movements__value')];
+});
