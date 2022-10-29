@@ -1,0 +1,24 @@
+{
+  // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+  // 기존 특성에 대한 설명을 보려면 가리킵니다.
+  // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\Section_03\\starter\\app.js", // 디버그가 실행될때, 시작 프로그램을 지정
+
+      // 디버그가 실행되면 nodemon도 같이 실행되게함
+      // 이걸 가능하게 하려면 nodemon을 -g(글로벌)로 설치해야함
+      "restart": true,
+      "runtimeExecutable": "nodemon",
+
+      // 디버그 콘솔에 출력을 하지 않고, 일반 터미널 창에 출력한다.
+      // 디버그 콘솔은 변수나 값을 보기 위해서만 사용하게 변경
+      "console": "integratedTerminal"
+    }
+  ]
+}
