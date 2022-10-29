@@ -17,13 +17,16 @@ function requestHandler(req, res) {
     res.write("</html>");
     return res.end();
   }
+
   if (url === "/message" && method === "POST") {
     const body = [];
+
     req.on("data", (chunk) => {
       // chunk : 사용자가 input에 입력한 값을 16진수로 가져온것
       console.log(chunk);
       body.push(chunk);
     });
+
     req.on("end", () => {
       // parsedBody : 16진수로 가져온 사용자 입력값을 사람이 볼수 있는 문자열로 변환
       // 사용자 입력값 : test 라고 하면, message=test 란 값이 나옴
@@ -39,6 +42,7 @@ function requestHandler(req, res) {
     // statusCode = 302 : 브라우저가 허용하게 하는 값?
     res.statusCode = 302;
     res.setHeader("Location", "/");
+
     return res.end();
   }
 
