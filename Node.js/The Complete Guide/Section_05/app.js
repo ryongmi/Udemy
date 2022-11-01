@@ -18,6 +18,10 @@ const shopRoutes = require("./routes/shop");
 // bodyParser.urlencoded() : req.body 값을 분석해서 알려줌
 app.use(bodyParser.urlencoded({ extended: false }));
 
+// 정적으로 파일의 경로를 지정
+// 정적의미 : 다른 미들웨어를 거쳐서 처리되지 않고, 바로 파일 시스템에 포워딩됨
+app.use(express.static(path.join(__dirname, "public")));
+
 // 라우터안의 경로가 /admin으로 공통될때, 라우터 파일이 아닌, 호출할때 경로를 지정할 수 있음
 // 이렇게 지정하게되면, /admin으로 경로가 시작되는 것들만 실행되게 할 수 있음
 app.use("/admin", adminRoutes);
