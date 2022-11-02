@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Product</title>
+    <!--
+      href에 public이 빠진 이유
+      href로 경로를 잡으려 하면, 웹페이지에서 경로가 맞지않아 찾을수 없음
+      그렇기때문에 정적으로 파일을 포워딩해야함
+      app.js의 app.use(express.static(path.join(__dirname, "public"))); 구문으로 정적 포워딩을 하면 public폴더가 사용자가 열람할 수 있게됨
+      이로인해, 웹페이지에서 css or html을 접근하려하면 자동으로 public폴더르 가리키게 되어, 시작점이 public 폴더가 된다. 이는 express에서 그렇다고함
+    -->
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="main-header__nav">
+        <ul class="main-header__item-list">
+          <li class="main-header__item"><a class="active" href="/">Shop</a></li>
+          <li class="main-header__item">
+            <a href="/admin/add-product">Add Product</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>My Products</h1>
+      <p>List of all the products...</p>
+    </main>
+  </body>
+</html>
