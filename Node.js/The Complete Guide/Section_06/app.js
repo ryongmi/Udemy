@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 // express 함수 및 로직을 받아옴
 const app = express();
 
-const adminRoutes = require("./routes/admin");
+const adminData = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
 
 // use() : express 미들웨어
@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // 라우터안의 경로가 /admin으로 공통될때, 라우터 파일이 아닌, 호출할때 경로를 지정할 수 있음
 // 이렇게 지정하게되면, /admin으로 경로가 시작되는 것들만 실행되게 할 수 있음
-app.use("/admin", adminRoutes);
+app.use("/admin", adminData.routes);
 app.use(shopRoutes);
 
 app.use((req, res, next) => {
