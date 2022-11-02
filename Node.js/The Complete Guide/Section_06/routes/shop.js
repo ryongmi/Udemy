@@ -9,12 +9,12 @@ const adminData = require("./admin");
 const router = express.Router();
 
 router.get("/", (req, res, next) => {
-  console.log(adminData.products);
-  // sendFile() : 파일을 응답값으로 보냄, 절대경로만 사용해야함
-  // 보내는 파일에 맞게 헤더가 자동으로 설정됨
-  // __dirname : 절대경로를 이 프로젝트 폴더로 고정해주는 전역변수, 정확히는 __dirname가 사용된 shop.js 파일의 폴더(routes) 값을 가져옴
-  // join으로 연결하는 이유 : 원영체제에 따라서 경로문자가 다를수가 있는데, 운영체제에 맞게 경로를 짜줌
-  res.sendFile(path.join(rootDir, "views", "shop.html"));
+  const products = adminData.products;
+  // 템플릿의 기본 폴더를 views로 잡아놔서 경로는 필요없음
+  // pug 를 템플릿으로 사용하겠다고 명시하여 확장자는 필요없음
+  // shop 파일을 보내며, 두번째 매개변수는 pug파일, 즉 html에서 사용할 변수값이다.
+  // 파일이름과 같이 보냄으로써 shop 파일에서 'prods', 'title' 두개의 값을 사용할 수 있게됨
+  res.render("shop", { prods: products, title: "Shop" });
 });
 
 module.exports = router;

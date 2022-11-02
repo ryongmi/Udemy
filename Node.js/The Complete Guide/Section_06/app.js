@@ -15,6 +15,13 @@ const shopRoutes = require("./routes/shop");
 //   next();
 // });
 
+// 'pug' 라는 템플릿 엔진을 사용하겠다고 명시
+app.set("view engine", "pug");
+
+// 템플릿 엔진의 기본 폴더를 설정
+// views 폴더가 기본 폴더로 설정됨
+app.set("views", "views");
+
 // bodyParser.urlencoded() : req.body 값을 분석해서 알려줌
 app.use(bodyParser.urlencoded({ extended: false }));
 
