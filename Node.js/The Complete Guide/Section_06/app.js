@@ -36,7 +36,8 @@ app.use(shopRoutes);
 
 app.use((req, res, next) => {
   // 페이지를 못찾았을때, 상태를 404로 만들어 표시함
-  res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
+  //res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
+  res.status(404).render("404", { title: "Page Not Found" });
 });
 
 // 요청 대기
