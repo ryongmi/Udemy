@@ -7,6 +7,8 @@ const app = express();
 const adminData = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
 
+const expressHbs = require("express-handlebars");
+
 // use() : express 미들웨어
 // app.use((req, res, next) => {
 //   console.log("express start");
@@ -15,8 +17,23 @@ const shopRoutes = require("./routes/shop");
 //   next();
 // });
 
+// express-handlebars에서 가져온 변수를 함수로 넣어, 엔진 추가함
+app.engine(
+  "hbs",
+  // layoutsDir : 기본 폴더 설정 - pug와 목적 동일, defaultLayout : 기본 레이아웃 파일 설정, extname : 확장자명 설정(기본으로는 handlebars 확장자명을 찾음)
+  expressHbs({
+    layoutsDir: "views/layouts",
+    defaultLayout: "main-layout",
+    extname: "hbs",
+  })
+);
+// 추가한 엔진을 사용하겠다고 설정함
+// 설정한 이름으로 파일명을 만들어야함, 예) fileName.hbs
+app.set("view engine", "hbs");
+
 // 'pug' 라는 템플릿 엔진을 사용하겠다고 명시
-app.set("view engine", "pug");
+// 내장 엔진이여서 set으로 함
+//app.set("view engine", "pug");
 
 // 템플릿 엔진의 기본 폴더를 설정
 // views 폴더가 기본 폴더로 설정됨

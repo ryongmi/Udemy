@@ -24,6 +24,10 @@ router.get("/add-product", (req, res, next) => {
   res.render("add-product", {
     title: "Add Product",
     path: "/admin/add-product",
+    fromsCSS: true,
+    productCSS: true,
+    activeShop: true,
+    activeProduct: true,
   });
 });
 

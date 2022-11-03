@@ -1,0 +1,31 @@
+<main>
+  {{! express-handlebars에서는 if문이 true, false만 판별 가능하기 때문에, 조건을 express로 옮겨서 판별 후, 보내서 사용해야함 }}
+  {{#if hasProduct}}
+    <div class="grid">
+      {{! each문에 사용한 prods 요소(길이) 만큼 반복되며, this가 가리키는건 배열 객체 products이다 }}
+      {{#each prods}}
+        <article class="card product-item">
+          <header class="card__header">
+            <h1 class="product__title">{{this.title}}</h1>
+          </header>
+          <div class="card__image">
+            <img
+              src="https://cdn.pixabay.com/photo/2016/03/31/20/51/book-1296045_960_720.png"
+              alt="A Book"
+            />
+          </div>
+          <div class="card__content">
+            <h2 class="product__price">$19.99</h2>
+            <p class="product__description">A very interesting book about so
+              many even more interesting things!</p>
+          </div>
+          <div class="card__actions">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </article>
+      {{/each}}
+    </div>
+  {{else}}
+    <h1>No Products</h1>
+  {{/if}}
+</main>
