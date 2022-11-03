@@ -19,6 +19,8 @@ router.get("/add-product", (req, res, next) => {
   //   "<form action='/admin/add-product' method='POST'><input type='text' name='title'><button type='submit'>Add product</button></input></form>"
   // );
   //res.sendFile(path.join(rootDir, "views", "add-product.html"));
+
+  // path : 중복내용을 하나의 파일로 만들었을때, 파일마다 다른 action값을 주기위해 사용
   res.render("add-product", {
     title: "Add Product",
     path: "/admin/add-product",
