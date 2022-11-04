@@ -7,7 +7,7 @@ const app = express();
 const adminData = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
 
-const expressHbs = require("express-handlebars");
+// const expressHbs = require("express-handlebars");
 
 // use() : express 미들웨어
 // app.use((req, res, next) => {
@@ -18,18 +18,27 @@ const expressHbs = require("express-handlebars");
 // });
 
 // express-handlebars에서 가져온 변수를 함수로 넣어, 엔진 추가함
-app.engine(
-  "hbs",
-  // layoutsDir : 기본 폴더 설정 - pug와 목적 동일, defaultLayout : 기본 레이아웃 파일 설정, extname : 확장자명 설정(기본으로는 handlebars 확장자명을 찾음)
-  expressHbs({
-    layoutsDir: "views/layouts",
-    defaultLayout: "main-layout",
-    extname: "hbs",
-  })
-);
+// app.engine(
+//   "hbs",
+//   // layoutsDir : 기본 폴더 설정 - pug와 목적 동일, defaultLayout : 기본 레이아웃 파일 설정, extname : 확장자명 설정(기본으로는 handlebars 확장자명을 찾음)
+//   expressHbs({
+//     layoutsDir: "views/layouts",
+//     defaultLayout: "main-layout",
+//     extname: "hbs",
+//   })
+// );
 // 추가한 엔진을 사용하겠다고 설정함
 // 설정한 이름으로 파일명을 만들어야함, 예) fileName.hbs
-app.set("view engine", "hbs");
+// app.set("view engine", "hbs");
+
+// ejs에서 HTML에 템플릿 값을 사용하려면 <%= 변수값 %> 을 넣고, 자바스크립트 로직을 사용하려면 <% 로직 %> 안에 사용하면 된다.
+// 저 안에서는 자바스크립트 로직이 잘 돌아가므로 다른 템플릿엔진과의 차이점이자 장점이라고 생각함
+// ejs도 레이아웃을 사용할 수 있는데, 파일을 나눈다음에 include를 이용하여 불러옴(이 include 기능은 pug, express-handlebars에도 있음)
+// 파일을 불러올때, <%- include('경로') %> 로 불러오는데, 여기서 '-' 를 사용하는 이유는 HTML 코드가 아닌것은 일반 텍스트로 출력되기 때문에 그것을 피하기 위해 사용한다
+// 위의 내용은 shop.ejs에서 확인할 수 있음
+
+// 레이아웃을 지정할때, 스타일도 템플릿 변수를 이용해서 선택해서 사용하게 하려 했는데, 에러가 발생함, 어째서?
+app.set("view engine", "ejs");
 
 // 'pug' 라는 템플릿 엔진을 사용하겠다고 명시
 // 내장 엔진이여서 set으로 함
