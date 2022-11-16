@@ -1,19 +1,6 @@
-const fs = require("fs");
-const path = require("path");
+const db = require("../util/database");
+
 const Cart = require("../models/cart");
-
-const p = path.join(
-  path.dirname(process.mainModule.filename),
-  "data",
-  "products.json"
-);
-
-const getProductsFromFile = (cb) => {
-  fs.readFile(p, (err, fileContent) => {
-    if (err) cb([]);
-    else cb(JSON.parse(fileContent));
-  });
-};
 
 module.exports = class Product {
   // constructor : 다른 언어에서 사용하는 생성자와 같은 역홀
@@ -28,47 +15,32 @@ module.exports = class Product {
   }
 
   save() {
-    getProductsFromFile((products) => {
-      if (this.id) {
-        const existingProductIndex = products.findIndex(
-          (prod) => prod.id === this.id
-        );
-        const updatedProducts = [...products];
-        updatedProducts[existingProductIndex] = this;
-        fs.writeFile(p, JSON.stringify(updatedProducts), (arr) => {
-          console.log(arr);
-        });
-      } else {
-        // 이론상 고유의 id를 가지는것은 아니지만, 공부목적이기때문에 대체함
-        this.id = Math.random().toString();
-        products.push(this);
-        fs.writeFile(p, JSON.stringify(products), (arr) => {
-          console.log(arr);
-        });
-      }
-    });
+    return db.execute(
+      // SQL삽입 공격을 막기위해 VALUES에 ?를 넣고, 파라미터로 값을 넣어, mysql엔진에서 파싱을 통해 값을 검사하고 넣어줌
+      "INSERT INTO products (title, price, description, imageUrl) VALUES (?, ?, ?, ?)",
+      [this.title, this.price, this.description, this.imageUrl]
+    );
   }
 
-  static deleteById(id) {
-    getProductsFromFile((products) => {
-      const product = products.find((prod) => prod.id === id);
-      const updatedProducts = products.filter((prod) => prod.id !== id);
-      fs.writeFile(p, JSON.stringify(updatedProducts), (arr) => {
-        if (!arr) {
-          Cart.deleteProduct(id, product.price);
-        }
-      });
-    });
+  static deleteById(id) {}
+
+  static fetchAll() {
+    // then(), catch() : promise를 사용할 때 쓸수 있는 메서드
+    return db.execute("SELECT * FROM products");
+    // .then((result) => {
+    //   // 쿼리를 실행하고 나서 실행되는 구문
+    //   // 0번째에는 쿼리로 받아온 데이터가 들어있고, 1번째에는 테이블?의 메타데이터?가 들어있음.
+    //   // 따라서 0번째만 사용하면됨
+    //   // console.log(result[0], result[1]);
+    //   console.log(result[0]);
+    // })
+    // .catch((err) => {
+    //   // 쿼리 실행도중 에러가 났을때 실행되는 구문
+    //   console.log(err);
+    // });
   }
 
-  static fetchAll(cb) {
-    getProductsFromFile(cb);
-  }
-
-  static findById(id, cb) {
-    getProductsFromFile((products) => {
-      const product = products.find((p) => p.id === id);
-      cb(product);
-    });
+  static findById(id) {
+    return db.execute("SELECT * FROM products WHERE id = ?", [id]);
   }
 };

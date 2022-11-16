@@ -1,6 +1,7 @@
 const path = require("path");
 const express = require("express");
 const bodyParser = require("body-parser");
+
 // express 함수 및 로직을 받아옴
 const app = express();
 

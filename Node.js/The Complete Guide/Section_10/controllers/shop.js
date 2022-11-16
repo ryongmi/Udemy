@@ -2,27 +2,29 @@ const Product = require("../models/product");
 const Cart = require("../models/cart");
 
 exports.getIndex = (req, res, next) => {
-  Product.fetchAll((products) => {
-    // 첫번째 매개변수가 화면에 띄울 파일의 경로
-    // app.js 파일에서 pug 템플릿 설정하면서 기본폴더를 views로 지정함
-    res.render("./shop/index", {
-      prods: products,
-      title: "Shop",
-      path: "/",
-    });
-  });
+  Product.fetchAll()
+    .then(([rows, fileData]) => {
+      res.render("./shop/index", {
+        prods: rows,
+        title: "Shop",
+        path: "/",
+      });
+    })
+    .catch((err) => console.log(err));
 };
 
 exports.getProducts = (req, res, next) => {
-  Product.fetchAll((products) => {
-    // 첫번째 매개변수가 화면에 띄울 파일의 경로
-    // app.js 파일에서 pug 템플릿 설정하면서 기본폴더를 views로 지정함
-    res.render("./shop/product-list", {
-      prods: products,
-      title: "All Products",
-      path: "/products",
+  Product.fetchAll()
+    .then(([rows, fileData]) => {
+      res.render("./shop/product-list", {
+        prods: rows,
+        title: "All Products",
+        path: "/products",
+      });
+    })
+    .catch((err) => {
+      console.log(err);
     });
-  });
 };
 
 exports.getProduct = (req, res, next) => {
@@ -30,13 +32,16 @@ exports.getProduct = (req, res, next) => {
   // :productId - 이렇게 사용
   const prodId = req.params.productId;
 
-  Product.findById(prodId, (product) => {
-    res.render("./shop/product-Detail", {
-      product: product,
-      title: product.title,
-      path: "/products",
-    });
-  });
+  Product.findById(prodId)
+    .then(([product, fileData]) => {
+      console.log(product[0]);
+      res.render("./shop/product-Detail", {
+        product: product[0],
+        title: product[0].title,
+        path: "/products",
+      });
+    })
+    .catch((err) => console.log(err));
 };
 
 exports.getCart = (req, res, next) => {
