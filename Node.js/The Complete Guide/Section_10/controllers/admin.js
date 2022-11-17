@@ -10,13 +10,25 @@ exports.getAddProduct = (req, res, next) => {
 };
 
 exports.getProducts = (req, res, next) => {
-  Product.fetchAll((products) => {
-    res.render("./admin/products", {
-      title: "Admin Products",
-      path: "/admin/products",
-      prods: products,
+  Product.findAll()
+    .then((products) => {
+      res.render("./admin/products", {
+        title: "Admin Products",
+        path: "/admin/products",
+        prods: products,
+      });
+    })
+    .catch((err) => {
+      console.log(err);
     });
-  });
+
+  // Product.fetchAll((products) => {
+  //   res.render("./admin/products", {
+  //     title: "Admin Products",
+  //     path: "/admin/products",
+  //     prods: products,
+  //   });
+  // });
 };
 
 exports.postAddProduct = (req, res, next) => {
@@ -24,10 +36,17 @@ exports.postAddProduct = (req, res, next) => {
   const imageUrl = req.body.imageUrl;
   const description = req.body.description;
   const price = req.body.price;
-  const product = new Product(null, title, imageUrl, description, price);
-  product
-    .save()
-    .then(() => {
+
+  // create() : sequlize에서 지원하는 메서드
+  //            객체로 데이터를 보내면 INSERT를 해줌
+  Product.create({
+    title: title,
+    price: price,
+    imageUrl: imageUrl,
+    description: description,
+  })
+    .then((result) => {
+      console.log(result);
       // redirect() : 경로 재설정
       res.redirect("/");
     })
@@ -42,8 +61,9 @@ exports.getEditProduct = (req, res, next) => {
   if (!editMode) {
     return res.redirect("/");
   }
+
   const prodId = req.params.productId;
-  Product.findById(prodId, (product) => {
+  Product.findByPk(prodId).then((product) => {
     if (!product) {
       return res.redirect("/");
     }
@@ -55,6 +75,19 @@ exports.getEditProduct = (req, res, next) => {
       product: product,
     });
   });
+
+  // Product.findById(prodId, (product) => {
+  //   if (!product) {
+  //     return res.redirect("/");
+  //   }
+
+  //   res.render("./admin/edit-product", {
+  //     title: "Edit Product",
+  //     path: "/admin/edit-product",
+  //     editing: editMode,
+  //     product: product,
+  //   });
+  // });
 };
 
 exports.postEditProduct = (req, res, next) => {

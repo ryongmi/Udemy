@@ -10,6 +10,7 @@ const errorController = require("./controllers/error");
 const adminRoutes = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
 
+const sequelize = require("./util/database");
 // pug에서 image - src 같이 문자열로 넣어야 하는곳은 src="#{변수명}"으로 넣는것이 아니라 src=변수명 으로 넣으면 작동함
 
 // 'pug' 라는 템플릿 엔진을 사용하겠다고 명시
@@ -34,5 +35,12 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
-// 요청 대기
-app.listen(3000);
+// sync() : sequelize에 정의한 모델을 살펴보고, 관련 테이블 및 관계를 생성한다
+sequelize
+  .sync()
+  .then((result) => {
+    console.log(result);
+    // 요청 대기
+    app.listen(3000);
+  })
+  .catch((err) => console.log(err));
