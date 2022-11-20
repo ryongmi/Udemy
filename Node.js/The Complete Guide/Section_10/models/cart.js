@@ -1,86 +1,100 @@
-const fs = require("fs");
-const path = require("path");
+const Sequelize = require("sequelize");
+const sequelize = require("../util/database");
 
-const p = path.join(
-  path.dirname(process.mainModule.filename),
-  "data",
-  "cart.json"
-);
+const Cart = sequelize.define("cart", {
+  id: {
+    type: Sequelize.INTEGER,
+    autoIncrement: true,
+    allowNull: false,
+    primaryKey: true,
+  },
+});
 
-module.exports = class Cart {
-  static addProcut(id, productPrice) {
-    fs.readFile(p, (err, fileContent) => {
-      let cart = { products: [], totalPrice: 0 };
-      if (!err) {
-        // 파일이 있다면 JSON 형식으로 변환하여 가져옴
-        cart = JSON.parse(fileContent);
-      }
+module.exports = Cart;
 
-      // Cart에 담을 id와 같은 id가 있는지 검색
-      const existingProductIndex = cart.products.findIndex(
-        (prod) => prod.id === id
-      );
-      const existingProduct = cart.products[existingProductIndex];
-      let updatedProduct;
+// const fs = require("fs");
+// const path = require("path");
 
-      if (existingProduct) {
-        // 같은 id가 있다면 번호를 1 올리고 내용을 가져옴
-        updatedProduct = { ...existingProduct };
-        // 번호를 1 올리고
-        updatedProduct.qty += 1;
-        // 기존 파일을 할당하고
-        cart.products = [...cart.products];
-        // 새로 추가한 항목을 기존에 있던 같은 항목에 업데이트 시킴
-        cart.products[existingProductIndex] = updatedProduct;
-      } else {
-        // 같은 id가 없다면 가져온 id로 새로 생성함
-        updatedProduct = { id: id, qty: 1 };
-        cart.products = [...cart.products, updatedProduct];
-      }
+// const p = path.join(
+//   path.dirname(process.mainModule.filename),
+//   "data",
+//   "cart.json"
+// );
 
-      // 총 금액에 추가하려는 금액을 더한다
-      // 변수 앞에 + 를 붙이면 정수형으로 바뀜
-      cart.totalPrice += +productPrice;
+// module.exports = class Cart {
+//   static addProcut(id, productPrice) {
+//     fs.readFile(p, (err, fileContent) => {
+//       let cart = { products: [], totalPrice: 0 };
+//       if (!err) {
+//         // 파일이 있다면 JSON 형식으로 변환하여 가져옴
+//         cart = JSON.parse(fileContent);
+//       }
 
-      fs.writeFile(p, JSON.stringify(cart), (err) => {
-        console.log(err);
-      });
-    });
-  }
+//       // Cart에 담을 id와 같은 id가 있는지 검색
+//       const existingProductIndex = cart.products.findIndex(
+//         (prod) => prod.id === id
+//       );
+//       const existingProduct = cart.products[existingProductIndex];
+//       let updatedProduct;
 
-  static deleteProduct(id, productPrice) {
-    fs.readFile(p, (err, fileContent) => {
-      if (err) {
-        // 찾는 id의 상품이 없다면 리턴
-        return;
-      }
+//       if (existingProduct) {
+//         // 같은 id가 있다면 번호를 1 올리고 내용을 가져옴
+//         updatedProduct = { ...existingProduct };
+//         // 번호를 1 올리고
+//         updatedProduct.qty += 1;
+//         // 기존 파일을 할당하고
+//         cart.products = [...cart.products];
+//         // 새로 추가한 항목을 기존에 있던 같은 항목에 업데이트 시킴
+//         cart.products[existingProductIndex] = updatedProduct;
+//       } else {
+//         // 같은 id가 없다면 가져온 id로 새로 생성함
+//         updatedProduct = { id: id, qty: 1 };
+//         cart.products = [...cart.products, updatedProduct];
+//       }
 
-      const updatedCart = { ...JSON.parse(fileContent) };
-      const product = updatedCart.products.find((prod) => prod.id === id);
+//       // 총 금액에 추가하려는 금액을 더한다
+//       // 변수 앞에 + 를 붙이면 정수형으로 바뀜
+//       cart.totalPrice += +productPrice;
 
-      // 장바구니에 찾는 제품이 없다면 리턴
-      if (!product) return true;
+//       fs.writeFile(p, JSON.stringify(cart), (err) => {
+//         console.log(err);
+//       });
+//     });
+//   }
 
-      const productQty = product.qty;
-      updatedCart.products = updatedCart.products.filter(
-        (prod) => prod.id !== id
-      );
-      updatedCart.totalPrice -= productPrice * productQty;
+//   static deleteProduct(id, productPrice) {
+//     fs.readFile(p, (err, fileContent) => {
+//       if (err) {
+//         // 찾는 id의 상품이 없다면 리턴
+//         return;
+//       }
 
-      fs.writeFile(p, JSON.stringify(updatedCart), (err) => {
-        console.log(err);
-      });
-    });
-  }
+//       const updatedCart = { ...JSON.parse(fileContent) };
+//       const product = updatedCart.products.find((prod) => prod.id === id);
 
-  static getCart(cb) {
-    fs.readFile(p, (err, fileContent) => {
-      const cart = JSON.parse(fileContent);
-      if (err) {
-        cb(null);
-      } else {
-        cb(cart);
-      }
-    });
-  }
-};
+//       // 장바구니에 찾는 제품이 없다면 리턴
+//       if (!product) return true;
+
+//       const productQty = product.qty;
+//       updatedCart.products = updatedCart.products.filter(
+//         (prod) => prod.id !== id
+//       );
+//       updatedCart.totalPrice -= productPrice * productQty;
+
+//       fs.writeFile(p, JSON.stringify(updatedCart), (err) => {
+//         console.log(err);
+//       });
+//     });
+//   }
+
+//   static getCart(cb) {
+//     fs.readFile(p, (err, fileContent) => {
+//       const cart = JSON.parse(fileContent);
+//       if (err) {
+//         cb(null);
+//       } else {
+//         cb(cart);
+//       }
+//     });
+//   }
+// };
