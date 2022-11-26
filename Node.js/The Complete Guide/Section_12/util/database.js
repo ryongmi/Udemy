@@ -1,20 +1,32 @@
-// const mysql = require("mysql2");
+const mongodb = require("mongodb");
+const MongoClient = mongodb.MongoClient;
 
-// const pool = mysql.createPool({
-//   host: "localhost",
-//   user: "root",
-//   database: "node-complete",
-//   password: "231612",
-// });
+let _db;
 
-// // promise() : 콜백을 피하고 비동기적으로 작업을 실행시켜줌
-// module.exports = pool.promise();
+const mongoConnect = (callback) => {
+  // mongodb 연결
+  MongoClient.connect(
+    // UserId : User
+    // PW : 231612
+    // 연결하려는 DataBase : shop
+    "mongodb+srv://User:231612@cluster0.10vyadb.mongodb.net/shop?retryWrites=true&w=majority"
+  )
+    // client : mongodb에 접속할 수 있는 클라이언트객체
+    .then((client) => {
+      console.log("Connected!");
+      _db = client.db();
+      callback();
+    })
+    .catch((err) => {
+      console.log(err);
+      throw err;
+    });
+};
 
-// sequelize 사용, 위에 mysql2 모듈을 사용했을때, 커넥션풀을 exports한것과 동일한 값을 넘겨줌
-const Sequelize = require("sequelize");
-const sequelize = new Sequelize("node-complete", "root", "231612", {
-  dialect: "mysql",
-  host: "localhost",
-});
+const getDb = () => {
+  if (_db) return _db;
+  throw "Not DataBase Found";
+};
 
-module.exports = sequelize;
+exports.mongoConnect = mongoConnect;
+exports.getDb = getDb;
