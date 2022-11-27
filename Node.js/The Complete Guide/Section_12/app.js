@@ -8,7 +8,7 @@ const app = express();
 const errorController = require("./controllers/error");
 
 const adminRoutes = require("./routes/admin");
-// const shopRoutes = require("./routes/shop");
+const shopRoutes = require("./routes/shop");
 
 const mongoConnect = require("./util/database").mongoConnect;
 
@@ -42,7 +42,7 @@ app.use((req, res, next) => {
 // 라우터안의 경로가 /admin으로 공통될때, 라우터 파일이 아닌, 호출할때 경로를 지정할 수 있음
 // 이렇게 지정하게되면, /admin으로 경로가 시작되는 것들만 실행되게 할 수 있음
 app.use("/admin", adminRoutes);
-// app.use(shopRoutes);
+app.use(shopRoutes);
 
 app.use(errorController.get404);
 
