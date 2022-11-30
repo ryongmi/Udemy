@@ -11,6 +11,7 @@ const adminRoutes = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
 
 const mongoConnect = require("./util/database").mongoConnect;
+const User = require("./models/user");
 
 // pug에서 image - src 같이 문자열로 넣어야 하는곳은 src="#{변수명}"으로 넣는것이 아니라 src=변수명 으로 넣으면 작동함
 
@@ -30,13 +31,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use((req, res, next) => {
-  // User.findByPk(1)
-  //   .then((user) => {
-  //     req.user = user;
-  //     next();
-  //   })
-  //   .catch((err) => console.log(err));
-  next();
+  User.findById("6387329774315774e6f97350")
+    .then((user) => {
+      req.user = user;
+      next();
+    })
+    .catch((err) => console.log(err));
 });
 
 // 라우터안의 경로가 /admin으로 공통될때, 라우터 파일이 아닌, 호출할때 경로를 지정할 수 있음
@@ -47,5 +47,5 @@ app.use(shopRoutes);
 app.use(errorController.get404);
 
 mongoConnect(() => {
-  app.listen(3000);
+  if (User.findById("6387329774315774e6f97350")) app.listen(3000);
 });
