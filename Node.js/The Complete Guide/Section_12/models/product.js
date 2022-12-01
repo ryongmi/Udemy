@@ -40,7 +40,6 @@ class Product {
       .find()
       .toArray()
       .then((products) => {
-        console.log(products);
         return products;
       })
       .catch((err) => console.log(err));
@@ -61,7 +60,6 @@ class Product {
         // next : 검색한 데이터 중 첫번째 데이터를 가져옴
         .next()
         .then((product) => {
-          console.log(product);
           return product;
         })
         .catch((err) => console.log(err))
