@@ -10,6 +10,7 @@ const errorController = require("./controllers/error");
 
 const adminRoutes = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
+const authRoutes = require("./routes/auth");
 
 const User = require("./models/user");
 
@@ -45,6 +46,7 @@ app.use((req, res, next) => {
 // 이렇게 지정하게되면, /admin으로 경로가 시작되는 것들만 실행되게 할 수 있음
 app.use("/admin", adminRoutes);
 app.use(shopRoutes);
+app.use(authRoutes);
 
 app.use(errorController.get404);
 

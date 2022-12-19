@@ -5,6 +5,7 @@ exports.getAddProduct = (req, res, next) => {
     title: "Add Product",
     path: "/admin/add-product",
     editing: false,
+    isAuthenticated: req.isLoggedIn,
   });
 };
 
@@ -46,6 +47,7 @@ exports.getProducts = (req, res, next) => {
         title: "Admin Products",
         path: "/admin/products",
         prods: products,
+        isAuthenticated: req.isLoggedIn,
       });
     })
     .catch((err) => {
@@ -56,7 +58,7 @@ exports.getProducts = (req, res, next) => {
 exports.getEditProduct = (req, res, next) => {
   // req.query : 쿼리 매개변수로 url에서 주고 받고 할 수 있음
   // url?edit=true -> edit은 키값이되며, true값을 지님
-  const editMode = req.query.edit;
+  const editMode = req.query.edit === "true";
 
   if (!editMode) {
     return res.redirect("/");
@@ -75,6 +77,7 @@ exports.getEditProduct = (req, res, next) => {
         path: "/admin/edit-product",
         editing: editMode,
         product: product,
+        isAuthenticated: req.isLoggedIn,
       });
     })
     .catch((err) => console.log(err));
