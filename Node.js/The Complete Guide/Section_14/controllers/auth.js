@@ -10,6 +10,7 @@ exports.getLogin = (req, res, next) => {
 
 exports.postLogin = (req, res, next) => {
   // Max-age=30 -> 헤더설정값, 쿠키 지속 시간 지정, 초단위로 지정한다
-  res.setHeader("Set-Cookie", "loggedIn=true");
+  //res.setHeader("Set-Cookie", "loggedIn=true");
+  req.session.isLoggedIn = true;
   res.redirect("/");
 };

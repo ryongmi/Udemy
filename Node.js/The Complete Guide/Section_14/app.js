@@ -2,6 +2,7 @@ const path = require("path");
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const session = require("express-session");
 
 // express 함수 및 로직을 받아옴
 const app = express();
@@ -32,6 +33,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // 정적으로 파일의 경로를 지정
 // 정적의미 : 다른 미들웨어를 거쳐서 처리되지 않고, 바로 파일 시스템에 포워딩됨
 app.use(express.static(path.join(__dirname, "public")));
+
+// 세션 설정
+app.use(
+  session({ secret: "my session", resave: false, saveUninitialized: false })
+);
 
 app.use((req, res, next) => {
   User.findById("63948b43c358582e6ac735ef")
