@@ -3,9 +3,18 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const session = require("express-session");
+const MongoDBStore = require("connect-mongodb-session")(session);
+
+const MONGODB_URI =
+  "mongodb+srv://User:231612@cluster0.10vyadb.mongodb.net/shop";
 
 // express 함수 및 로직을 받아옴
 const app = express();
+
+const store = new MongoDBStore({
+  uri: MONGODB_URI,
+  collection: "sessions",
+});
 
 const errorController = require("./controllers/error");
 
@@ -36,11 +45,19 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // 세션 설정
 app.use(
-  session({ secret: "my session", resave: false, saveUninitialized: false })
+  session({
+    secret: "my session",
+    resave: false,
+    saveUninitialized: false,
+    store: store,
+  })
 );
 
 app.use((req, res, next) => {
-  User.findById("63948b43c358582e6ac735ef")
+  if (!req.session.user) {
+    return next();
+  }
+  User.findById(req.session.user._id)
     .then((user) => {
       req.user = user;
       next();
@@ -57,9 +74,7 @@ app.use(authRoutes);
 app.use(errorController.get404);
 
 mongoose
-  .connect(
-    "mongodb+srv://User:231612@cluster0.10vyadb.mongodb.net/shop?retryWrites=true&w=majority"
-  )
+  .connect(MONGODB_URI)
   .then((result) => {
     User.findOne().then((user) => {
       if (!user) {
