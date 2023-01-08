@@ -9,7 +9,7 @@ const orderSchema = new Schema({
     },
   ],
   user: {
-    name: { type: String, required: true },
+    email: { type: String, required: true },
     userId: {
       type: Schema.Types.ObjectId,
       // ref: 참조할 모델명을 정의

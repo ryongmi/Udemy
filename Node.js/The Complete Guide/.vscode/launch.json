@@ -9,8 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\Section_09\\app.js", // 디버그가 실행될때, 시작 프로그램을 지정
-
+      "program": "${workspaceFolder}\\Section_15\\app.js", // 디버그가 실행될때, 시작 프로그램을 지정
       // 디버그가 실행되면 nodemon도 같이 실행되게함
       // 이걸 가능하게 하려면 nodemon을 -g(글로벌)로 설치해야함
       "restart": true,

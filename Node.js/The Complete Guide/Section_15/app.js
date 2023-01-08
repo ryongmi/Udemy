@@ -4,12 +4,15 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const session = require("express-session");
 const MongoDBStore = require("connect-mongodb-session")(session);
+const csrf = require("csurf");
 
 const MONGODB_URI =
   "mongodb+srv://User:231612@cluster0.10vyadb.mongodb.net/shop";
 
 // express 함수 및 로직을 받아옴
 const app = express();
+
+const csrfProtection = csrf();
 
 const store = new MongoDBStore({
   uri: MONGODB_URI,
@@ -53,6 +56,8 @@ app.use(
   })
 );
 
+app.use(csrfProtection);
+
 app.use((req, res, next) => {
   if (!req.session.user) {
     return next();
@@ -63,6 +68,12 @@ app.use((req, res, next) => {
       next();
     })
     .catch((err) => console.log(err));
+});
+
+app.use((req, res, next) => {
+  res.locals.isAuthenticated = req.session.isLoggedIn;
+  res.locals.csrfToken = req.csrfToken();
+  next();
 });
 
 // 라우터안의 경로가 /admin으로 공통될때, 라우터 파일이 아닌, 호출할때 경로를 지정할 수 있음
@@ -76,16 +87,6 @@ app.use(errorController.get404);
 mongoose
   .connect(MONGODB_URI)
   .then((result) => {
-    User.findOne().then((user) => {
-      if (!user) {
-        const user = new User({
-          name: "TurTle",
-          email: "turtle@test.com",
-          cart: { items: [] },
-        });
-        user.save();
-      }
-    });
     app.listen(3000);
   })
   .catch((err) => {
