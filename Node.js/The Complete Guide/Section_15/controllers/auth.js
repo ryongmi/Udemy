@@ -2,18 +2,28 @@ const bcrypt = require("bcryptjs");
 const User = require("../models/user");
 
 exports.getLogin = (req, res, next) => {
+  let message = req.flash("error");
+
+  if (message.length > 0) message = message[0];
+  else message = null;
+
   res.render("auth/login", {
     title: "Login",
     path: "/login",
-    //isAuthenticated: false,
+    errorMessage: message,
   });
 };
 
 exports.getSignup = (req, res, next) => {
+  // flash(키값) : 설정했던 키값을 가지고 내용을 가져오는데, 그게 배열 형태로 들어옴
+  let message = req.flash("error");
+  if (message.length > 0) message = message[0];
+  else message = null;
+
   res.render("auth/signup", {
     path: "/signup",
     pageTitle: "Signup",
-    isAuthenticated: false,
+    errorMessage: message,
   });
 };
 
@@ -25,7 +35,11 @@ exports.postLogin = (req, res, next) => {
   //res.setHeader("Set-Cookie", "loggedIn=true");
   User.findOne({ email: email })
     .then((user) => {
-      if (!user) return res.redirect("/login");
+      if (!user) {
+        // flash(키값, 내용)
+        req.flash("error", "Invalid email or password.");
+        return res.redirect("/login");
+      }
 
       // compare : 해시값으로 암호화된 값과 비교할수 있는 메서드
       // 두 값이 일치하면 true를 반환, 불일치하면 false를 반환, 비교과정에서 에러가 발생하면 catch문으로 감
@@ -43,6 +57,7 @@ exports.postLogin = (req, res, next) => {
               res.redirect("/");
             });
           }
+          req.flash("error", "Invalid email or password.");
           res.redirect("/login");
         })
         .catch((err) => {
@@ -60,7 +75,13 @@ exports.postSignup = (req, res, next) => {
 
   User.findOne({ email: email })
     .then((userDoc) => {
-      if (userDoc) return res.redirect("./signup");
+      if (userDoc) {
+        req.flash(
+          "error",
+          "E-Mail exists already, please pick a different one."
+        );
+        return res.redirect("./signup");
+      }
       // bcrypt : 해시 암호화를 해주는 npm
       // hash(암호화할 값, 암호화를 진행할 횟수), 12번이면 강의기준 높은 보안이라고함
       // 비동기식이기때문에 작업이 끝나고 프로미스로 반환받아 진행
