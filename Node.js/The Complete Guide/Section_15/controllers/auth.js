@@ -1,5 +1,17 @@
 const bcrypt = require("bcryptjs");
+const nodemailer = require("nodemailer");
+const sendgridTransport = require("nodemailer-sendgrid-transport");
+
 const User = require("../models/user");
+
+const transporter = nodemailer.createTransport(
+  sendgridTransport({
+    auth: {
+      api_key:
+        "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", // sendgird api key
+    },
+  })
+);
 
 exports.getLogin = (req, res, next) => {
   let message = req.flash("error");
@@ -95,7 +107,15 @@ exports.postSignup = (req, res, next) => {
           });
           return user.save();
         })
-        .then((result) => res.redirect("./login"));
+        .then((result) => {
+          // transporter.sendMail({
+          //   to: email,                                   // 받을 주소
+          //   from: email,                                 // 발신 주소 -> 문제는 sendgird에서 인증받은 메일주소만 가능하기 때문에, 홈페이지에서 설정을 해줘야함. 귀찮아서 그냥 넘어감
+          //   subject: "Signup succeeded",                 // 제목
+          //   html: "<h1>You succeefully signed up!</h1>", // 내용
+          // });
+          res.redirect("./login");
+        });
     })
     .catch((err) => console.log(err));
 };
