@@ -33,7 +33,7 @@ exports.postAddProduct = (req, res, next) => {
 };
 
 exports.getProducts = (req, res, next) => {
-  Product.find()
+  Product.find({ userId: req.user._id })
     // - 를 사용하면 그 데이터는 보여주지 않음.
     //.select("title price -_id")
     // 왼쪽에 있는것을 참조하여 다양한 데이터를 가져옴.
@@ -88,16 +88,18 @@ exports.postEditProduct = (req, res, next) => {
 
   Product.findById(prodId)
     .then((product) => {
+      if (product.userId.toString() !== req.user._id.toString())
+        return res.redirect("/");
+
       product.title = updateedTitle;
       product.price = updateedPrice;
       product.imageUrl = updateedImageUrl;
       product.description = updateedDesc;
 
-      return product.save();
-    })
-    .then((result) => {
-      console.log("Updated Product");
-      res.redirect("/admin/products");
+      return product.save().then((result) => {
+        console.log("Updated Product");
+        res.redirect("/admin/products");
+      });
     })
     .catch((err) => console.log(err));
 };
@@ -105,7 +107,8 @@ exports.postEditProduct = (req, res, next) => {
 exports.postDeleteProduct = (req, res, next) => {
   const prodId = req.body.productId;
 
-  Product.findByIdAndRemove(prodId)
+  //Product.findByIdAndRemove(prodId)
+  Product.deleteOne({ _id: prodId, userId: req.user._id })
     .then(() => {
       console.log("Delete PRODUCT");
       res.redirect("/admin/products");
