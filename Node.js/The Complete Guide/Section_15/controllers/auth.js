@@ -3,6 +3,7 @@ const crypto = require("crypto");
 const bcrypt = require("bcryptjs");
 const nodemailer = require("nodemailer");
 const sendgridTransport = require("nodemailer-sendgrid-transport");
+const { validationResult } = require("express-validator/check");
 
 const User = require("../models/user");
 
@@ -38,12 +39,26 @@ exports.getSignup = (req, res, next) => {
     path: "/signup",
     pageTitle: "Signup",
     errorMessage: message,
+    oldInput: {
+      email: "",
+      password: "",
+      confirmPassword: "",
+    },
   });
 };
 
 exports.postLogin = (req, res, next) => {
   const email = req.body.email;
   const password = req.body.password;
+
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    return res.status(422).render("auth/login", {
+      path: "/login",
+      pageTitle: "Login",
+      errorMessage: errors.array()[0].msg,
+    });
+  }
 
   // Max-age=30 -> 헤더설정값, 쿠키 지속 시간 지정, 초단위로 지정한다
   //res.setHeader("Set-Cookie", "loggedIn=true");
@@ -85,39 +100,43 @@ exports.postLogin = (req, res, next) => {
 exports.postSignup = (req, res, next) => {
   const email = req.body.email;
   const password = req.body.password;
-  const confirmPassword = req.body.confirmPassword;
+  const errors = validationResult(req);
+  console.log(errors.array());
 
-  User.findOne({ email: email })
-    .then((userDoc) => {
-      if (userDoc) {
-        req.flash(
-          "error",
-          "E-Mail exists already, please pick a different one."
-        );
-        return res.redirect("./signup");
-      }
-      // bcrypt : 해시 암호화를 해주는 npm
-      // hash(암호화할 값, 암호화를 진행할 횟수), 12번이면 강의기준 높은 보안이라고함
-      // 비동기식이기때문에 작업이 끝나고 프로미스로 반환받아 진행
-      return bcrypt
-        .hash(password, 12)
-        .then((hashedPassword) => {
-          const user = new User({
-            email: email,
-            password: hashedPassword,
-            cart: { items: [] },
-          });
-          return user.save();
-        })
-        .then((result) => {
-          // transporter.sendMail({
-          //   to: email,                                   // 받을 주소
-          //   from: email,                                 // 발신 주소 -> 문제는 sendgird에서 인증받은 메일주소만 가능하기 때문에, 홈페이지에서 설정을 해줘야함. 귀찮아서 그냥 넘어감
-          //   subject: "Signup succeeded",                 // 제목
-          //   html: "<h1>You succeefully signed up!</h1>", // 내용
-          // });
-          res.redirect("./login");
-        });
+  if (!errors.isEmpty()) {
+    return res.status(422).render("auth/signup", {
+      path: "/signup",
+      pageTitle: "Signup",
+      errorMessage: errors.array()[0].msg,
+      oldInput: {
+        email: email,
+        password: password,
+        confirmPassword: req.body.confirmPassword,
+      },
+    });
+  }
+
+  // bcrypt : 해시 암호화를 해주는 npm
+  // hash(암호화할 값, 암호화를 진행할 횟수), 12번이면 강의기준 높은 보안이라고함
+  // 비동기식이기때문에 작업이 끝나고 프로미스로 반환받아 진행
+  return bcrypt
+    .hash(password, 12)
+    .then((hashedPassword) => {
+      const user = new User({
+        email: email,
+        password: hashedPassword,
+        cart: { items: [] },
+      });
+      return user.save();
+    })
+    .then((result) => {
+      // transporter.sendMail({
+      //   to: email,                                   // 받을 주소
+      //   from: email,                                 // 발신 주소 -> 문제는 sendgird에서 인증받은 메일주소만 가능하기 때문에, 홈페이지에서 설정을 해줘야함. 귀찮아서 그냥 넘어감
+      //   subject: "Signup succeeded",                 // 제목
+      //   html: "<h1>You succeefully signed up!</h1>", // 내용
+      // });
+      res.redirect("./login");
     })
     .catch((err) => console.log(err));
 };

@@ -8,15 +8,16 @@ block content
     main
         if errorMessage
             .user-message.user-message--error #{errorMessage}
-        form.login-form(action='/signup', method="POST")
+        //- novalidate -> form에 넣어서 사용하는 속성, 유효성 검사를 막는 기능을 함
+        form.login-form(action='/signup', method="POST" novalidate)
             .form-control
                 label(for="email") E-mail
-                input.eamil(type="email", name="email")
+                input.eamil(type="email", name="email" value=oldInput.email)
             .form-control
                 label(for="password") Password
-                input.password(type="password", name="password")
+                input.password(type="password", name="password" value=oldInput.password)
             .form-control
                 label(for="confirmPassword") Confirm Password
-                input.confirmPassword(type="password", name="confirmPassword")
+                input.confirmPassword(type="password", name="confirmPassword" value=oldInput.confirmPassword)
             input(type="hidden" value=csrfTotken name="_csrf")
             button.btn(type="submit") Signup
