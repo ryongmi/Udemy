@@ -26,6 +26,11 @@ exports.getLogin = (req, res, next) => {
     title: "Login",
     path: "/login",
     errorMessage: message,
+    oldInput: {
+      email: "",
+      password: "",
+    },
+    validationErrors: [],
   });
 };
 
@@ -44,6 +49,7 @@ exports.getSignup = (req, res, next) => {
       password: "",
       confirmPassword: "",
     },
+    validationErrors: [],
   });
 };
 
@@ -57,21 +63,28 @@ exports.postLogin = (req, res, next) => {
       path: "/login",
       pageTitle: "Login",
       errorMessage: errors.array()[0].msg,
+      oldInput: {
+        email: email,
+        password: password,
+      },
+      validationErrors: errors.array(),
     });
   }
 
-  // Max-age=30 -> 헤더설정값, 쿠키 지속 시간 지정, 초단위로 지정한다
-  //res.setHeader("Set-Cookie", "loggedIn=true");
   User.findOne({ email: email })
     .then((user) => {
       if (!user) {
-        // flash(키값, 내용)
-        req.flash("error", "Invalid email or password.");
-        return res.redirect("/login");
+        return res.status(422).render("auth/login", {
+          path: "/login",
+          pageTitle: "Login",
+          errorMessage: "Invalid email or password.",
+          oldInput: {
+            email: email,
+            password: password,
+          },
+          validationErrors: [],
+        });
       }
-
-      // compare : 해시값으로 암호화된 값과 비교할수 있는 메서드
-      // 두 값이 일치하면 true를 반환, 불일치하면 false를 반환, 비교과정에서 에러가 발생하면 catch문으로 감
       bcrypt
         .compare(password, user.password)
         .then((doMatch) => {
@@ -86,15 +99,25 @@ exports.postLogin = (req, res, next) => {
               res.redirect("/");
             });
           }
-          req.flash("error", "Invalid email or password.");
-          res.redirect("/login");
+          return res.status(422).render("auth/login", {
+            path: "/login",
+            pageTitle: "Login",
+            errorMessage: "Invalid email or password.",
+            oldInput: {
+              email: email,
+              password: password,
+            },
+            validationErrors: [],
+          });
         })
         .catch((err) => {
           console.log(err);
           return res.redirect("/login");
         });
     })
-    .catch((err) => console.log(err));
+    .catch((err) => {
+      console.log(err);
+    });
 };
 
 exports.postSignup = (req, res, next) => {
@@ -113,6 +136,7 @@ exports.postSignup = (req, res, next) => {
         password: password,
         confirmPassword: req.body.confirmPassword,
       },
+      validationErrors: errors.array(),
     });
   }
 
