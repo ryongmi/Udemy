@@ -1,5 +1,7 @@
-const Product = require("../models/product");
+const mongoose = require("mongoose");
 const { validationResult } = require("express-validator/check");
+
+const Product = require("../models/product");
 
 exports.getAddProduct = (req, res, next) => {
   res.render("./admin/edit-product", {
@@ -26,6 +28,7 @@ exports.postAddProduct = (req, res, next) => {
       editing: false,
       hasError: true,
       product: {
+        //_id: new mongoose.Types.ObjectId(""), 일부러 에러를 만드는 부분, 이미 생성된 품목 id로 생성
         title: title,
         imageUrl: imageUrl,
         description: description,
@@ -52,7 +55,29 @@ exports.postAddProduct = (req, res, next) => {
       console.log("Created Product");
       res.redirect("/admin/products");
     })
-    .catch((err) => console.log(err));
+    .catch((err) => {
+      // 500 : 서버측 에러가 발생했다는 코드
+      // return res.status(500).render("./admin/edit-product", {
+      //   title: "Add Product",
+      //   path: "/admin/add-product",
+      //   editing: false,
+      //   hasError: true,
+      //   product: {
+      //     title: updateedTitle,
+      //     imageUrl: updateedImageUrl,
+      //     description: updateedDesc,
+      //     price: updateedPrice,
+      //     _id: prodId,
+      //   },
+      //   errorMessage: "Database operation failed, please try again",
+      //   validationErrors: [],
+      // });
+      // req.redirect("/500");
+      const error = new Error(err);
+      error.httpStatusCode = 500;
+      // next()에 매개변수를 넣고 실행하면 에러 처리 미들웨어로 보내짐
+      return next(error);
+    });
 };
 
 exports.getProducts = (req, res, next) => {
@@ -71,7 +96,10 @@ exports.getProducts = (req, res, next) => {
       });
     })
     .catch((err) => {
-      console.log(err);
+      const error = new Error(err);
+      error.httpStatusCode = 500;
+      // next()에 매개변수를 넣고 실행하면 에러 처리 미들웨어로 보내짐
+      return next(error);
     });
 };
 
@@ -102,7 +130,12 @@ exports.getEditProduct = (req, res, next) => {
         validationErrors: [],
       });
     })
-    .catch((err) => console.log(err));
+    .catch((err) => {
+      const error = new Error(err);
+      error.httpStatusCode = 500;
+      // next()에 매개변수를 넣고 실행하면 에러 처리 미들웨어로 보내짐
+      return next(error);
+    });
 };
 
 exports.postEditProduct = (req, res, next) => {
@@ -146,7 +179,12 @@ exports.postEditProduct = (req, res, next) => {
         res.redirect("/admin/products");
       });
     })
-    .catch((err) => console.log(err));
+    .catch((err) => {
+      const error = new Error(err);
+      error.httpStatusCode = 500;
+      // next()에 매개변수를 넣고 실행하면 에러 처리 미들웨어로 보내짐
+      return next(error);
+    });
 };
 
 exports.postDeleteProduct = (req, res, next) => {
@@ -158,5 +196,10 @@ exports.postDeleteProduct = (req, res, next) => {
       console.log("Delete PRODUCT");
       res.redirect("/admin/products");
     })
-    .catch((err) => console.log(err));
+    .catch((err) => {
+      const error = new Error(err);
+      error.httpStatusCode = 500;
+      // next()에 매개변수를 넣고 실행하면 에러 처리 미들웨어로 보내짐
+      return next(error);
+    });
 };
