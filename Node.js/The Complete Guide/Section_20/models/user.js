@@ -41,7 +41,8 @@ userSchema.methods.addToCart = function (product) {
     updatedCartItems[cartProductIndex].quantity = newQuantity;
   } else {
     updatedCartItems.push({
-      productId: new mongodb.ObjectId(product._id),
+      //productId: new mongodb.ObjectId(product._id),
+      productId: product._id,
       quantity: newQuantity,
     });
   }

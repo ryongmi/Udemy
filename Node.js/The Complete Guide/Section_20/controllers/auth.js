@@ -1,5 +1,4 @@
 const crypto = require("crypto");
-
 const bcrypt = require("bcryptjs");
 //const nodemailer = require("nodemailer");
 //const sendgridTransport = require("nodemailer-sendgrid-transport");
@@ -53,6 +52,27 @@ exports.getSignup = (req, res, next) => {
   });
 };
 
+// exports.postLogin = (req, res, next) => {
+//   // Max-age=30 -> 헤더설정값, 쿠키 지속 시간 지정, 초단위로 지정한다
+//   //res.setHeader("Set-Cookie", "loggedIn=true");
+//   // const email = req.body.email;
+//   // const password = req.body.password;
+
+//   User.findById("63cfde49d7b76a52513e8d32")
+//     .then((user) => {
+//       req.session.isLoggedIn = true;
+//       req.session.user = user;
+
+//       // 세션을 저장하는 메서드
+//       // 일반적으로는 알아서 저장되기 때문에 필요없지만, 세션이 확실히 저장되고 나서 진행해야 할 경우 사용
+//       req.session.save((err) => {
+//         console.log(err);
+//         res.redirect("/");
+//       });
+//     })
+//     .catch((err) => console.log(err));
+// };
+
 exports.postLogin = (req, res, next) => {
   const email = req.body.email;
   const password = req.body.password;
@@ -97,6 +117,20 @@ exports.postLogin = (req, res, next) => {
             return req.session.save((err) => {
               console.log(err);
               res.redirect("/");
+              // Product.find()
+              //   .then((products) => {
+              //     res.render("./shop/index", {
+              //       prods: products,
+              //       title: "Shop",
+              //       path: "/",
+              //     });
+              //   })
+              //   .catch((err) => {
+              //     const error = new Error(err);
+              //     error.httpStatusCode = 500;
+              //     // next()에 매개변수를 넣고 실행하면 에러 처리 미들웨어로 보내짐
+              //     return next(error);
+              //   });
             });
           }
           return res.status(422).render("auth/login", {
@@ -112,7 +146,7 @@ exports.postLogin = (req, res, next) => {
         })
         .catch((err) => {
           console.log(err);
-          return res.redirect("/login");
+          res.redirect("/login");
         });
     })
     .catch((err) => {
@@ -146,7 +180,7 @@ exports.postSignup = (req, res, next) => {
   // bcrypt : 해시 암호화를 해주는 npm
   // hash(암호화할 값, 암호화를 진행할 횟수), 12번이면 강의기준 높은 보안이라고함
   // 비동기식이기때문에 작업이 끝나고 프로미스로 반환받아 진행
-  return bcrypt
+  bcrypt
     .hash(password, 12)
     .then((hashedPassword) => {
       const user = new User({

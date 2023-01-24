@@ -1,7 +1,7 @@
 const express = require("express");
 
 // body -> req.body를 의미
-const { check, body } = require("express-validator");
+const { check, body } = require("express-validator/check");
 
 const router = express.Router();
 const authController = require("../controllers/auth");
@@ -11,7 +11,7 @@ router.get("/login", authController.getLogin);
 router.post(
   "/login",
   [
-    check("email")
+    body("email")
       .isEmail()
       .withMessage("Please enter a valid email.")
       .normalizeEmail(),

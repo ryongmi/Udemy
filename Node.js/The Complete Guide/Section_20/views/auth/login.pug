@@ -15,7 +15,7 @@ block content
             .form-control
                 label(for="password") Password
                 input(class=validationErrors.find(e => e.param === 'password') ? 'invalid' : '' type="password", name="password" value=oldInput.password)#password
-            input(type="hidden" value=csrfTotken name="_csrf")
+            input(type="hidden" value=csrfToken name="_csrf")
             button.btn(type="submit") Login
 
         .centered

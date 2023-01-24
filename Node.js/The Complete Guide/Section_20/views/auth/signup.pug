@@ -19,5 +19,5 @@ block content
             .form-control
                 label(for="confirmPassword") Confirm Password
                 input(class=validationErrors.find(e => e.param === 'confirmPassword') ? 'invalid' : '' type="password" name="confirmPassword" value=oldInput.confirmPassword)#confirmPassword
-            input(type="hidden" value=csrfTotken name="_csrf")
+            input(type="hidden" value=csrfToken name="_csrf")
             button.btn(type="submit") Signup
