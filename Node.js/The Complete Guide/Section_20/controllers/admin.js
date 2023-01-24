@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const { validationResult } = require("express-validator/check");
+// const mongoose = require("mongoose");
+const { validationResult } = require("express-validator");
 
 const Product = require("../models/product");
 
@@ -16,7 +16,7 @@ exports.getAddProduct = (req, res, next) => {
 
 exports.postAddProduct = (req, res, next) => {
   const title = req.body.title;
-  const imageUrl = req.body.imageUrl;
+  const image = req.file;
   const description = req.body.description;
   const price = req.body.price;
 
@@ -30,7 +30,7 @@ exports.postAddProduct = (req, res, next) => {
       product: {
         //_id: new mongoose.Types.ObjectId(""), 일부러 에러를 만드는 부분, 이미 생성된 품목 id로 생성
         title: title,
-        imageUrl: imageUrl,
+        image: image,
         description: description,
         price: price,
       },
@@ -43,7 +43,7 @@ exports.postAddProduct = (req, res, next) => {
     title: title,
     price: price,
     description: description,
-    imageUrl: imageUrl,
+    image: image,
     // Mongoose에서는 id를 정확히 지정하지 않고, user를 넘겨도, db에서 자동으로 id를 찾아 넣어줌
     userId: req.user,
     //userId: req.user._id,

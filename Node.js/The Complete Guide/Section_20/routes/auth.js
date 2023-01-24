@@ -1,7 +1,7 @@
 const express = require("express");
 
 // body -> req.body를 의미
-const { check, body } = require("express-validator/check");
+const { check, body } = require("express-validator");
 
 const router = express.Router();
 const authController = require("../controllers/auth");

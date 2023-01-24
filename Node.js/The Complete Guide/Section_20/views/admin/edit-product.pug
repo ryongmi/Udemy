@@ -8,7 +8,8 @@ block content
     main
         if errorMessage
             .user-message.user-message--error #{errorMessage}
-        form.product-form(action=path, method="POST" novalidate)
+        //- multipart/form-data : 평문만이 아닌, 텍스트, 이진, 파일을 분석할 수 있는 형식
+        form.product-form(action=path, method="POST" novalidate enctype="multipart/form-data")
             .form-control
                 label(for="title") Title
                 input(class=validationErrors.find(e => e.param === 'title') ? 'invalid' : '' type="text", name="title", value=((editing || hasError) ? product.title : ''))#title
