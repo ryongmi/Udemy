@@ -1,0 +1,15 @@
+extends ../layouts/main-layout.pug
+
+block styles
+    link(rel="stylesheet", href="/css/product.css")
+
+block content 
+    main.centered             
+        h1 #{title}
+        hr
+        .image
+            img(src=product.imageUrl, alt=title)
+        h2 #{product.price}
+        p #{product.description}
+        if isAuthenticated === true
+            include ../includes/add-to-cart.pug 
