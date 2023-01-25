@@ -160,13 +160,36 @@ exports.getOrders = (req, res, next) => {
 
 exports.getInvoice = (req, res, next) => {
   const orderId = req.params.orderId;
-  const invoiceName = "invoice-" + orderId;
-  const invoicePath = path.join("data", "invoice", invoiceName);
 
-  fs.readFile(invoicePath, (err, data) => {
-    if (!err) return next(err);
-    res.send(data);
-  });
+  order
+    .findById(orderId)
+    .then((order) => {
+      if (!order) return next(new Error("No order found"));
+      if (order.user.userId.toString() !== req.user._id.toString())
+        return next(new Error("Unauthorized"));
+
+      const invoiceName = "invoice-" + orderId + ".pdf";
+      const invoicePath = path.join("data", "invoices", invoiceName);
+      fs.readFile(invoicePath, (err, data) => {
+        if (err) return next(err);
+
+        // 응답값이 pdf라는것을 브라우저에게 알림
+        res.setHeader("Content-Type", "application/pdf");
+        // attachment : 다운로드 형식
+        // filename : 다운로드할때, 파일이름을 지정할 수 있음
+        // res.setHeader(
+        //   "Content-Disposition",
+        //   `attachment; filename=${invoiceName}`
+        // );
+        //inline : 기본값이며, 브라우저에서 열리게됨
+        res.setHeader(
+          "Content-Disposition",
+          "inline; filename='" + invoiceName + "'"
+        );
+        res.send(data);
+      });
+    })
+    .catch((err) => next(err));
 };
 
 // exports.getCheckout = (req, res, next) => {
