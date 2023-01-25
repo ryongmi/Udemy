@@ -16,9 +16,26 @@ exports.getAddProduct = (req, res, next) => {
 
 exports.postAddProduct = (req, res, next) => {
   const title = req.body.title;
-  const image = req.file;
   const description = req.body.description;
   const price = req.body.price;
+  const image = req.file;
+
+  if (!image) {
+    return res.status(422).render("./admin/edit-product", {
+      title: "Add Product",
+      path: "/admin/add-product",
+      editing: false,
+      hasError: true,
+      product: {
+        //_id: new mongoose.Types.ObjectId(""), 일부러 에러를 만드는 부분, 이미 생성된 품목 id로 생성
+        title: title,
+        description: description,
+        price: price,
+      },
+      errorMessage: "Attached file is not an image.",
+      validationErrors: [],
+    });
+  }
 
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
@@ -39,11 +56,13 @@ exports.postAddProduct = (req, res, next) => {
     });
   }
 
+  const imageUrl = image.path;
+
   const product = new Product({
     title: title,
     price: price,
     description: description,
-    image: image,
+    imageUrl: imageUrl,
     // Mongoose에서는 id를 정확히 지정하지 않고, user를 넘겨도, db에서 자동으로 id를 찾아 넣어줌
     userId: req.user,
     //userId: req.user._id,
@@ -142,7 +161,7 @@ exports.postEditProduct = (req, res, next) => {
   const prodId = req.body.productId;
   const updateedTitle = req.body.title;
   const updateedPrice = req.body.price;
-  const updateedImageUrl = req.body.imageUrl;
+  const image = req.file;
   const updateedDesc = req.body.description;
 
   const errors = validationResult(req);
@@ -154,7 +173,6 @@ exports.postEditProduct = (req, res, next) => {
       hasError: true,
       product: {
         title: updateedTitle,
-        imageUrl: updateedImageUrl,
         description: updateedDesc,
         price: updateedPrice,
         _id: prodId,
@@ -171,7 +189,7 @@ exports.postEditProduct = (req, res, next) => {
 
       product.title = updateedTitle;
       product.price = updateedPrice;
-      product.imageUrl = updateedImageUrl;
+      product.imageUrl = image?.path ?? product.imageUrl;
       product.description = updateedDesc;
 
       return product.save().then((result) => {

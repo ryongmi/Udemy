@@ -11,6 +11,7 @@ block content
                         h1 Order - # #{order._id}
                         ul.orders__products
                             each p in order.products
-                                li.orders__products-item #{p.product.title} (#{p.quantity})
+                                li.orders__products-item #{p.product.title} (#{p.quantity}) - 
+                                    a(href="/order/" + order._id) Invoice
         else 
             h1 No Products

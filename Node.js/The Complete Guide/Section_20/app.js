@@ -26,10 +26,22 @@ const fileStorage = multer.diskStorage({
   },
   // filename : 저장될 파일 이름을 지정
   filename: (req, file, cb) => {
-    cb(null, new Date().toISOString() + "-" + file.originalname);
+    cb(null, new Date().toDateString() + "-" + file.originalname);
   },
 });
 
+// 파일 저장할때, 원하는 형식만 저장할 수 있게해주는 필터
+const fileFilter = (req, file, cb) => {
+  if (
+    file.mimetype === "image/png" ||
+    file.mimetype === "image/jpg" ||
+    file.mimetype === "image/jpeg"
+  ) {
+    cb(null, true);
+  } else {
+    cb(null, false);
+  }
+};
 // pug에서 image - src 같이 문자열로 넣어야 하는곳은 src="#{변수명}"으로 넣는것이 아니라 src=변수명 으로 넣으면 작동함
 // 'pug' 라는 템플릿 엔진을 사용하겠다고 명시
 // 내장 엔진이여서 set으로 함
@@ -54,11 +66,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // dest: 'images' -> file을 사용할때, 메모리에 버퍼링하는 대신 이진데이터로 변환하여 images 폴더에 파일명은 랜덤해시값으로 저장함. ( png 확장자를 붙이면 사용한 파일이 바로 보임 )
 //app.use(multer({ dest: "images" }).single("image"));
 // storage : 파일 저장할때 세팅값
-app.use(multer({ storage: fileStorage }).single("image"));
+app.use(
+  multer({ storage: fileStorage, fileFilter: fileFilter }).single("image")
+);
 
 // 정적으로 파일의 경로를 지정
 // 정적의미 : 다른 미들웨어를 거쳐서 처리되지 않고, 바로 파일 시스템에 포워딩됨
 app.use(express.static(path.join(__dirname, "public")));
+app.use("/images", express.static(path.join(__dirname, "images")));
 
 // 세션 설정
 app.use(

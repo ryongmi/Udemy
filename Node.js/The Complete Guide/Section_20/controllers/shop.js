@@ -1,5 +1,9 @@
+const fs = require("fs");
+const path = require("path");
+
 const Product = require("../models/product");
 const Order = require("../models/order");
+const order = require("../models/order");
 
 exports.getIndex = (req, res, next) => {
   Product.find()
@@ -152,6 +156,17 @@ exports.getOrders = (req, res, next) => {
       // next()에 매개변수를 넣고 실행하면 에러 처리 미들웨어로 보내짐
       return next(error);
     });
+};
+
+exports.getInvoice = (req, res, next) => {
+  const orderId = req.params.orderId;
+  const invoiceName = "invoice-" + orderId;
+  const invoicePath = path.join("data", "invoice", invoiceName);
+
+  fs.readFile(invoicePath, (err, data) => {
+    if (!err) return next(err);
+    res.send(data);
+  });
 };
 
 // exports.getCheckout = (req, res, next) => {
