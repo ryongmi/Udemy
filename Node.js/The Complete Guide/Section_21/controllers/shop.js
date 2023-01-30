@@ -6,8 +6,16 @@ const Product = require("../models/product");
 const Order = require("../models/order");
 const order = require("../models/order");
 
+const ITEMS_PER_PAGE = 2;
+
 exports.getIndex = (req, res, next) => {
+  const page = req.query.page;
+  console.log(page);
   Product.find()
+    // skip : 괄호안에 있느 숫자만큼 데이터를 생략하고, 그뒤의 데이터부터 보여줌
+    .skip((page - 1) * ITEMS_PER_PAGE)
+    // limit : 가져오는 데이터 수를 제한함
+    .limit(ITEMS_PER_PAGE)
     .then((products) => {
       res.render("./shop/index", {
         prods: products,
