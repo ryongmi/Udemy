@@ -6,21 +6,44 @@ const Product = require("../models/product");
 const Order = require("../models/order");
 const order = require("../models/order");
 
-const ITEMS_PER_PAGE = 2;
+const ITEMS_PER_PAGE = 1;
 
 exports.getIndex = (req, res, next) => {
-  const page = req.query.page;
-  console.log(page);
+  // + : URL 매개변수를 가져오면 문자열로 가져오게 되는데, 이를 숫자로 할당받는데 사용
+  const page = +req.query.page || 1;
+  let totalItems;
+
+  // find : 데이터를 커서를 이용하여 검색?함
   Product.find()
-    // skip : 괄호안에 있느 숫자만큼 데이터를 생략하고, 그뒤의 데이터부터 보여줌
-    .skip((page - 1) * ITEMS_PER_PAGE)
-    // limit : 가져오는 데이터 수를 제한함
-    .limit(ITEMS_PER_PAGE)
+    // countDocuments : 필요한 데이터가 몇개인지 숫자만 카운트하여 넘겨줌
+    .countDocuments()
+    .then((numProducts) => {
+      totalItems = numProducts;
+      return (
+        Product.find()
+          // skip : 괄호안에 있느 숫자만큼 데이터를 생략하고, 그뒤의 데이터부터 보여줌
+          .skip((page - 1) * ITEMS_PER_PAGE)
+          // limit : 가져오는 데이터 수를 제한함
+          .limit(ITEMS_PER_PAGE)
+      );
+    })
     .then((products) => {
       res.render("./shop/index", {
         prods: products,
         title: "Shop",
         path: "/",
+        // 현재 페이지 번호
+        currentPage: page,
+        // 다음 페이지가 있는지 여부
+        hasNextPage: ITEMS_PER_PAGE * page < totalItems,
+        // 이전 페이지가 있는지 여부
+        hasPreviousPage: page > 2,
+        // 다음 페이지 번호
+        nextPage: page + 1,
+        // 이전 페이지 번호
+        previousPage: page - 1,
+        // 마지막 페이지 번호
+        lastPage: Math.ceil(totalItems / ITEMS_PER_PAGE),
       });
     })
     .catch((err) => {
@@ -32,12 +55,38 @@ exports.getIndex = (req, res, next) => {
 };
 
 exports.getProducts = (req, res, next) => {
+  const page = +req.query.page || 1;
+  let totalItems;
+
   Product.find()
+    .countDocuments()
+    .then((numProducts) => {
+      totalItems = numProducts;
+      return (
+        Product.find()
+          // skip : 괄호안에 있느 숫자만큼 데이터를 생략하고, 그뒤의 데이터부터 보여줌
+          .skip((page - 1) * ITEMS_PER_PAGE)
+          // limit : 가져오는 데이터 수를 제한함
+          .limit(ITEMS_PER_PAGE)
+      );
+    })
     .then((products) => {
       res.render("./shop/product-list", {
         prods: products,
         title: "All Products",
         path: "/products",
+        // 현재 페이지 번호
+        currentPage: page,
+        // 다음 페이지가 있는지 여부
+        hasNextPage: ITEMS_PER_PAGE * page < totalItems,
+        // 이전 페이지가 있는지 여부
+        hasPreviousPage: page > 2,
+        // 다음 페이지 번호
+        nextPage: page + 1,
+        // 이전 페이지 번호
+        previousPage: page - 1,
+        // 마지막 페이지 번호
+        lastPage: Math.ceil(totalItems / ITEMS_PER_PAGE),
       });
     })
     .catch((err) => {
