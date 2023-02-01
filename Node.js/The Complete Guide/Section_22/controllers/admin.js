@@ -209,8 +209,8 @@ exports.postEditProduct = (req, res, next) => {
     });
 };
 
-exports.postDeleteProduct = (req, res, next) => {
-  const prodId = req.body.productId;
+exports.deleteProduct = (req, res, next) => {
+  const prodId = req.params.productId;
   Product.findById(prodId)
     .then((product) => {
       if (!product) {
@@ -220,13 +220,9 @@ exports.postDeleteProduct = (req, res, next) => {
       return Product.deleteOne({ _id: prodId, userId: req.user._id });
     })
     .then(() => {
-      console.log("Delete PRODUCT");
-      res.redirect("/admin/products");
+      res.status(200).json({ message: "Success!" });
     })
     .catch((err) => {
-      const error = new Error(err);
-      error.httpStatusCode = 500;
-      // next()에 매개변수를 넣고 실행하면 에러 처리 미들웨어로 보내짐
-      return next(error);
+      res.status(500).json({ message: "Deleteing product failed." });
     });
 };
