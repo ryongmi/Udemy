@@ -291,9 +291,27 @@ exports.getInvoice = (req, res, next) => {
     .catch((err) => next(err));
 };
 
-// exports.getCheckout = (req, res, next) => {
-//   res.render("./shop/checkout", {
-//     title: "Checkout",
-//     path: "/checkout",
-//   });
-// };
+exports.getCheckout = (req, res, next) => {
+  req.user
+    .populate("cart.items.productId")
+    .then((user) => {
+      const products = user.cart.items;
+      let total = 0;
+      products.forEach((p) => {
+        total += p.quantity * p.productId.price;
+      });
+
+      res.render("./shop/checkout", {
+        title: "Checkout",
+        path: "/checkout",
+        products: products,
+        totalSum: total,
+      });
+    })
+    .catch((err) => {
+      const error = new Error(err);
+      error.httpStatusCode = 500;
+      // next()에 매개변수를 넣고 실행하면 에러 처리 미들웨어로 보내짐
+      return next(error);
+    });
+};
