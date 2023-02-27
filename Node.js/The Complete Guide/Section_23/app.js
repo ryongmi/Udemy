@@ -7,6 +7,7 @@ const MongoDBStore = require("connect-mongodb-session")(session);
 const csrf = require("csurf");
 const flash = require("connect-flash");
 const multer = require("multer");
+//const { v4: uuidv4 } = require("uuid");
 
 const MONGODB_URI =
   "mongodb+srv://User:231612@cluster0.10vyadb.mongodb.net/shop";
@@ -27,6 +28,7 @@ const fileStorage = multer.diskStorage({
   // filename : 저장될 파일 이름을 지정
   filename: (req, file, cb) => {
     cb(null, new Date().toDateString() + "-" + file.originalname);
+    //cb(null, uuidv4()); 윈도우환경에서 파일생성할때 파일명에 날짜가 들어가면 에러가 뜸. 그걸 대체하기 위한 메서드
   },
 });
 
