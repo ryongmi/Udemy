@@ -8,6 +8,7 @@ const { v4: uuidv4 } = require("uuid");
 const CORS = require("cors");
 
 const feedRoutes = require("./routes/feed");
+const authRoutes = require("./routes/auth");
 
 const fileStorage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -54,11 +55,14 @@ app.use((req, res, next) => {
 });
 
 app.use("/feed", feedRoutes);
+app.use("/auth", authRoutes);
+
 app.use((error, res, req, next) => {
   console.log(error);
   const stauts = error.stautsCode || 500;
   const message = error.message;
-  res.stauts(stauts).json({ message: message });
+  const data = error.data;
+  res.stauts(stauts).json({ message: message, data: data });
 });
 
 mongoose
