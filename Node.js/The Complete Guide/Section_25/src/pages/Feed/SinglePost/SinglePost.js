@@ -14,7 +14,15 @@ class SinglePost extends Component {
 
   componentDidMount() {
     const postId = this.props.match.params.postId;
-    fetch("http://localhost:8080/feed/post/" + postId)
+    fetch("http://localhost:8080/feed/post/" + postId, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        Authoriaztion: "Bearer " + this.props.token,
+        // Authoriaztion : 인증관련 데이터를 보낼때 설정해야 할 헤더
+        // Bearer : 토큰 종류 중 하나, 인증된 토큰을 의미함
+      },
+    })
       .then((res) => {
         console.log(res);
         if (res.status !== 200) {

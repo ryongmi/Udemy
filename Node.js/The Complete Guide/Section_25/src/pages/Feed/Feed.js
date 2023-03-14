@@ -50,7 +50,13 @@ class Feed extends Component {
       page--;
       this.setState({ postPage: page });
     }
-    fetch("http://localhost:8080/feed/posts?page=" + page)
+    fetch("http://localhost:8080/feed/posts?page=" + page, {
+      headers: {
+        Authoriaztion: "Bearer " + this.props.token,
+        // Authoriaztion : 인증관련 데이터를 보낼때 설정해야 할 헤더
+        // Bearer : 토큰 종류 중 하나, 인증된 토큰을 의미함
+      },
+    })
       .then((res) => {
         if (res.status !== 200) {
           throw new Error("Failed to fetch posts.");
@@ -123,6 +129,11 @@ class Feed extends Component {
 
     fetch(url, {
       method: method,
+      headers: {
+        Authoriaztion: "Bearer " + this.props.token,
+        // Authoriaztion : 인증관련 데이터를 보낼때 설정해야 할 헤더
+        // Bearer : 토큰 종류 중 하나, 인증된 토큰을 의미함
+      },
       body: formData,
     })
       .then((res) => {
@@ -177,6 +188,11 @@ class Feed extends Component {
     this.setState({ postsLoading: true });
     fetch("http://localhost:8080/feed/post/" + postId, {
       method: "DELETE",
+      headers: {
+        Authoriaztion: "Bearer " + this.props.token,
+        // Authoriaztion : 인증관련 데이터를 보낼때 설정해야 할 헤더
+        // Bearer : 토큰 종류 중 하나, 인증된 토큰을 의미함
+      },
     })
       .then((res) => {
         if (res.status !== 200 && res.status !== 201) {
