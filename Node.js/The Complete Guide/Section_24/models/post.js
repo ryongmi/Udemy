@@ -16,8 +16,9 @@ const postSchema = new Schema(
       required: true,
     },
     creator: {
-      type: Object,
-      required: String,
+      type: Schema.Types.ObjectId,
+      ref: "User",
+      required: true,
     },
   },
   { timestamps: true } // createdAt, updatedAt 사용하겠다고 명시 -> 자동으로 시간을 기록해줌
