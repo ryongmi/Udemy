@@ -5,29 +5,54 @@ const path = require("path");
 const Post = require("../models/post");
 const User = require("../models/user");
 
-exports.getPosts = (req, res, next) => {
+// exports.getPosts = (req, res, next) => {
+//   const currentPage = req.query.page || 1;
+//   const perPage = 2;
+//   let totalItems;
+//   Post.find()
+//     .countDocuments()
+//     .then((count) => {
+//       totalItems = count;
+//       return Post.find()
+//         .skip((currentPage - 1) * perPage)
+//         .limit(perPage);
+//     })
+//     .then((posts) => {
+//       res.status(200).json({
+//         message: "Feched posts successfully.",
+//         posts: posts,
+//         totalItems: totalItems,
+//       });
+//     })
+//     .catch((err) => {
+//       if (!err.statusCode) err.statusCode = 500;
+//       next(err);
+//     });
+// };
+
+// async, await 사용하여 메서드 구성
+exports.getPosts = async (req, res, next) => {
   const currentPage = req.query.page || 1;
   const perPage = 2;
-  let totalItems;
-  Post.find()
-    .countDocuments()
-    .then((count) => {
-      totalItems = count;
-      return Post.find()
-        .skip((currentPage - 1) * perPage)
-        .limit(perPage);
-    })
-    .then((posts) => {
-      res.status(200).json({
-        message: "Feched posts successfully.",
-        posts: posts,
-        totalItems: totalItems,
-      });
-    })
-    .catch((err) => {
-      if (!err.statusCode) err.statusCode = 500;
-      next(err);
+  try {
+    // await을 사용하면 배후에서 then()을 사용하는 것과 같은 효과를 줌.
+    // 결국 await과 then()은 선호도 차이, 개발자 본인이 편한것으로 사용하면 될것 같음.
+    // 대신 await은 catch 블록이 없기때문에 try, catch 를 사용함
+    const totalItems = await Post.find().countDocuments();
+    const posts = await Post.find()
+      .populate("creator")
+      .skip((currentPage - 1) * perPage)
+      .limit(perPage);
+
+    res.status(200).json({
+      message: "Feched posts successfully.",
+      posts: posts,
+      totalItems: totalItems,
     });
+  } catch (err) {
+    if (!err.statusCode) err.statusCode = 500;
+    next(err);
+  }
 };
 
 exports.createPost = (req, res, next) => {
