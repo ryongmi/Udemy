@@ -52,8 +52,8 @@ class Feed extends Component {
     }
     fetch("http://localhost:8080/feed/posts?page=" + page, {
       headers: {
-        Authoriaztion: "Bearer " + this.props.token,
-        // Authoriaztion : 인증관련 데이터를 보낼때 설정해야 할 헤더
+        Authorization: "Bearer " + this.props.token,
+        // Authorization : 인증관련 데이터를 보낼때 설정해야 할 헤더
         // Bearer : 토큰 종류 중 하나, 인증된 토큰을 의미함
       },
     })
@@ -130,8 +130,8 @@ class Feed extends Component {
     fetch(url, {
       method: method,
       headers: {
-        Authoriaztion: "Bearer " + this.props.token,
-        // Authoriaztion : 인증관련 데이터를 보낼때 설정해야 할 헤더
+        Authorization: "Bearer " + this.props.token,
+        // Authorization : 인증관련 데이터를 보낼때 설정해야 할 헤더
         // Bearer : 토큰 종류 중 하나, 인증된 토큰을 의미함
       },
       body: formData,
@@ -189,8 +189,8 @@ class Feed extends Component {
     fetch("http://localhost:8080/feed/post/" + postId, {
       method: "DELETE",
       headers: {
-        Authoriaztion: "Bearer " + this.props.token,
-        // Authoriaztion : 인증관련 데이터를 보낼때 설정해야 할 헤더
+        Authorization: "Bearer " + this.props.token,
+        // Authorization : 인증관련 데이터를 보낼때 설정해야 할 헤더
         // Bearer : 토큰 종류 중 하나, 인증된 토큰을 의미함
       },
     })

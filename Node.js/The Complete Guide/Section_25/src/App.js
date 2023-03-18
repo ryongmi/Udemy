@@ -63,9 +63,6 @@ class App extends Component {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authoriaztion: "Bearer " + this.props.token,
-        // Authoriaztion : 인증관련 데이터를 보낼때 설정해야 할 헤더
-        // Bearer : 토큰 종류 중 하나, 인증된 토큰을 의미함
       },
       body: JSON.stringify({
         email: authData.email,
@@ -116,9 +113,6 @@ class App extends Component {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
-        Authoriaztion: "Bearer " + this.props.token,
-        // Authoriaztion : 인증관련 데이터를 보낼때 설정해야 할 헤더
-        // Bearer : 토큰 종류 중 하나, 인증된 토큰을 의미함
       },
       body: JSON.stringify({
         email: authData.signupForm.email.value,

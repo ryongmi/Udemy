@@ -8,7 +8,6 @@ const isAuth = require("../middleware/is-auth");
 
 router.put(
   "/signup",
-  isAuth,
   [
     body("email")
       .isEmail()
@@ -25,6 +24,6 @@ router.put(
   authController.signup
 );
 
-router.post("/login", isAuth, authController.login);
+router.post("/login", authController.login);
 
 module.exports = router;
