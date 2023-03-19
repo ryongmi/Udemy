@@ -32,7 +32,7 @@ const fileFilter = (req, file, cb) => {
 };
 
 const MONGODB_URI =
-  "mongodb+srv://User:231612@cluster0.10vyadb.mongodb.net/message";
+  "mongodb+srv://User:231612@cluster0.10vyadb.mongodb.net/message?retryWrites=true";
 
 //app.use(bodyParser.urlencoded()); // x-www-form-urlencoded <form>
 //app.use(CORS());
@@ -67,5 +67,17 @@ app.use((error, res, req, next) => {
 
 mongoose
   .connect(MONGODB_URI)
-  .then((result) => app.listen(8080))
+  .then((result) => {
+    const server = app.listen(8080);
+    // const io = require("./socket");
+    // const SocketIO = io(server, { path: "/socket.io" });
+    // SocketIO.on("connection", (socket) => {
+    //   console.log("Client connected");
+    // });
+
+    const io = require("./socket").init(server); // 프론트에서 transports: ["websocket"] 을 넣어줘야 CORS 에러가 발생하지 않음
+    io.on("connection", (socket) => {
+      console.log("Client connected");
+    });
+  })
   .catch((err) => console.log(err));

@@ -4,6 +4,7 @@ const path = require("path");
 
 const Post = require("../models/post");
 const User = require("../models/user");
+const io = require("../socket");
 
 // exports.getPosts = (req, res, next) => {
 //   const currentPage = req.query.page || 1;
@@ -41,6 +42,7 @@ exports.getPosts = async (req, res, next) => {
     const totalItems = await Post.find().countDocuments();
     const posts = await Post.find()
       .populate("creator")
+      .sort({ createdAt: -1 })
       .skip((currentPage - 1) * perPage)
       .limit(perPage);
 
@@ -88,6 +90,10 @@ exports.createPost = (req, res, next) => {
       return user.save();
     })
     .then((result) => {
+      io.getIo().emit("posts", {
+        action: "create",
+        post: { ...post._doc, creator: { _id: req.userId, name: user.name } },
+      });
       res.status(201).json({
         message: "Post created successfully!",
         post: post,
@@ -141,13 +147,14 @@ exports.updatePost = (req, res, next) => {
   }
 
   Post.findById(postId)
+    .populate("creator")
     .then((post) => {
       if (!post) {
         const error = new Error("Cloud not find post.");
         error.statusCode = 422;
         throw error;
       }
-      if (post.creator.toString() !== req.userId) {
+      if (post.creator._id.toString() !== req.userId) {
         console.log(post.creator.toString(), req.userId);
         const error = new Error("Not authorized!");
         error.statusCode = 403;
@@ -160,6 +167,7 @@ exports.updatePost = (req, res, next) => {
       return post.save();
     })
     .then((result) => {
+      io.getIo().emit("posts", { action: "update", post: result });
       res.status(200).json({ message: "Post updated!", post: result });
     })
     .catch((err) => {
@@ -194,6 +202,7 @@ exports.deletePost = (req, res, next) => {
       return user.save();
     })
     .then((result) => {
+      io.getIo().emit("posts", { action: "delete", post: postId });
       res.status(200).json({ message: "Post delete!" });
     })
     .catch((err) => {
