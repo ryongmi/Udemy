@@ -25,16 +25,40 @@
       "id": 17806751
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Malpartida de Plasencia",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-18T12:06:47.218Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "39.98032727354165",
+        "lng": "-5.9326171875"
       },
-      "id": 98443197
+      "id": 98443198
+    },
+    {
+      "cityName": "Alhambra",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-18T12:09:48.626Z",
+      "notes": "aaaa",
+      "position": {
+        "lat": "38.929320931949015",
+        "lng": "-2.8784179687500004"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Alcaudete",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-18T12:35:49.727Z",
+      "notes": "",
+      "position": {
+        "lat": "37.635484546574055",
+        "lng": "-4.218750000000001"
+      },
+      "id": 98443202
     }
   ]
 }
