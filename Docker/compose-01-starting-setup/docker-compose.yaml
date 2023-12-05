@@ -1,0 +1,54 @@
+version: "3.8"
+services:
+  mongodb:
+    image: "mongo"
+    volumes:
+      - data:/data/db
+      # - data:/data/db:ro 읽기 전용으로 사용할수도 있음
+    # environment:
+    #   - MONGO_INITDB_ROOT_USERNAME=max
+    #   - MONGO_INITDB_ROOT_PASSWORD=secret
+    # MONGO_INITDB_ROOT_USERNAME: max 이렇게도 작성가능함
+    env_file:
+      - ./env/mongo.env
+    # compose에서 정의된 컨테이너들은 자동적으로 동일한 네트워크를 사용하게 환경을 구성해줌
+    # networks:
+    #   - networkName
+    # 컨테이너 이름 지정
+    # container_name: mongodb
+  backend:
+    build: ./backend
+    # 구체적으로 폴더와 도커 파일 지정
+    # build:
+    #   context: ./backend
+    #   dockerfile: Dockerfile
+    #   args:
+    #     name: value
+    #     - name=value
+    # -p 80:80 역활 수행
+    ports:
+      - "80:80"
+    volumes:
+      - logs:/app/logs
+      - ./backend:/app # 바인드
+      - /app/node_modules # 익명 볼륨
+    env_file:
+      - ./env/backend.env
+    # 의존하는 컨테이너 정의
+    depends_on:
+      - mongodb
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend/src:/app/src
+    depends_on:
+      - backend
+    stdin_open: true
+    tty: true
+
+# 명명된 볼륨은 도커에서 알아볼수 있게 명시를 해야함
+volumes:
+  data:
+  logs:
