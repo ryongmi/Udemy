@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: users-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: users
+  template:
+    metadata:
+      labels:
+        app: users
+    spec:
+      containers:
+        - name: users
+          image: kub-demo-users:latest
+          imagePullPolicy: Never
+        - name: auth
+          image: kub-demo-auth:latest
+          imagePullPolicy: Never
+          env:
+            - name: AUTH_ADDRESS
+              value: "auth" # This should match the service name in users-service.yaml
+          ports:
+            - containerPort: 8080
